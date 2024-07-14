@@ -1,0 +1,60 @@
+{
+	"text.puffish_skills.skills": "스킬",
+	"text.puffish_skills.points_left": "남은 포인트: ",
+
+	"tooltip.puffish_skills.current_level": "현재 레벨: %s",
+	"tooltip.puffish_skills.experience_progress": "Experience: %s/%s (%s%%)",
+	"tooltip.puffish_skills.to_next_level": "다음 레벨까지: %s",
+	"tooltip.puffish_skills.earned_points": "받은 포인트: %s",
+	"tooltip.puffish_skills.spent_points": "사용한 포인트: %s",
+
+	"category.puffish_skills.skills": "스킬",
+	"key.puffish_skills.open": "스킬트리 열기",
+
+	"chat.puffish_skills.new_point": "새로운 스킬 포인트가 생겼습니다. 스킬트리를 열려면 %s 키를 누르세요.",
+
+	"toast.puffish_skills.invalid_config.description": "구성이 잘못되었습니다. 게임 로그를 확인하세요.",
+	"toast.puffish_skills.missing_config.description": "스킬트리가 제공되지 않으므로 스킬트리를 추가해야 합니다.",
+
+	"gamerule.puffish_skills:announceNewPoints": "새로운 스킬 포인트 안내",
+
+	"command.puffish_skills.no_such_category": "There is no category with ID %s",
+	"command.puffish_skills.no_such_skill": "There is no skill with ID %s",
+	"command.puffish_skills.no_experience": "Experience is not enabled for this category",
+
+	"command.puffish_skills.category.lock.success.single": "Locked category %s for %s",
+	"command.puffish_skills.category.lock.success.multiple": "Locked category %s for %s players",
+
+	"command.puffish_skills.category.unlock.success.single": "Unlocked category %s for %s",
+	"command.puffish_skills.category.unlock.success.multiple": "Unlocked category %s for %s players",
+
+	"command.puffish_skills.category.erase.success.single": "Erased category %s for %s",
+	"command.puffish_skills.category.erase.success.multiple": "Erased category %s for %s players",
+
+	"command.puffish_skills.experience.add.success.single": "Added %s experience to category %s for %s",
+	"command.puffish_skills.experience.add.success.multiple": "Added %s experience to category %s for %s players",
+
+	"command.puffish_skills.experience.set.success.single": "Set %s experience in category %s for %s",
+	"command.puffish_skills.experience.set.success.multiple": "Set %s experience in category %s for %s players",
+
+	"command.puffish_skills.points.add.success.single": "Added %s points to category %s for %s",
+	"command.puffish_skills.points.add.success.multiple": "Added %s points to category %s for %s players",
+
+	"command.puffish_skills.points.set.success.single": "Set %s points in category %s for %s",
+	"command.puffish_skills.points.set.success.multiple": "Set %s points in category %s for %s players",
+
+	"command.puffish_skills.skills.unlock.success.single": "Unlocked %s skill in category %s for %s",
+	"command.puffish_skills.skills.unlock.success.multiple": "Unlocked %s skill in category %s for %s players",
+
+	"command.puffish_skills.skills.lock.success.single": "Locked %s skill in category %s for %s",
+	"command.puffish_skills.skills.lock.success.multiple": "Locked %s skill in category %s for %s players",
+
+	"command.puffish_skills.skills.reset.success.single": "Reset all skills in category %s for %s",
+	"command.puffish_skills.skills.reset.success.multiple": "Reset all skills in category %s for %s players",
+
+	"command.puffish_skills.category.open.success.single": "Opened category %s screen for %s",
+	"command.puffish_skills.category.open.success.multiple": "Opened category %s screen for %s players",
+
+	"command.puffish_skills.open.success.single": "Opened skills screen for %s",
+	"command.puffish_skills.open.success.multiple": "Opened skills screen for %s players"
+}

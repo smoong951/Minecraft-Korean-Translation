@@ -1,0 +1,78 @@
+{
+  "item.opolisutilities.copper_nugget": "구리 조각",
+  "item.opolisutilities.wooden_shears": "나무 가위",
+  "item.opolisutilities.home_stone": "홈 스톤",
+  "item.opolisutilities.advanced_home_stone": "고급 홈 스톤",
+  "item.opolisutilities.super_home_stone": "슈퍼 홈 스톤",
+  "item.opolisutilities.death_stone": "죽음의 돌",
+  "item.opolisutilities.floating_block_item": "공중 블록",
+  "item.opolisutilities.jerky": "육포",
+  "item.opolisutilities.bundled_flesh": "살점 묶음",
+  "item.opolisutilities.ender_pearl_fragment": "엔더 진주 조각",
+  "item.opolisutilities.b_bucks": "B 벅스",
+  "item.opolisutilities.leafy_string": "잎으로 된 실",
+
+  "item.opolisutilities.basic_loot_box": "기본 노획물 상자",
+  "item.opolisutilities.advanced_loot_box": "고급 노획물 상자",
+  "item.opolisutilities.elite_loot_box": "엘리트 노획물 상자",
+  "item.opolisutilities.wallet": "지갑",
+  "item.opolisutilities.log_sheet": "나무 시트",
+  "item.opolisutilities.soaked_paper": "젖은 종이",
+
+  "item.opolisutilities.stone_core": "석재 코어",
+  "item.opolisutilities.mini_coal": "작은 석탄",
+  "item.opolisutilities.mini_charcoal": "작은 숯",
+
+  "block.opolisutilities.floating_block_block": "공중 블록",
+  "block.opolisutilities.drying_table": "건조대",
+  "block.opolisutilities.resource_generator": "자원 생성기",
+  "block.opolisutilities.resource_generator_2": "자원 생성기 2",
+  "block.opolisutilities.ender_ore": "엔더 광석",
+  "block.opolisutilities.deepslate_ender_ore": "심층암 엔더 광석",
+  "block.opolisutilities.redstone_clock": "레드스톤 시계",
+  "block.opolisutilities.ender_scrambler": "엔더 주파수대 변환기",
+  "block.opolisutilities.item_repairer": "아이템 수리기",
+  "block.opolisutilities.block_placer": "블록 설치기",
+  "block.opolisutilities.block_breaker": "블록 파괴기",
+  "block.opolisutilities.shop": "상점",
+
+  "tooltips.home_stone.hover.shift": "더 많은 정보를 보려면 Shift를 누르세요",
+  "tooltips.home_stone.hover.alt": "더 많은 정보를 보려면 Alt를 누르세요",
+  "tooltips.home_stone.no_location_set": "위치가 설정되지 않았습니다!",
+  "tooltips.home_stone.shift.held": "반대 손에서 위치를 설정하려면 Shift+우클릭하세요. 주로 사용하는 손에서 순간이동하려면 우클릭하세요! 오버월드에서만 작동합니다!",
+  "tooltips.advanced_home_stone.shift.held": "반대 손에서 위치를 설정하려면 Shift+우클릭하세요. 주로 사용하는 손에서 순간이동하려면 우클릭하세요! 오버월드, 네더, 엔드에서 작동합니다!",
+  "tooltips.super_home_stone.shift.held": "반대 손에서 위치를 설정하려면 Shift+우클릭하세요. 주로 사용하는 손에서 순간이동하려면 우클릭하세요! 모든 차원에서 작동합니다!",
+  "tooltip.advanced_home_stone.invalid_dimension": "이 차원에서는 사용할 수 없습니다!",
+  "tooltips.home_stone.going_saved_location": "저장된 위치로 이동 중!",
+  "tooltips.home_stone.no_location": "위치가 설정되지 않았습니다!",
+  "tooltips.home_stone.location_set": "위치가 설정되었습니다!",
+
+  "tooltips.death_stone.how": "이걸 어떻게 얻었나요!",
+  "tooltips.death_stone.going_saved_location": "마지막 사망 지점으로 돌아갑니다",
+  "tooltips.death_stone.shift.held": "마지막 죽음 지점으로 돌아가려면 우클릭하세요. 모든 차원에서 작동합니다",
+  "tooltips.ender_scrambler.shift.held": "엔더맨이 순간이동하는 것을 막기 위해 설치하세요!",
+
+  "tooltips.wallet.hover.shift": "더 많은 정보를 보려면 Shift를 누르세요",
+  "tooltips.wallet.shift.held": "반대 손에 지갑을 들고 주로 사용하는 손에 B 벅스를 들고 우클릭하여 지갑에 추가하세요! 웅크리고 우클릭하여 B 벅스를 제거하세요!",
+  "tooltips.wallet.no_b_bucks": "지갑이 비어 있습니다!",
+
+  "tooltips.floating_block.place_in_air": "공중이나 물속에 놓으세요!",
+
+  "jei.opolisutilities.resource_generator": "자원 생성기 위에 resource_generator_blocks 태그에서 블록을 놓습니다. 그 아래에 상자나 호퍼 같은 보관함을 놓습니다",
+
+  "jei.recipes.resource_generator_2_line_1": "그림과 같이 블록을",
+  "jei.recipes.resource_generator_2_line_2": "세계에 배치하세요!",
+  "jei.recipes.resource_generator_2_chest_1": "생성된 블록을",
+  "jei.recipes.resource_generator_2_chest_2": "아래의 보관함에 넣습니다!",
+
+  "jei.recipes.resource_generator_2_speed_blocks_line_1": "자원 생성기 2 위에",
+  "jei.recipes.resource_generator_2_speed_blocks_line_2": "속도 블록을 설치하면",
+  "jei.recipes.resource_generator_2_speed_blocks_line_3": "속도가 증가합니다!",
+  "jei.recipes.resource_generator_2_speed_blocks_line_4": "",
+
+  "jei.recipes.resource_generator_2_speed_blocks_line": "블록당 틱",
+
+  "enchantment.opolisutilities.warden_smite": "워든 강타",
+
+  "itemGroup.opolis_utilities": "오폴리스 유틸리티"
+}
