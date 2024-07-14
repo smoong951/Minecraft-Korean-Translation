@@ -1,0 +1,47 @@
+{
+  "block.castle_in_the_sky.blue_door": "파란색 문",
+  "block.castle_in_the_sky.yellow_door": "노란색 문",
+  "block.castle_in_the_sky.red_door": "빨간색 문",
+  "block.castle_in_the_sky.laputa_core": "부유수정",
+  "block.castle_in_the_sky.fake_beacon": "신호기",
+  "block.castle_in_the_sky.laputa_miniature": "천공의 성 트로피",
+
+  "item.castle_in_the_sky.blue_key": "파란색 열쇠",
+  "item.castle_in_the_sky.yellow_key": "노란색 열쇠",
+  "item.castle_in_the_sky.red_key": "빨간색 열쇠",
+  "item.castle_in_the_sky.levitation_stone": "부유석",
+
+  "tooltip.castle_in_the_sky.levitation_stone.line1": "이 돌은 당신을 «천공의 성»으로 인도합니다.",
+  "tooltip.castle_in_the_sky.levitation_stone.line2": "지도 제작자와의 거래로 얻을 수 있습니다.",
+  "tooltip.castle_in_the_sky.levitation_stone.line3": "우클릭하여 인도를 활성화/비활성화할 수 있습니다.",
+  "tooltip.castle_in_the_sky.keys": "성에서 상자를 약탈하거나 몹을 처치하여 획득할 수 있습니다.",
+  "tooltip.castle_in_the_sky.laputa_miniature": "성에서 파괴 주문을 사용하여 획득할 수 있습니다.",
+
+  "advancements.castle_in_the_sky.trade.title": "구름 너머의 성",
+  "advancements.castle_in_the_sky.trade.description": "전설에 따르면 신비한 돌이 보물이 가득한 성으로 인도한다고 합니다",
+  "advancements.castle_in_the_sky.get_levitation_stone.title": "떠다니는 기묘한 돌",
+  "advancements.castle_in_the_sky.get_levitation_stone.description": "지도 제작자와 거래하여 부유석을 얻으세요",
+  "advancements.castle_in_the_sky.find_castle.title": "천공의 성",
+  "advancements.castle_in_the_sky.find_castle.description": "부유석의 인도를 따라 «천공의 성»을 찾으세요",
+  "advancements.castle_in_the_sky.conquer_castle.title": "성 정복",
+  "advancements.castle_in_the_sky.conquer_castle.description": "성 내부를 탐험하여 부유수정을 찾으세요",
+  "advancements.castle_in_the_sky.fake_beacon.title": "가짜 신호기",
+  "advancements.castle_in_the_sky.fake_beacon.description": "성에서 신호기를 노획물로 얻으세요",
+  "advancements.castle_in_the_sky.destroy_castle.title": "지상에 뿌리 내리기",
+  "advancements.castle_in_the_sky.destroy_castle.description": "파괴 주문을 시전하여 성을 파괴하고 트로피를 얻으세요",
+
+
+  "effect.castle_in_the_sky.sacred_castle_effect": "신성한 성",
+
+  "info.castle_in_the_sky.sacred_castle_effect.place": "먼저 성을 정복해야 합니다.",
+  "info.castle_in_the_sky.sacred_castle_effect.break": "먼저 성을 정복해야 합니다.",
+  "info.castle_in_the_sky.locked_doors": "해당 색상의 열쇠로 잠금을 해제할 수 있습니다. 몹을 처치하거나 노획물 상자를 통해 열쇠를 얻으세요.",
+  "info.castle_in_the_sky.destruction_warning": "파괴 주문을 외우고 있습니다. 확인하려면 다시 주문을 외우세요.",
+  "info.castle_in_the_sky.crystal_not_found": "아무 일도 일어나지 않았습니다... 비활성화된 수정 근처에 서 있어야 합니다.",
+  "info.castle_in_the_sky.item_not_hold": "아무 일도 일어나지 않았습니다... 부유석을 들고 있는지 확인하세요.",
+  "info.castle_in_the_sky.incantation_casted": "%s이(가) 파괴 주문을 발동했습니다.",
+  "info.castle_in_the_sky.destruction_disabled": "서버에서 파괴 주문이 비활성화되었습니다.",
+  "info.castle_in_the_sky.too_close_to_spawn": "스폰 근처에서 %d 블록 이내에 성이 스폰되지 않습니다. 이 돌을 사용하려면 최소 %d 블록을 이동해야 합니다.",
+
+  "itemGroup.castle_in_the_sky.all": "천공의 성"
+}
