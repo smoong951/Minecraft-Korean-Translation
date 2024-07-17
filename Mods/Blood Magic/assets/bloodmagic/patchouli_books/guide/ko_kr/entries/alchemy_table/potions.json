@@ -1,0 +1,106 @@
+{
+  "name": "포션 제조",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "포션 제조의 기초는 대지 곳곳에 널리 알려져 있습니다. 심지어 평범한 성직자와 마녀들도 어느 정도 양조의 기본을 잘 이해하고 있습니다. 반쯤 희귀한 재료를 손에 넣은 후, 올바른 비율로 섞고 결과물을 소비하거나(필요하다면 코를 막고), 혹은 적들에게 던져 보세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)생명 에센스$()와 몇 가지 정말 독창적인 피 마법학을 통해 연마된 결과물은 연습을 터보 충전시켰습니다. $(br2)보통의 $(item)유리 병$()에 당신의 힘을 불어 넣음으로써, 단일 마시기의 액체보다 훨씬 많은 양을 보관할 수 있게 되었고, 다양한 $(item)촉매$()를 사용하여 여러 효과를 하나의 병에 결합시켜 뒤엉킨 것 없이 서로 상쇄되지 않게 했습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "연금 병",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "이는 어떤 미미한 병보다 훨씬 크고 단단한 병입니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "물론, 어떤 높길든 병은 내용물 없이는 거의 쓸모가 없습니다. $(br2)일반적으로 알려진 $(thing)효과$()뿐만 아니라 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)수중 호흡$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)재생$(), 혹은 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)야간 시력$()과 같은 효과들과 함께, $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)비행$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)흑요암 망토$(), 또는 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)수동$()과 같은 다양한 전문적인 레시피를 완벽하게 연마했습니다. 이러한 물약 및 기타 다양한 정보는 이 책에서 더 자세히 다루어져 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "어떤 종류의 연금 병을 사용한 후에는 단순히 물로 헹궈 새로운 사용 준비가 된 신선한 새 병을 얻을 수 있습니다. $(br2)병은 $(thing)스플래시$() 및 $(thing)지속 물약$()에 해당하는 기능도 갖추고 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "스플래시 연금 병",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "지속 연금 병",
+      "b.recipe": "bloodmagic:flask/flask_lingering",
+      "text": "병에는 $(thing)스플래시$() 및 $(thing)지속 물약$()에 해당하는 기능도 있습니다. 다음 페이지에서 확인할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "나는 당신에게 단일 $(item)병$()에서 여러 $(thing)효과$()를 만들 수 있는 능력을 언급한 것을 기억할 것입니다. 다행히도이 과정은 매우 간단합니다. 단순히 물약을 조리하고 결과물로 나온 연금 병을 두 번째 양조시에 빈 병 자리에 사용하면 됩니다. 예를 들어 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)바운스$()의 병을 만들었다면 그 병을 가져와 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)야간 시력$()의 병에 사용하면 매 마시기마다 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)바운스$() 및 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)야간 시력$()이 효과가 나타납니다!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다음은 $(item)촉매$()입니다. 몇 가지 종류의 촉매가 있으며 몇 가지 다른 효과가 있습니다. 따라서 가장 간단한 세 가지인 $(item)간단한 촉매$(), $(item)작은 힘 촉매$(), 그리고 $(item)작은 연장 촉매$()부터 시작해 보겠습니다. 이 중에서 첫 번째가 가장 간단합니다. 이것은 표준 물약에 $(item)네더 와트$()가 하는 역할과 유사하게 대부분의 연금 물약에 기본을 제공합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "간단한 촉매",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "거의 모든 효과에 좋은 기본입니다. 많이 준비하면 좋을 것입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "작은 힘 촉매",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "힘 촉매는 병의 상단에 있는 효과의 효과를 증폭시키고 효과의 지속 시간을 줄입니다. 이는 표준 물약에서 $(item)글로우스톤$()과 거의 유사합니다. 가장 최근에 적용된 효과가 촉매를 수용할 수 없는 경우, 두 번째로 최상위의 효과를 강화하려고 시도합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "작은 연장 촉매",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "연장 촉매는 병의 상단에 있는 효과의 지속 시간을 증가시킵니다. 이는 표준 물약에서 $(item)레드스톤$()과 거의 유사합니다. 가장 최근에 적용된 효과가 촉매를 수용할 수 없는 경우, 두 번째로 최상위의 효과를 강화하려고 시도합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "조합 촉매",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)조합 촉매$()는 약간 특이한데, 두 정의된 효과를 가져와서 그것들로부터 관련된 세 번째 효과를 합성합니다. 예를 들어, $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)폐지$()와 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)공중부양$()이 있는 병은 이 촉매로 양조하면 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)비행$()의 병을 생성합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "약한 채움제",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "채움제는 병의 내용물을 새롭게 갱신할 수 있게 해주지만 일부 효과를 잃는 비용이 발생합니다. 약한 채움제는 병의 최상단 효과만 보존할 수 있습니다. 다른 효과를 보존하려면 $(item)간단한 순환 촉매$()를 사용하는 것을 고려하세요."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "간단한 순환 촉매",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "순환 촉매는 병 내부의 효과 순서를 변경하여 다른 촉매나 에이전트에 의해 변경되는 효과를 변경할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "포션 제조 201",
+      "anchor": "평균 포션",
+      "text": "지금까지 제조한 물약이 충분하지 않다면, 조금 탐험해 보아야 할지도 모릅니다. $(item)글로우 베리$(), $(item)부서진 깊은 슬레이트$(), 그리고 $(l:bloodmagic:dungeons/demonite)지옥 단조 모래$()를 약간 섞으면 병의 지속 시간과 효력을 크게 향상시킬 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "강화된 촉매",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "보다 강력한 촉매에 대한 좀 더 강화된 기초입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "표준 연장 촉매",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "표준 연장 촉매는 최상위 효과의 지속 시간을 3:00에서 21:20까지 증가시킵니다. 각 병이 8회의 투여를 제공하므로, 그것은 정말 오랜 시간입니다!"
+    },
+   {
+    "type": "bloodmagic:crafting_alchemy_table",
+    "heading": "표준 강화 촉매제",
+    "recipe": "bloodmagic:alchemytable/average_power",
+    "text": "표준 강화 촉매제는 작은 강화 촉매제의 향상된 버전으로, 플라스크에 III 레벨의 포션 효과를 얻을 수 있게 해줍니다. 단, 각 용량당 지속 시간은 45초로 줄어듭니다."
+  }
+  ]
+}

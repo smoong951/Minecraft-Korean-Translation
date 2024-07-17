@@ -1,0 +1,34 @@
+{
+  "name": "슬레이트의 티어",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)블러디 알터$(/l)의 주요 용도는 $(item)슬레이트$()의 생산입니다. 각 슬레이트 티어는 이전 티어와 지난 알터보다 강력한 알터가 필요합니다. $(br2)$(item)에테리얼 슬레이트$()은 현재 기본적으로 구현되어 있지 않지만, 모드팩에서 플레이 중이라면 추가될 수 있습니다. 자세한 내용은 JEI를 확인하세요."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "빈 슬레이트",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "강화된 슬레이트",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "마법이 담긴 슬레이트",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "악마의 슬레이트",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    }
+  ]
+}
+
+
+

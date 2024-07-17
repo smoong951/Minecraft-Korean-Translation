@@ -1,0 +1,16 @@
+{
+"name": "병든",
+"icon": "minecraft:ghast_tear",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "모든 치유 출처의 효과를 감소시킵니다. 최대 80%까지 감소되므로 일반적으로 10개의 심장을 치유하는 출처는 2개만 치유합니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}

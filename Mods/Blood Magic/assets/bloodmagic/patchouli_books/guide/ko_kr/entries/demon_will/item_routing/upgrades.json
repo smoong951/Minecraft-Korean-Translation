@@ -1,0 +1,18 @@
+{
+  "name": "업그레이드",
+  "icon": "bloodmagic:mastercore",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "현재 라우팅 네트워크에는 $(thing)업그레이드$()가 하나뿐입니다. $(br2)$(item)기본 라우팅 논리 업그레이드$()는 작업당 전송되는 아이템의 총량을 증가시킵니다. (현재 초당 한 번). 기본적으로 네트워크는 한 번에 16개의 아이템을 전송하지만, 각각의 업그레이드는 해당 제한을 8개씩 증가시킵니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "기본 라우팅 논리 업그레이드",
+      "recipe": "bloodmagic:soulforge/master_node_upgrade",
+      "text": "이 업그레이드는 16개까지 쌓일 수 있어 초당 총 144개의 아이템을 전송할 수 있습니다. 이는 여러 다른 아이템이 동시에 전송되어야 하는 경우 여러 스택으로 분할될 수 있다는 점에 유의하십시오."
+    }
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "고통의 물약",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)고통의 물약$()는 레벨당 대상에게 6 포인트의 $(thing)마법 피해$()를 입힙니다. 대상이 $(thing)언데드$()인 경우 대신 레벨당 6 포인트씩 회복됩니다.$(br2)이것은 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)즉각적인 체력$() 또는 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)독$() 물약에서 제작됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "체력에서 피해",
+      "a.recipe": "bloodmagic:flask/health_to_harm",
+      "b.heading": "독에서 피해",
+      "b.recipe": "bloodmagic:flask/poison_to_harm",
+      "c.heading": "고통의 물약 II",
+      "c.recipe": "bloodmagic:flask/potency_harm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)표준 촉매$()로 물약을 더 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_flask",
+      "heading": "고통의 물약 III",
+      "recipe": "bloodmagic:flask/potency_average_harm"
+    }
+  ]
+}
+

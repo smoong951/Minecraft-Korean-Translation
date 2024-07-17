@@ -1,0 +1,7 @@
+{
+
+"name": "의식",
+"description": "의식은 당신의 영혼 네트워크에서 $(blood)LP$()를 소모하여 다양한 작업을 수행합니다. $(br2)특정 의식에 대한 정보는 아래의 마스터 의식 돌을 클릭하세요.$(br2)>>> <<<",
+  "icon": "bloodmagic:ritualdiviner",
+  "sortnum": 4
+}

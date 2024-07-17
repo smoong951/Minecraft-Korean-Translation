@@ -1,0 +1,20 @@
+{
+  "name": "이동 시길",
+  "icon": "bloodmagic:telepositionsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이동 시길은 사용당 $(blood)1000 LP$()의 비용으로 사용자를 연결된 텔리포저로 이동시킵니다. 시길을 손에 들고 텔리포저를 쉬프트-클릭하면 텔리포저의 위치와 차원이 기록되어 빠르게 집으로 돌아갈 수 있게 됩니다. $(br2)단, 실수로 텔리포저를 움직이지 않도록 주의하세요..."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "이동 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_teleposition",
+      "array.heading": "이동 시길",
+      "array.recipe": "bloodmagic:array/telepositionsigil",
+      "array.text": "$(italic)이제 나를 보면...!$()"
+    }
+  ]
+}
+

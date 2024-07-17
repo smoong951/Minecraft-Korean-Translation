@@ -2,7 +2,7 @@
   "generic.dig_speed": "채굴 속도",
   "generic.crit_chance": "치명타 확률",
   "generic.durable": "내구도",
-  "generic.range_attack_damage": "원거리 공격 피해",
+  "generic.range_attack_damage": "원거리 피해",
 
   "tiered:common_armor_1.label": "일반",
   "tiered:common_armor_2.label": "일반",

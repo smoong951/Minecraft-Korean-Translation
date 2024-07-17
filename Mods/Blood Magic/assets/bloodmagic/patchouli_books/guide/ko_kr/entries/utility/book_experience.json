@@ -1,0 +1,21 @@
+{
+  "name": "톰 오브 페리티아",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)톰 오브 페리티아$()를 사용하면 $(thing)경험치$()를 안전하게 저장할 수 있습니다. $(br2)[$(k:sneak)] 및 [$(k:use)]를 누른 채로 톰을 들고 있으면 $(thing)경험치 한 레벨$()이 저장됩니다. [$(k:use)]를 누르면 $(thing)레벨이 검색$()됩니다. [$(k:use)]를 길게 누르면 $(thing)여러 레벨을 저장/검색$)할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "$(thing)Curios API$()가 설치되어 있다면 $(item)톰 오브 페리티아$()를 부적으로 착용할 수 있습니다. 더 많은 부적을 동시에 착용하려면 $(l:bloodmagic:alchemy_array/sigil/holding)보관 부적$() 또는 $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)생명 갑옷용 소켓 업그레이드$()를 사용해보세요."
+    }
+  ]
+}
+

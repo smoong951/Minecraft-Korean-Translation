@@ -1,0 +1,6 @@
+{
+  "name": "악마의 아이템",
+  "description": "실용적인 것부터 치명적인 것까지, 악마의 의지는 신생 혈 법사에게 강력한 도구를 많이 제공합니다.",
+  "icon": "bloodmagic:soulsword",
+  "parent": "bloodmagic:demon_will"
+}

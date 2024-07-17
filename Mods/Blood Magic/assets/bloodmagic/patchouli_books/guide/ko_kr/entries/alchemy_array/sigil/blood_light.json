@@ -1,0 +1,20 @@
+{
+  "name": "블러디 라이트 시길",
+  "icon": "bloodmagic:bloodlightsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)블러디 라이트 시길$()은 광부, 던전 탐험가, 또는 어두운 곳을 좋아하지 않는 마법사에게 유용한 도구입니다. 사용 시 이 부적은 당신이 바라보는 방향으로 피의 빛을 발사합니다. 블록에 맞으면 $(blood)10 LP$()의 비용으로 거의 보이지 않는 빛의 원을 소환합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "블러디 라이트 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_blood_light",
+      "array.heading": "블러디 라이트 시길",
+      "array.recipe": "bloodmagic:array/bloodlightsigil",
+      "array.text": "$(italic)빛이 보인다!"
+    }
+  ]
+}
+

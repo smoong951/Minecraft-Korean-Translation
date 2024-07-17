@@ -1,0 +1,54 @@
+{
+  "name": "타르타릭 젬",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$()는 매우 유용한 자원입니다만, 지금까지 얻은 파편은 명백히 부족한 힘을 가지고 있습니다. 여러분이 필요한 것은 저장 아이템; $(item)타르타릭 젬$()이 딱 맞는 것 같습니다. 더욱이 이 젬은 주변에 남아있는 $(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$()를 흡수할 수 있습니다. 그저 바닥에 떨어뜨리면 여러분의 반짝이는 새로운 젬이 그것들을 흡수할 것입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "하급 타르타릭 젬",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "여러분의 첫 번째 젬은 최대 64 $(l:bloodmagic:demon_will/will_manipulation/demon_will)의지$()를 보유할 수 있습니다. 이전보다 훨씬 더 조밀합니다! $(br2)만약 다른 젬으로 $(raw)의지$()를 전송하고 싶다면, 비워놓고 싶은 젬을 들고 [$(k:use)]를 누른 채로 있으면 됩니다. 그러면 해당 젬은 인벤토리에서 첫 번째로 유효한 젬을 찾아 그의지를 전송할 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "여러분의 $(item)하급 타르타릭 젬$()은 유용한 도구이지만, 명백히 힘이 부족합니다. $(item)다이아몬드$(), $(item)라피스$(), $(item)레드스톤$()과 함께 조심스럽게 작업하여 저장 용량을 4배로 늘릴 수 있는 방법을 찾았습니다."
+    },  
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "중급 타르타릭 젬",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "이 강화된 젬은 최대 256 $(l:bloodmagic:demon_will/will_manipulation/demon_will)의지$()를 보유할 수 있습니다. $(br2)참고: 업그레이드할 때 하나의 젬만 필요합니다 - $(item)헬파이어 포지$()는 제작 중인 젬에서 $(raw)의지$()를 가져오고 그 젬의 Gem Slot에서 의지를 사용하기 전에 공백의지가 남아 있을 것입니다. 걱정하지 마세요. 새롭게 제작된 젬은 프로세스에서 남은 $(raw)의지$()를 보유할 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "여러분의 $(item)중급 타르타릭 젬$()은 주목할 만한 개선이지만, 다시 한번 그 제한에 찬성합니다. 더 나아가려면 여러분의 $(l:bloodmagic:altar/blood_altar)피의 제단$()에 중점을 두어야 합니다. $(l:bloodmagic:altar/slates)부여된 슬레이트$()의 힘이 필요하기 때문입니다. 이 슬레이트를 여러분의 젬과 결합하고 $(item)다이아몬드$()와 $(item)황금 블록$()으로 더 정제함으로써 다시 한번 저장 용량을 4배로 늘릴 수 있는 방법을 찾았습니다."
+    },  
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "상급 타르타릭 젬",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "이 복잡한 젬은 인상적인 1,024 $(l:bloodmagic:demon_will/will_manipulation/demon_will)의지$()를 보유할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)상급 타르타릭 젬$()을 만들면서 분명 자신을 능가했지만, 아직 할 수 있는 일이 더 있을 것으로 느낍니다. 그러나 젬에서 더 많은 것을 얻으려면 지금까지의 모든 작업을 정점에 이르게 해야 합니다. $(l:bloodmagic:altar/slates)악마의 슬레이트$()뿐만 아니라 $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)약한 혈액 조각$() $(o)그리고$() $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)결정화된 의지 크리스탈$()이 필요합니다. 물론, 이로 인해 $(l:bloodmagic:demon_will/demonic_items/sentient_tools)감각 있는 도구$()가 이전에 본 적 없는 강력함으로 작동하는 보상이 따를 것입니다..."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "최상급 타르타릭 젬",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "이 기술의 걸작은 놀라운 4,096 $(l:bloodmagic:demon_will/will_manipulation/demon_will)의지$()를 보유할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "만약 $(thing)Curios API$()가 설치되어 있다면, $(item)타르타릭 젬$()을 목걸이로 장착할 수 있습니다. 한 번에 더 많은 curios를 착용하려면 $(l:bloodmagic:alchemy_array/sigil/holding)보유의 Sigil$()이나 $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Living Armour$()의 $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Socketed Upgrade$()를 사용하는 것도 고려해보세요."
+    }
+  ]
+}
+

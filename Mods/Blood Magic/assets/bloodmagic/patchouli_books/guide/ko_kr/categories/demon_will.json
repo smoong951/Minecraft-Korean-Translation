@@ -1,0 +1,7 @@
+{
+
+"name": "악마의 의지",
+"description": "$(item)악마의 의지$()는 $(blood)피의 마법$()으로 만들 수 있는 첫 번째 물건 중 하나입니다. $(l:bloodmagic:demon_will/will_manipulation/soul_snare)영혼의 올가미$()로 어떤 것을 모은 후에는 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)소형 타르타릭 젬$()과 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$(/l)$()을 제작할 수 있게 됩니다.",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}

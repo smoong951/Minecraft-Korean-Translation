@@ -1,5 +1,5 @@
 {
-  "attribute.name.ranged_weapon.damage" : "원거리 공격 피해",
+  "attribute.name.ranged_weapon.damage" : "원거리 피해",
   "attribute.name.ranged_weapon.haste" : "당김 속도",
   "attribute.name.ranged_weapon.pull_time" : "초 당김 시간",
   "item.modifiers.both_hands": "들었을 때:",

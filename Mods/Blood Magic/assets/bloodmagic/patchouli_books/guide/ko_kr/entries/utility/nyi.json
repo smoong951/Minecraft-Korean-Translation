@@ -1,0 +1,43 @@
+{
+  "name": "아직 구현되지 않음",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "알겠습니다. 여기서는 네 번째 벽을 깨고 말하겠습니다. $(blood)Blood Magic$()은 완전히 기능이 구현되지 않았으며, 이전 버전에서 기억하던 몇 가지 기능들은 아직 구현되지 않았습니다. 이 중 일부는 미래에 다시 나타날 수 있고, 다른 일부는 이미 완료되었습니다. (당신이 바운드 갑옷과 무기를 보고 있습니다...)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)신비한 재로 은기원의 의식. 일부는 곧 돌아올 예정입니다. 지금은 기다려보세요. $(li)결속의 의식. 이것은 1.7.10 버전에서 사라졌으니 묻지 마세요. $(li)불완전한 의식 (라피스 등) - 일부는 신비한 재 어레이로 구현되었습니다. $(li)얼어붙은 호수의 시글. $(li)신축성의 시글. $(li)원소의 친화의 시글. $(li)갈퀴의 시글. $(li)방해 의식. $(li)확장 의식. $(li)Le Vulcano Frigius."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)억제의 의식. $(li)의식 해체자. $(li)의식 지팡이 (새벽). $(li)커다란 타르타릭 젬. $(li)유령 무기 및 도구. $(li)이동 시글. $(li)엔더 분리의 시글. $(li)압축의 시글. $(li)환상적인 다리의 시글. $(li)고원 제단의 조립. $(li)영원한 영혼의 비련."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)접힘의 문. $(li)깃털땅의 의식. $(li)추방의 의식. $(li)각성한 활성화 크리스탈."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "모드가 전진함에 따라 다른 기능들이 나타나거나 사라질 수 있습니다. $(br2)자세한 내용은 다음을 참조하세요: $(li)$(l:https://github.com/WayofTime/BloodMagic)Blood Magic Github$(), $(li)$(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic Curseforge Page$(), $(li)$(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 메뉴얼은 Wrincewind와 VT-14에 의해 제작되었으며, Way의 초기 메뉴얼을 기반으로 하였으며, Patchouli와 MinecraftGuides.net의 도움을 받았습니다. 플레이해 주셔서 감사합니다! :)"
+    }
+  ]
+}
+

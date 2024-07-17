@@ -1,0 +1,36 @@
+{
+  "name": "초승달의 여명",
+  "icon": "minecraft:ender_pearl",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "초승달의 여명",
+      "multiblock_id": "bloodmagic:sphere",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "sphere",
+      "text_overrides": [
+        ["LP", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "sphere",
+      "page_type": "spheroidRange"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/sphere_above.png",
+        "bloodmagic:images/entries/ritual/sphere_below.png"
+      ],
+      "title": "기본 크기",
+      "border": true,
+      "text": "기본 설정으로 의례를 사용한 결과입니다."
+    }
+  ]
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "헬파이어 포지",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)헬파이어 포지$()는 $(blood)블러디 매직$()의 핵심 제작 기계 중 하나로, $(l:bloodmagic:altar/blood_altar)블러디 알터$(/l)와 함께 있습니다. 여기서 몹에서 수확한 $(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$()을 사용하여 $(l:bloodmagic:demon_will/demonic_items/sentient_tools)지각이 깃든 도구$(), $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$(), 다양한 $(item)시약$(), $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)신비한 재$(), 그리고 여러 가지를 생성할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:soul_forge"
+    }
+  ]
+}

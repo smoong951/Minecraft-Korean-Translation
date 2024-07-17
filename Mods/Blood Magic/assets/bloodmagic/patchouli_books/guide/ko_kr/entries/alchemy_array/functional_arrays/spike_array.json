@@ -1,0 +1,17 @@
+{
+  "name": "스파이크 어레이",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "스파이크 어레이는 목적이 명확한 상당히 간단한 어레이입니다. 살아있는 개체가 어레이로 들어가면 한 마리트의 피해를 입습니다. 이것은 몹을 포획하거나 기지를 플레이어에게 약간 더 가시적으로 만드는 데 좋습니다."
+    },
+    {
+      "type": "bloodmagic:functional_array",
+      "heading": "Spike Array",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}

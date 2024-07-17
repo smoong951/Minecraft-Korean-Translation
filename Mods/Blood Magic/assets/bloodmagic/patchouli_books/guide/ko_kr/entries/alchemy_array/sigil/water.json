@@ -1,0 +1,36 @@
+{
+  "name": "물의 시길",
+  "icon": "bloodmagic:watersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)물의 시길$()은 상당히 간단한 시길입니다. 블록을 바라보고 [$(k:use)]를 누르면 $(l:bloodmagic:altar/soul_network)솔 네트워크$()에서 100LP를 소모하여 세계에 물 원천 블록을 배치할 수 있습니다. 충분한 LP가 없으면 대신 건강에서 톨을 소모합니다. $(item)물 화합물$()과 $(item)빈 슬레이트$()를 사용하여 제작됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "물 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
+      "array.heading": "물의 시길",
+      "array.recipe": "bloodmagic:array/watersigil",
+      "array.text": "$(italic)무한한 물, 누구에게나?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/water_sigil1.png",
+        "bloodmagic:images/entries/sigil/water_sigil2.png"
+      ],
+      "title": "물의 시길 어레이",
+      "border": true,
+      "text": "물의 시길, 제작 어레이 옆에 그리고 주요 사용 방법."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "물 양동이",
+      "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
+      "text": "게다가 $(l:bloodmagic:alchemy_table/alchemy_table)연금 테이블$(/l)에서 사용하여 $(water)물 양동이$()의 자동 생산을 자동화할 수 있습니다. 이 레시피에서 시길은 소모되지 않습니다."
+    }
+  ]
+}
+

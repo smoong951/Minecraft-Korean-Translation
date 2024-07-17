@@ -1,0 +1,20 @@
+{
+  "name": "공허의 시길",
+  "icon": "bloodmagic:voidsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)공허의 시길$()은 [$(k:use)]를 누른 채로 어떤 유체를 바라보면 50LP의 비용으로 해당 유체를 파괴합니다. 번거로운 라바 흐름을 일일이 블록을 놓거나 부수지 않고도 간편하게 정리하는 데 유용합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "공허 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_void",
+      "array.heading": "공허의 시길",
+      "array.recipe": "bloodmagic:array/voidsigil",
+      "array.text": "$(italic)Swiffer\u00AE보다 나아요!"
+    }
+  ]
+}
+

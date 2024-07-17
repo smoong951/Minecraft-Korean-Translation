@@ -1,0 +1,68 @@
+{
+  "name": "분쇄의 의식",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "분쇄의 의식",
+      "multiblock_id": "bloodmagic:crushing",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 건축자 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crushing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "raw",
+      "text_overrides": [
+        ["가공되지 않은 윌", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["절단 유체", "l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid"],
+        ["실크 터치", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "vengeful",
+      "text": "예를 들어, 석탄을 석탄 블록으로, 레드스톤 먼지를 레드스톤 블록으로 변환합니다."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["행운 III", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["실크 터치", "item"],
+        ["행운", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "crushingRange"
+    }
+  ]
+}
+

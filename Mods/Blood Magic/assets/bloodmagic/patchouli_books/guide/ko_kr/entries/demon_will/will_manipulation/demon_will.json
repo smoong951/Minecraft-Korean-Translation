@@ -1,0 +1,29 @@
+{
+  "name": "악마의 의지",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)Blood Altar$()을 갖게 되면 몇 개의 $(item)악마의 의지$()을 모아야 합니다. 악마의 의지을 얻는 두 가지 방법이 있습니다:$(br)$(li) $(l:bloodmagic:demon_will/will_manipulation/soul_snare)영혼의 올가미$(/l)로 공격을 받고 흰 입자 효과가 나타난 후 처치되는 몹을 처치합니다.$(li) $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()으로 적대적인 몹을 처치합니다.$(br)모드를 시작한지 얼마 되지 않았음으로 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()를 소유하지 않을 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "따라서 $(l:bloodmagic:demon_will/will_manipulation/soul_snare)영혼의 올가미$()를 사용해야 합니다. $(br2)$(item)악마의 의지$()은 $(blood)블러디 매직$()에서 추가하는 자원으로, $(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$()를 구동하는 데 사용됩니다. $(br2)$(blood)블러디 매직$()의 전통에서 $(raw)악마의 의지$()는 악마가 자신의 의지를 죽은 시체나 다른 몬스터의 몸에 불어넣을 때 생기는 잔상 효과입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["bloodmagic:images/entries/demon_will/demon_will.png"],
+      "title": "Demon Will",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "일부 $(raw)의지$()를 얻으면 $(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$()에서 유용한 도구를 제작하는 데 사용할 수 있습니다. 인벤토리가 복잡하다면 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()을 사용하면 도움이 될 것입니다."
+    }
+  ]
+}
+

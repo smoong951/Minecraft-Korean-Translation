@@ -1,0 +1,6 @@
+{
+  "name": "아이템 라우팅",
+  "description": "호퍼가 필요한가요? 피의 마법은 다양한 필터를 통해 모든 요구 사항을 정렬하는 다재다능하고 유연한 아이템 라우팅 네트워크를 갖추고 있습니다.",
+  "icon": "bloodmagic:noderouter",
+  "parent": "bloodmagic:demon_will"
+}

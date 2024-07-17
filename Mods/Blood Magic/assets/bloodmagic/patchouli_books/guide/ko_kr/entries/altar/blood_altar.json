@@ -1,0 +1,107 @@
+{
+  "name": "블러디 알터",
+  "icon": "bloodmagic:altar",
+  "category": "bloodmagic:altar",
+  "priority": "true",
+  "extra_recipe_mappings": {
+    "bloodmagic:daggerofsacrifice": 13
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)블러디 알터$()는 모드의 핵심 블록으로, 원시 $(blood)혈액$()을 순수한 $(blood)생명 정수$()로 변환할 수 있습니다. 처음에는 작고 무의미할지 모르겠지만, 이것의 강도와 크기는 모드 전반에 걸쳐 성장하여 대부분의 파워에 중심이 되는 역할을 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_altar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "세계에 배치되면 $(item)블러디 알터$()는 $(blood)혈액$()을 $(blood)생명 정수$()로 변환하고, 다음에 그 안에 넣은 아이템을 변형하는 데 사용합니다. 알터를 보면서 [$(k:use)]를 누르면 손에 든 아이템 중 하나를 알터의 내부 인벤토리에 삽입할 수 있습니다. 손이 비어 있을 때 [$(k:use)]를 누르면 아이템을 추출합니다."
+    },
+    {
+      "type": "multiblock",
+      "name": "1단계 블러디 알터",
+      "multiblock_id": "bloodmagic:altar_one",
+      "text": "1단계 블러디 알터, 룬이 없는 상태."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)생명 정수$()를 추가하려면, \"$(blood)LP$()\"로 측정되는 $(item)희생의 단검$()을 먼저 제작해야 합니다. 칼로 공중을 조준하면서 [$(k:use)]를 누르면 1개의 심장 비용으로 $(blood)200 LP$()를 추출하여 근처의 알터에 넣습니다. 알터는 최대 10,000LP의 용량으로 시작하며, 기울기에 따라 채워진 퍼센트를 나타내는 혈액 기둥이 표시됩니다. $(l:bloodmagic:alchemy_array/sigil/divination)예지의 시질$(/l)은 알터에 대한 자세한 정보를 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:sacrificial_dagger",
+      "anchor": "knife",
+      "text": "알터로 $(blood)생명 정수$()를 추출하고 삽입하는 데 사용되는 가상의 내부 '탱크'로 전체 용량의 10%가 흡수됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "블러디 알터는 플레이어가 아이템을 넣으면 (또는 주기적으로 5초마다) 즉시 조제를 시도합니다. 알터 내부의 $(blood)LP$()는 천천히 소모되며 (빨간 입자로 표시), 아이템을 변형합니다. 알터에 $(blood)LP$()가 없으면 회색 연기가 나타나 알터가 진행을 잃고 있다는 것을 나타냅니다. 충분한 $(blood)LP$()가 소비되면 (비용이 아이템 스택의 수로 곱해짐), 전체 스택이 새로운 아이템으로 변환됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "첫 번째로 조제하려는 아이템은 기본적으로 1단계 블러디 알터 안에 다이아몬드를 넣으면 $(blood)2000 LP$()를 소비하여 $(l:bloodmagic:altar/soul_network)약한 블러디 오브$()를 제작 할 수 있습니다. 블러디 알터로 만들 수 있는 모든 아이템은 Just Enough Items (JEI)를 사용하여 찾을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+	  "anchor": "blank_rune",
+      "text": "블러디 알터를 업그레이드하려면 $(item)블러디 룬$()을 제작하고 알터 주위에 배치해야 합니다. 블러디 룬은 알터의 업그레이드 역할을 하며, 블러디 룬의 더 고급 버전을 사용하면 알터에 다른 효과를 부여할 수 있습니다. 기본 버전인 $(item)빈 룬$()은 업그레이드를 제공하지 않습니다. 빈룬의 유일한 용도는 알터의 티어를 업그레이드하는 것입니다."
+    },
+    {
+  "type": "patchouli:crafting",
+  "recipe": "bloodmagic:blood_rune_blank"
+},
+{
+  "type": "patchouli:text",
+  "text": "블러디 알터를 2단계로 업그레이드하려면 알터 주위에 $(item)블러디 룬$() 8개를 배치해야 합니다. 기본적으로 2번째 티어에서 모서리의 룬은 업그레이드 룬으로 작동하지 않지만, 3번째 티어에서 업그레이드 룬으로 작동합니다."
+},
+{
+  "type": "multiblock",
+  "name": "2단계 블러디 알터",
+  "multiblock_id": "bloodmagic:altar_two",
+  "text": "2단계 블러디 알터, 룬이 총 8개 있습니다."
+},
+{
+  "type": "patchouli:text",
+  "anchor": "dagger_of_sacrifice",
+  "text": "이제 2단계 알터가 생겼으니 자신 이외의 곳에서 $(blood)생명 정수$()를 얻을 수 있습니다. $(item)희생용 단검$()을 사용하면 알터에서 2칸 이내에 서 있는 모든 몹(몬스터 또는 수동적인 몹)을 희생시켜 즉시 죽이고 꽤 많은 $(blood)LP$()를 획득할 수 있습니다. $(l:bloodmagic:altar/blood_rune/sacrifice_rune)희생의 룬$()을 사용하여 킬 당 얻는 양을 늘릴 수 있습니다. 서로 다른 엔티티는 다른 양의 $(blood)LP$()를 주게 됩니다. 자세한 내용은 구성(configs)을 확인하세요."
+},
+{
+  "type": "bloodmagic:crafting_altar",
+  "heading": "희생용 단검",
+  "recipe": "bloodmagic:altar/daggerofsacrifice",
+  "text": "재미와 이익을 위해 마을 주민들을 학살하다!"
+},
+{
+  "type": "patchouli:text",
+  "text": "블러디 알터를 3단계로 업그레이드하려면 각 모서리 룬 아래로 $(item)블러디 룬$() 5개를 배치하고, 각 가장자리에서 이전 룬 세트에서 두 칸 아래로 이동하여 블록 2개(그림자 있는 부분은 $(item)돌 벽$()으로 표시)를 각 모서리에 놓은 다음, 각 기둥꼭대기를 $(item)발광석 블록$()을 놓습니다. 성공적으로 업그레이드되었는지 확인하려면 $(l:bloodmagic:alchemy_array/sigil/divination)예지의 시질$(/l)을 사용하여 티어를 확인하십시오. 참고로 발광석 블록 아랫기둥은 공기(비어있음)이 아닌 모든 블록을 사용 할 수 있습니다."
+},
+{
+  "type": "multiblock",
+  "name": "3단계 블러디 알터",
+  "multiblock_id": "bloodmagic:altar_three",
+  "text": "3단계 블러디 알터, 룬이 총 28개 있으며 2단계보다 20개가 더 있습니다. 각 모서리에 5개씩, 총 5개씩 있습니다."
+},
+{
+  "type": "patchouli:text",
+  "text": "블러디 알터를 4단계로 업그레이드하려면 각 모서리 룬 아래로 $(item)블러디 룬$() 7개를 배치하고, 각 가장자리에서 이전 룬 세트에서 두 칸 아래로 이동하여 블록 4개를 각 모서리에 놓은 다음, 각 기둥을 $(l:bloodmagic:utility/bloodstone_bricks)혈석 벽돌$(/l) 및/또는 $(l:bloodmagic:utility/bloodstone_bricks)큰 혈석 벽돌$(/l)로 덮습니다. 이를 위해서는 $(l:bloodmagic:dungeons/tau_fruit)타우 열매$()가 필요하며, $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)숨겨진 영역의 경계$(/l) 의식을 통해 찾을 수 있습니다."
+},
+{
+  "type": "multiblock",
+  "name": "4단계 블러디 알터",
+  "multiblock_id": "bloodmagic:altar_four",
+  "text": "4단계 블러디 알터, 룬이 총 56개 있으며 3단계보다 28개가 더 있습니다. 각 모서리에 7개씩, 총 7개씩 있습니다."
+},
+{
+  "type": "patchouli:text",
+  "text": "블러디 알터를 5단계로 업그레이드하려면 각 모서리 룬 아래로 $(item)블러디 룬$() 15개를 배치하고, 각 가장자리에서 이전 룬 세트에서 세 칸 아래로 이동하여 블록 각 3개를 각 모서리에 놓은 다음, 양 끝에 각각 한 칸의 갭을 남기고 각 모서리에 $(l:bloodmagic:dungeons/demonite)데모나이트$()을 놓으십시오. 이 희귀하고 독특한 금속을 얻기 위해서는 $(thing)악마의 영역$()을 깊숙이 탐험해야 합니다."
+},
+{
+  "type": "multiblock",
+  "name": "5단계 블러디 알터",
+  "multiblock_id": "bloodmagic:altar_five",
+  "text": "5단계 블러디 알터, 룬이 총 108개 있으며 4단계보다 52개가 더 있습니다. 각 모서리에 13개씩, 총 13개씩 있습니다."
+}
+  ]
+}

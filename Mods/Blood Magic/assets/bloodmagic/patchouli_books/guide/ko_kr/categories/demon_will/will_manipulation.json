@@ -1,0 +1,6 @@
+{
+  "name": "의지 조작",
+  "description": "악마의 의지는 이상한 물질입니다. 사용되지 않으면 개체 주위에 응집되는 것처럼 보이지만, 추출하고 이용하며 통제할 수 있습니다. 이 장에서는 악마의 의지 조작을 위한 기본 개념과 고급 기술을 제시합니다.",
+  "icon": "bloodmagic:basemonstersoul",
+  "parent": "bloodmagic:demon_will"
+}

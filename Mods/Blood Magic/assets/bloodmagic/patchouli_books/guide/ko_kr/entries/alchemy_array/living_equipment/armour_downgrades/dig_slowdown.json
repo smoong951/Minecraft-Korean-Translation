@@ -1,0 +1,16 @@
+{
+"name": "무거운 곡괭이",
+"icon": "minecraft:stone_pickaxe",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 채굴 속도를 감소시킵니다. 감소량은 80%까지입니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/dig_slowdown",
+      "b.upgrade": "bloodmagic:dig_slowdown"
+    }
+  ]
+}

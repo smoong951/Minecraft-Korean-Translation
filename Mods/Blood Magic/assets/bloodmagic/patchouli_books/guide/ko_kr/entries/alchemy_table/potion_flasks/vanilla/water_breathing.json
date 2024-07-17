@@ -1,0 +1,21 @@
+{
+  "name": "수중 호흡",
+  "icon": "minecraft:pufferfish",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)수중 호흡$()은 대상이 수중에서 숨을 쉴 수 있게 합니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "수중 호흡 (3:00)",
+      "a.recipe": "bloodmagic:flask/water_breathing",
+      "b.heading": "수중 호흡 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_water_breathing",
+      "c.heading": "수중 호흡 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_water_breathing"
+    }
+  ]
+}
+

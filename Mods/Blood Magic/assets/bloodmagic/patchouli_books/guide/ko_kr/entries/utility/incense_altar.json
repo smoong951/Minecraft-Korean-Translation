@@ -1,0 +1,113 @@
+{
+  "name": "향로",
+  "icon": "bloodmagic:incensealtar",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)향로$()는 $(l:bloodmagic:altar/blood_altar)피의 제단$()에서 자기 희생을 증가시키기 위해 사용할 수 있는 멀티블록 구조입니다. 설치한 위치에서 $(item)향로$()는 주변의 총 $(thing)평온$()에 기반하여 당신의 영혼을 안정시켜서 $(blood)LP$() 획득을 크게 증가시킬 수 있게 해줍니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:incense_altar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기본 1단계 구성인 $(item)향로$()의 Altar는 제단 자체입니다. 이를 어디에든 놓아주세요 (나중에 도움이 될 3x3 블록 플랫폼을 만드는 것이 좋습니다) 그리고 제단에서 5 블록 반경 이내에 머무르세요. $(br2)향로가 작동하는 동안 상단에서 화염 입자가 나오며 당신의 $(l:bloodmagic:altar/blood_altar#knife)희생의 칼$()을 변형시킵니다. 칼이 빛나기 시작하면 $(l:bloodmagic:altar/blood_altar)피의 제단$() 근처에서 우클릭을 하면 90%의 체력을 한 번에 희생합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar1.png"
+      ],
+      "title": "기본 설정",
+      "border": true,
+      "text": "3x3 블록 플랫폼이 있는 기본 설정을 보여주는 기본 설정."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "더욱이, 주변 지역의 총 $(thing)평온$()에 따라 $(l:bloodmagic:altar/blood_altar)피의 제단$()에 추가되는 $(blood)LP$()에 보너스가 주어집니다. $(item)향로$() 위에 $(l:bloodmagic:alchemy_array/sigil/divination)점성의 부적$(/l) 또는 $(l:bloodmagic:alchemy_array/sigil/seer)선견의 부적$()을 가져다 대면 설정의 총 $(thing)평온$() (위쪽 숫자) 및 희생 시 받는 보너스의 백분율 (아래쪽 숫자)이 표시됩니다. 희생 시, 일반적으로 받는 $(blood)LP$()를 (1 + 보너스/100)로 곱합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar2.png"
+      ],
+      "title": "향로 HUD",
+      "border": true,
+      "text": "향로 HUD, 기본적으로 왼쪽 상단에 표시되며 자기 희생 보너스가 +20%임을 보여줍니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "\"그런데, Way, 이 보너스를 어떻게 높일 수 있죠?\" 어떻게냐면 주변 지역의 $(thing)평온$()을 높여야 합니다! ...조금 모호할 수 있습니다. $(br2)지역의 $(thing)평온$()을 높이려면 $(item)향로$()에서 나가는 길을 만들어야 합니다. 이러한 길은 3블록 폭의 $(item)길$() 블록 세트에서 생성되어야하며 네 방향 모두에서 3x3 고체 기준 블록 세트에서 확장되어야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wood",
+      "recipe2": "bloodmagic:path/path_woodtile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_stone",
+      "recipe2": "bloodmagic:path/path_stonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wornstone",
+      "recipe2": "bloodmagic:path/path_wornstonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_obsidian",
+      "recipe2": "bloodmagic:path/path_obsidiantile"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 새로운 \"링\"의 길 블록은 일련의 규칙을 따릅니다: $(li)같은 링에 있는 모든 길 블록은 동일한 y-레벨에 있어야 합니다.$(li)다음 링의 길 블록은 이전 링보다 5 블록 이상 높거나 낮아서는 안 됩니다.$(li)경로 블록의 링 위 블록 및 링 카운트로부터 최대 두 블록까지는 총 $(thing)평온$()에 기여합니다. - 이는 사진에서 유리 블록으로 표시됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar.png"
+      ],
+      "title": "향로",
+      "border": true,
+      "text": "다양한 길 방향을 보여주는 향로."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "더욱이:$(li)각 길 블록 유형의 효능은 일정 거리까지만 지속됩니다: 목재 길은 중앙에서 세 링까지만 이동할 수 있고, 돌 길은 다섯 링까지, 닳은 돌 길은 일곱 링까지, 흑요석 길은 아홉 링까지 이동할 수 있습니다.$(bn2) 이제 분명히 모든 유형의 블록이 $(thing)평온$()에 기여하지는 않을 것입니다. 어떤 일반 코블도 할 수 없어요! 우리는 작물, 흙, 그리고 심지어... 용암이 필요해요?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "총 $(thing)평온$()에 기여하는 여러 블록 범주가 있습니다. 특정한 순서 없이 다음과 같습니다: 식물, 작물, 나무, 흙, 물, 불, 그리고 용암. $(item)향로$()는 범위 안의 모든 블록을 검토하고 각 유형의 총 $(thing)평온$()을 계산한 다음 각 유형의 $(thing)평온$()을 제곱근을 취하여 더합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이는 후반 게임 설정에서 여러 종류의 $(thing)평온$()이 가장 좋습니다. 다른 모드에서도 자체적으로 추가할 수 있고, 나중에 더 추가될 예정입니다만, $(thing)평온$()에 기여하는 블록은 용암, 물 (대부분의 물로그된 블록 포함), 생명 에센스, 네더랙, 흙, 경지, 감자, 당근, 밀, 네더 와트, 비트, 잎, 나무, 불, 그리고 풀입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar3.png"
+      ],
+      "title": "향로 설정",
+      "border": true,
+      "text": "여러 다른 레벨을 가진 후반 게임 향로 설정."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "물론, 설정은 원하는 만큼 가파를 수도 있고 얕을 수도 있습니다 (이 엔트리에서 앞서 정의한 범위 내에서). $(br2) $(thing)평온 보너스$()는 제단의 크기 (따라서 사용 중인 경로의 티어)로 제한됩니다. 제한은 다음과 같습니다: $(li) 길 없음: 20%. $(li) 목재 길: 60%. $(li) 돌 길: 120%. $(li) 닳은 돌 길: 200%. $(li) 흑요석 길: 300%."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar4.png"
+      ],
+      "title": "향로 설정",
+      "border": true,
+      "text": "매우 간단한 $(item)향로$() 설정. 서로 다른 길 블록을 (선택적으로) 섞었음을 주목하세요."
+    }
+  ]
+}
+

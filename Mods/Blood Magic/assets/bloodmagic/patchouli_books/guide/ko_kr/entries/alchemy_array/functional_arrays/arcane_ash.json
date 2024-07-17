@@ -1,0 +1,39 @@
+{
+  "name": "연금 어레이 기초",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)신비한 재$()는 연금 어레이 생성에서 중요한 아이템입니다. $(item)신비한 재$()는 일부 초기 게임 아이템을 사용하여 $(l:bloodmagic:alchemy_table/alchemy_table)연금 테이블$()에서 제작할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "신비한 재",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "연금 어레이를 만들려면 $(item)신비한 재$()를 손에 든 채로 블록을 보고 [$(k:use)]를 누르세요. 이렇게 하면 $(item)신비한 재$()에서 20개 중 1개의 내구도가 소모되고 효과가 없는 $(thing)연금 배열$()이 그려집니다. $(br2)$(thing)연금 배열$()을 클릭하면 손에 든 아이템 스택에서 하나의 $(item)아이템$()을 소모하고 배열에 보관합니다. 그런 다음 이러한 아이템은 $(thing)연금 배열$()의 효과를 결정하는 데 사용됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "연금 배열",
+      "border": true,
+      "text": "$(thing)연금 배열$()은 입력이 없는 경우; $(item)기본 항목$() 만; $(item)기본$() 및 $(item)촉매$() 모두를 보여주는 배열입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 효과에는 $(item)기본$() 및 $(item)촉매$() 두 가지 아이템이 필요합니다. $(item)기본$()은 배열을 그린 후 첫 번째로 클릭하는 항목이고, $(item)촉매$()는 두 번째 아이템입니다. 기본 항목을 적용하면 배열 디자인이 유효한 경우 변경되고, 촉매를 적용하면 배열이 활성화됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "현재 구현된 어레이는 몇 가지뿐이지만 최종적으로는 $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)공예 어레이$(/l)에서부터 이동 어레이로 심지어 순간 이동 어레이까지 다양한 어레이를 갖게 될 것입니다."
+    }
+  ]
+}

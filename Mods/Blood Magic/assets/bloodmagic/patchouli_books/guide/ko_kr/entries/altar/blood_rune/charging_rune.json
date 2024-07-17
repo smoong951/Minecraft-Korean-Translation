@@ -1,0 +1,30 @@
+{
+  "name": "충전 룬",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)충전 룬$()은 독특한 룬 업그레이드입니다. $(l:bloodmagic:altar/blood_altar)혈액 얼타$()가 조제나 $(l:bloodmagic:altar/soul_network)혈액 오브$() 충전을 하지 않을 때, 내부 버퍼를 충전하기 위해 혈액 얼타로부터 $(blood)LP$()를 흡입합니다. 다음에 아이템이 혈액 얼타 안에 놓일 때, 저장된 충전을 순간적으로 소비하고 1:1 비율로 아이템의 조제에 적용합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "혈액 얼타는 20 게임 틱마다 충전 틱을 수행하며, 이 값은 $(l:bloodmagic:altar/blood_rune/acceleration_rune)가속 룬$()당 1 감소됩니다.$(/l) $(br2)혈액 얼타가 틱당 충전하는 속도는 다음과 같습니다: [$(blood)10LP$() x $(l:bloodmagic:altar/blood_rune/charging_rune)충전 룬$() x (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)속도 룬$()/10)] $(br2)혈액 얼타가 저장할 수 있는 최대 충전량은 $(blood)1000 LP$() 당 $(item)충전 룬$()으로, 이 값은 다음과 같이 곱해집니다: [(주 혈액 얼타 탱크의 용량)/20000]이 값이 1보다 큰 경우에만."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)충전 룬$()의 힘을 두 배로 늘릴 수 있습니다. 용량과 속도 측면에서 모두."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}
+

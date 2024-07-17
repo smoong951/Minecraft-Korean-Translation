@@ -1,0 +1,22 @@
+{
+  "name": "정화된 영혼의 소리",
+  "icon": "bloodmagic:upgradetome",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "정화된 영혼의 소리",
+      "multiblock_id": "bloodmagic:upgrade_remove",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "upgrade_remove",
+      "text_overrides": [
+        ["살아있는 갑옷", "l:bloodmagic:alchemy_array/living_equipment/living_basics"],
+        ["강화 권책", "l:bloodmagic:alchemy_array/living_equipment/living_tomes"]
+      ]
+    }
+  ]
+}
+

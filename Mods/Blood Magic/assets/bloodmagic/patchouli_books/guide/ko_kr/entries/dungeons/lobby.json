@@ -1,0 +1,56 @@
+{
+  "name": "대기실",
+  "icon": "bloodmagic:dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:inversion_pillar": 0,
+    "bloodmagic:dungeon_seal": 0,
+    "bloodmagic:dungeon_controller": 0,
+    "bloodmagic:inversion_pillar_cap": 0,
+    "bloodmagic:dungeon_brick3": 1,
+    "bloodmagic:dungeon_brick2": 1,
+    "bloodmagic:dungeon_brick1": 1,
+    "bloodmagic:dungeon_brick_assorted": 1,
+    "bloodmagic:dungeon_stone": 1,
+    "bloodmagic:dungeon_eye": 1,
+    "bloodmagic:dungeon_polished": 1,
+    "bloodmagic:dungeon_tile": 1,
+    "bloodmagic:dungeon_tilespecial": 1,
+    "bloodmagic:dungeon_smallbrick": 1,
+    "bloodmagic:dungeon_brick_stairs": 1,
+    "bloodmagic:dungeon_polished_stairs": 1,
+    "bloodmagic:dungeon_pillar_center": 1,
+    "bloodmagic:dungeon_pillar_special": 1,
+    "bloodmagic:dungeon_pillar_cap": 1,
+    "bloodmagic:dungeon_brick_wall": 1,
+    "bloodmagic:dungeon_polished_wall": 1,
+    "bloodmagic:dungeon_brick_gate": 1,
+    "bloodmagic:dungeon_polished_gate": 1,
+    "bloodmagic:dungeon_brick_slab": 1,
+    "bloodmagic:dungeon_tile_slab": 1,
+    "bloodmagic:dungeon_regular_cracked_brick1": 1,
+    "bloodmagic:dungeon_cracked_brick1": 1,
+    "bloodmagic:dungeon_emitter": 1,
+    "bloodmagic:dungeon_alternator": 1,
+    "bloodmagic:spikes": 1,
+    "bloodmagic:dungeon_spike_trap": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)은 룻의 시작이자 대기실로 이어지는 곳으로 이동하는 은밀한 차원문입니다. 여기에서는 $(thing)역전의 기둥$()이 보입니다. 이 기둥을 우클릭하여 대기실로 이동할 수 있습니다. $(br)이 첫 번째 방에서 주목해야 할 몇 가지 사항이 있습니다: $(li)기본 소품이 들어있는 보물 상자 하나, 그리고 행운이 좋다면 몇 개의 $(l:bloodmagic:dungeons/keys)철 열쇠$()도 들어 있을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)둘째, 각각 $(thing)문$()이 있는데, 각 문은 $(thing)던전 봉인$()으로 잠겨 있습니다. 이 봉인에 $(item)열쇠$()를 사용하여 다음 방을 열 수 있습니다. $(li)셋째, 이전에 소환한 것과 같은 $(item)역전의 기둥$()이 있습니다. [$(k:use)]를 사용하여 자신의 세계로 돌아갈 수 있습니다. $(br2)또한 여기에는 가정이 약간의 화려함이 필요하다고 생각하는 경우에 사용할 수 있는 많은 장식용 블록이 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 대기실에서 열리는 추가적인 방은 전부 어떤 조합으로든 소품, 몬스터, 함정 및 아직 활성화되지 않은 음모들이 포함되어 있을 것입니다. 놓치지 마세요! $(br2)찾을 수 있는 소품 몇 가지 예시: $(li)마법책 $(li)마법 무기 및 갑옷 $(li)$(l:bloodmagic:alchemy_table/anointments)다양한 기름물$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$() $(li)포션 재료"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "그리고 $(li)타우 열매 $(li)성장한 타우 열매 $(li)타우 오일$(br2) 그러니 사냥을 하고 보물과 함정을 주의 깊게 살피세요!"
+    }
+  ]
+}

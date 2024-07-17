@@ -1,0 +1,32 @@
+{
+  "name": "타원체의 초점",
+  "icon": "minecraft:bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "타원체의 초점",
+      "multiblock_id": "bloodmagic:ellipsoid",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "ellipsoid"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 의식은 단순히 미학적인 성격으로, 우리 모두에게 내재된 진보적이지만 게으른 건축가를 위해 설계되었습니다. 특히 강력한 금 돔과 같은 복잡한 모양을 만드는 데 좋습니다. ...당신은 그 중 하나를 가지고 있죠, 맞죠?"
+    },
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "chest"
+	},
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "spheroidRange"
+	}
+  ]
+}
+
