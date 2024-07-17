@@ -3,7 +3,7 @@
 
     "advancements.aquamirae.root.descr": "배들의 무덤",
     "advancements.aquamirae.root.title": "Aquamirae",
-    "advancements.aquamirae.find_ice_maze.descr": "얼어붙은 바다 생물군계에서 얼어붙은 미로 지역을 찾으세요",
+    "advancements.aquamirae.find_ice_maze.descr": "얼어붙은 바다 생물 군계에서 얼어붙은 미로 지역을 찾으세요",
     "advancements.aquamirae.find_ice_maze.title": "얼어붙은 미로",
     "advancements.aquamirae.obtain_fin.descr": "지느러미를 얻으세요",
     "advancements.aquamirae.obtain_fin.title": "돌아가는 선풍기마냥!",
@@ -63,7 +63,7 @@
     "lore.aquamirae.material": "물질",
     "lore.aquamirae.pirate_pouch": "{I} {U}를 눌러 엽니다. > 썩은 굴 냄새가 나는 잊혀진 해적의 헝겊입니다...",
     "lore.aquamirae.poseidons_breakfast": "바다 신의 음식. > §9Fury X (3:00) > §9Rush V (3:00) > > §5섭취했을 때: > §9+100% 효과 위력 > §9+50% 재사용 대기시간 감소",
-    "lore.aquamirae.rune_of_the_storm": "{I} {U}를 눌러 사용합니다. > 반대쪽 손에 들린 검에 추운 생물군계에서 33% 데미지가 증가하는 효과를 부여합니다.",
+    "lore.aquamirae.rune_of_the_storm": "{I} {U}를 눌러 사용합니다. > 반대쪽 손에 들린 검에 추운 생물 군계에서 33% 데미지가 증가하는 효과를 부여합니다.",
     "lore.aquamirae.dead_sea_scroll": "{I} {U}를 눌러 읽습니다. > §d알 수 없는 효과",
     "lore.aquamirae.sea_casserole": "날 보고 있는거야? > §9Rush II (1:30) > §9힘 (0:30) > > §5섭취했을 때: > §9+20% 재사용 대기시간 감소 > §9+3 공격 데미지",
     "lore.aquamirae.sea_stew": "뱃속에서 요동치는 바다의 힘! > §9Fury III (2:00) > §9힘 (2:00) > > §5섭취했을 때: > §9+30% 효과 위력 > §9+3 공격 데미지",
@@ -217,7 +217,7 @@
     "info.maze_mother_spawn": "§c 얼음 밑에서 진동이 느껴집니다...",
     
     "perk.aquamirae.rune_of_the_storm": "@§7폭풍의 룬",
-    "perk.aquamirae.rune_of_the_storm.desc": "폭풍의 룬 > 추운 생물군계 안에서 33%의 추가 피해량을 얻습니다.",
+    "perk.aquamirae.rune_of_the_storm.desc": "폭풍의 룬 > 추운 생물 군계 안에서 33%의 추가 피해량을 얻습니다.",
     
     "subtitles.ambient.ship_horn": "",
     "subtitles.block.frozen_chest.unlock": "얼어붙은 상자가 열림",
