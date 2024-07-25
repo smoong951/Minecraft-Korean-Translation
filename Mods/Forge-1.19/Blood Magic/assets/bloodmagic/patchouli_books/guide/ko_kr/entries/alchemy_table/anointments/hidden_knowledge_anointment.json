@@ -1,0 +1,37 @@
+{
+  "name": "광부의 비밀",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "광부의 비밀",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "경험치가 떨어지는 블록은 성공적인 수확 시 추가 경험치를 떨어뜨립니다. 블록당 +2exp를 추가로 떨어뜨립니다. 추가 경험치가 떨어질 때 사용됩니다.$(br2)유효한 아이템: 도구, 검.$(br2)적용: 광부의 비밀 I (256 경험치 떨어지는 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "광부의 비밀 L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 광부의 비밀 I (1024 경험치 떨어지는 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "광부의 비밀 II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "이 강화된 버전은 블록당 +4exp로 수확량을 증가시킵니다. $(br2)적용: 광부의 비밀 II (256 경험치 떨어지는 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "광부의 비밀 XL",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 광부의 비밀 I (4096 경험치 떨어지는 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "광부의 비밀 III",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
+      "text": "이 강화된 버전은 블록당 +6exp로 수확량을 증가시킵니다. $(br2)적용: 광부의 비밀 III (256 경험치 떨어지는 블록)"
+    }
+  ]
+}

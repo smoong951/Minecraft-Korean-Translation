@@ -1,0 +1,20 @@
+{
+  "name": "억제의 시길",
+  "icon": "bloodmagic:sigilofsuppression",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)억제의 시길$()은 [$(k:use)]를 눌러 활성화되면 소지자의 약 6 블록 반경 내의 모든 유체를 일시적으로 사라지게 합니다. 해당 액체에서 멀리 이동한 후 잠시 후에는 마치 사라지지 않은 것처럼 돌아옵니다. 이로 인해 화염 지옥의 용암 해양을 탐험하는 것이 훨씬 쉬워지지만, 이 기능이 활성화된 상태에서 깊은 물 웅덩이로 뛰어들지는 말아야합니다!"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "억제 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_suppression",
+      "array.heading": "억제의 시길",
+      "array.recipe": "bloodmagic:array/suppressionsigil",
+      "array.text": "$(italic)Void Sigil®보다 낫습니다!"
+    }
+  ]
+}
+

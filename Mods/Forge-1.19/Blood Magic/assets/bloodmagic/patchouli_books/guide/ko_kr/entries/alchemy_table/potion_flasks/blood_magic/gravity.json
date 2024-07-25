@@ -1,0 +1,33 @@
+{
+  "name": "중력",
+  "icon": "minecraft:tropical_fish",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)중력$()은 대상이 더 빨리 떨어지고 착지 시 더 많은 피해를 입히게 만듭니다. 그러나 점프 높이를 감소시키지는 않습니다. $(br2)이것은 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/grounded)그라운디드$() 및 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)느린 낙하$() 효과가 모두 있는 약병에서 생성됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "중력 (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity",
+      "b.heading": "중력 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_gravity",
+      "c.heading": "중력 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_gravity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)표준 촉매$()로 물약을 더 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "중력 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_gravity",
+      "b.heading": "중력 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_gravity"
+    }
+  ]
+}
+
+

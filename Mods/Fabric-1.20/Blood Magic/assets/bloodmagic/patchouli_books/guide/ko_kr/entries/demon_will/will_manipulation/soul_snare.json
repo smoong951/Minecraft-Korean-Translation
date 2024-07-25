@@ -1,0 +1,29 @@
+{
+  "name": "최초의 의지",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "영혼의 올가미",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)영혼의 올가미$()는 $(blood)블러드 매직$()의 $(l:bloodmagic:demon_will/will_manipulation/demon_will)영혼의 의지$() 부분으로 들어가는 당신의 관문입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)올가미$()를 사용하는 것은 간단합니다. 충분한 양을 제작하고 $(thing)적대적인 몹$()에게 던지십시오. 그들 주변에는 흰 입자 효과가 나타납니다. 그럼 사냥을 시작하는 시간입니다. 죽을 때, 그들은 $(l:bloodmagic:demon_will/will_manipulation/demon_will)영혼의 의지$()을 드롭합니다. 루팅 인첸트를 달면 드롭되는 $(raw)의지$()의 양이 증가합니다. 몇 개를 모았다면 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()과 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()을 제작할 수 있습니다. 이것들은 $(l:bloodmagic:demon_will/will_manipulation/demon_will)영혼의 의지$()을 수집하는 것을 훨씬 쉽게 만들어줄 것입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "올가미가 스켈레톤에게 작용",
+      "border": true,
+      "text": "올가미가 스켈레톤에게 작용한 후에 흰 입자가 나타납니다."
+    }
+  ]
+}
+
+

@@ -1,0 +1,16 @@
+{
+"name": "스톰 트루퍼",
+"icon": "minecraft:arrow",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "활과 석궁을 쏠 때 정확도가 크게 저하됩니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/storm_trooper",
+      "b.upgrade": "bloodmagic:storm_trooper"
+    }
+  ]
+}

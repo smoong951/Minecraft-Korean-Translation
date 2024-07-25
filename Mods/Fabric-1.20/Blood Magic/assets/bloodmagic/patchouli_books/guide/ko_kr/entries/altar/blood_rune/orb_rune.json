@@ -1,0 +1,25 @@
+{
+  "name": "오브 룬",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)오브 룬$()은 얼터 안에 있는 $(item)블러드 오브$()의 용량을 룬 당 누적 +2% 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)오브 룬$()의 힘을 두 배로 늘릴 수 있습니다. 룬 당 오브의 용량이 누적 +4% 증가합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}

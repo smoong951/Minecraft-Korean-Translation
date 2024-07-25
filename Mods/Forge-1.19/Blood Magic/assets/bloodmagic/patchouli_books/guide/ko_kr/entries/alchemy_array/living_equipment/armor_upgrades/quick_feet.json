@@ -1,0 +1,15 @@
+{
+"name": "빠른 발걸음",
+"icon": "minecraft:sugar",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 플레이어 이동 속도를 최대 150%까지 증가시킵니다. $(br2)훈련 방법: 주위를 돌아다니기. $(br2)최대 레벨: 10"
+  },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:speed"
+    }
+  ]
+}

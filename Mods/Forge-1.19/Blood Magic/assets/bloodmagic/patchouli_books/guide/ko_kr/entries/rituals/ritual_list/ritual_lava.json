@@ -1,0 +1,98 @@
+{
+  "name": "지옥의 세레나데",
+  "icon": "minecraft:lava_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "지옥의 세레나데",
+      "multiblock_id": "bloodmagic:lava",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner)의례 초절기$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "lava",
+      "text_overrides": [
+        ["master ritual stone", "l:bloodmagic:rituals/ritual_stones"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "raw",
+      "text_overrides": [
+        ["LP", "혈액"],
+        ["tank", "아이템"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "corrosive",
+      "text": "지옥의 주민에게 특히 유용합니다."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["Fire Fuse", "사물"]
+      ],
+      "text": "디버프가 끝나면, 그들은 화려한 불꽃놀이를 하는 멋진 모습을 선보일 것입니다."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Destructive Will", "파괴적"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["Fire Resistance", "사물"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireDamage",
+      "text_overrides": [
+        ["Corrosive Will", "부식적"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireFuse",
+      "text_overrides": [
+        ["Fire Fuse", "사물"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireResist",
+      "text_overrides": [
+        ["Fire Resistance", "사물"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaTank",
+      "text_overrides": [
+        ["tank", "아이템"]
+      ]
+    }
+  ]
+}
+

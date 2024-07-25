@@ -1,0 +1,16 @@
+{
+"name": "콘크리트 신발",
+"icon": "minecraft:water_bucket",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "수영 속도를 크게 감소시킵니다. 최대 80% 감소합니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/swim_decrease",
+      "b.upgrade": "bloodmagic:swim_decrease"
+    }
+  ]
+}

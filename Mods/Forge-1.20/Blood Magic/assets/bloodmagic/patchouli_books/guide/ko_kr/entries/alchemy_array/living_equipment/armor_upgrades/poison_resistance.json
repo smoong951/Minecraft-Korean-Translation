@@ -1,0 +1,15 @@
+{
+  "name": "독 저항",
+  "icon": "minecraft:milk_bucket",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "효과: 독 치료. 추가 레벨로 쿨다운이 줄어듭니다. $(br2)훈련: 독에 걸림. $(br2)최대 레벨: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:poison_resist"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "인챈트 아이템 필터",
+  "icon": "bloodmagic:itemrouterfilterenchant",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)인챈트 아이템 필터$()를 사용하면 아이템을 $(thing)인챈트$()를 기준으로 정렬할 수 있습니다. 수량 및 허용/거부 기능에 관해서는 $(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준 아이템 필터$()와 유사하게 작동하지만 몇 가지 추가 버튼이 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "인챈트 아이템 필터",
+      "recipe": "bloodmagic:alchemytable/enchant_router_filter",
+      "text": "이 레시피에는 어떠한 인챈트된 책이라도 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
+      ],
+      "title": "인챈트 필터 GUI",
+      "border": true,
+      "text": "'허용' 버튼 오른쪽에 두 개의 새로운 버튼에 유의하세요."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "첫 번째 버튼은 인챈트된 아이템의 $(thing)모든 인챈트$()를 일치시킬지, $(thing)어떠한 인챈트$()를 일치시킬지, 또는 $(thing)특정 인챈트$() 중 하나를 일치시킬지를 선택할 수 있게 합니다. 두 번째 버튼은 레벨을 고려할지 여부를 지정하도록 허용합니다. (예: 'Protection III' 대 'Protection'). $(br2)인챈트가 없는 아이템을 필터에 넣으면 지정된 인벤토리에 삽입되거나 제거될 $(thing)어떠한 종류의 인챈트$()를 허용하거나 거부할 수 있습니다."
+    }
+  ]
+}
+

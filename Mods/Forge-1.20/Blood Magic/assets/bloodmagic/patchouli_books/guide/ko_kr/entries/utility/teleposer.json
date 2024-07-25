@@ -1,0 +1,38 @@
+{
+  "name": "텔레포저",
+  "icon": "bloodmagic:teleposerfocus",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)텔레포저$()는 $(fire)레드스톤 제어$() 텔레포테이션의 한 형태를 제공합니다. 간단히 $(item)텔레포지션 포커스$()를 제작하고 대상 텔레포저에 연결한 다음 다른 텔레포저에 넣고 포커스가 있는 텔레포저에 레드스톤 신호를 적용하면 두 텔레포저 위의 정의된 영역에 있는 모든 것 - 블록, 아이템, 엔터티, 플레이어 등 - 이 교환됩니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:teleposer",
+      "text": "그러나 아무 것도 무료로 오지 않습니다. 텔레포저를 통해 블록이나 엔터티를 전송하는 데는 매 이동할 때마다 $(blood)1 LP$()가 들며, 블록/엔터티당 최대 $(blood)1,000 LP$() 또는 총 $(blood)10,000 LP$()까지 소비됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "텔레포지션 포커스",
+      "recipe": "bloodmagic:altar/teleposer_focus",
+      "text": "기본 $(item)텔레포지션 포커스$()는 두 텔레포저 위의 1x1x1 블록 영역 내의 모든 것을 교환합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "향상된 포커스",
+      "recipe": "bloodmagic:altar/enhanced_teleposer_focus",
+      "text": "$(item)향상된 텔레포지션 포커스$()는 두 텔레포저 위의 정 중앙에 위치한 3x3x3 블록 영역 내의 모든 것을 교환합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:enhanced_teleposer_focus",
+      "text": "$(item)강화된 텔레포지션 포커스$()는 두 텔레포저 위의 정 중앙에 위치한 5x5x5 블록 영역 내의 모든 것을 교환합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "텔레포저는 일방향으로 링크될 수 있습니다(나가는 텔레포저에 대한 레드스톤 신호가 아무런 효과가 없도록), 양방향으로 링크될 수 있습니다(각 텔레포저에는 상호 링크된 포커스가 있어 양쪽 끝에서의 레드스톤 신호에 따라 왕복 이동), 또는 체인될 수도 있습니다 - A에서 B로, C로 다시 돌아가서 A로. 기본적인 엘리베이터 시스템부터 복잡한 지하 미궁까지 다양한 용도로 사용할 수 있습니다!"
+    }
+  ]
+}
+

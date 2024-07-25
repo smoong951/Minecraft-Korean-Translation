@@ -1,0 +1,23 @@
+{
+  "name": "수확의 달",
+  "icon": "minecraft:wheat",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "수확의 달",
+      "multiblock_id": "bloodmagic:harvest",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "harvest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "harvest",
+      "page_type": "harvestRange"
+    }
+  ]
+}
+

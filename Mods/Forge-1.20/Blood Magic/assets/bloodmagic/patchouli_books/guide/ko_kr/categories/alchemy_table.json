@@ -1,0 +1,6 @@
+{
+  "name": "연금술 테이블",
+  "description": "연금술 테이블 $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$()은(는) 혈 마법사로서 극도로 다재다능한 블록입니다. 광물을 두 배로 만들 수 있을 뿐만 아니라, 다른 덜 유용한 아이템에서 기본 재료를 생산하거나, $(l:bloodmagic:alchemy_table/anointments)Anointments(세례)$()를 만들 수도 있습니다!",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}

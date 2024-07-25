@@ -1,0 +1,26 @@
+{
+  "name": "떨어지는 탑의 표식",
+  "icon": "minecraft:fire_charge",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "떨어지는 탑의 표식",
+      "multiblock_id": "bloodmagic:meteor",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "meteor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "보유한 거대한 힘을 활용하여, 결론적으로 외부에서 운석을 소환하여 세계에 떨어뜨리는 것이 좋은 아이디어입니다.$(br2)MRS 위에 적절한 제물을 떨어뜨리면 의식은 그 아이템(그리고 기본적으로 100만 LP의 많은 양)을 소모하고 지도의 빌드 높이에 운석을 소환합니다. 운석이 무언가에 부딪치면 폭발하고 다양한 채굴 및 가공 자원을 남깁니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "운석의 크기 및 획득 자원은 제물에 따라 달라집니다. 일반적인 제물로는: $(item)다이아몬드$(), $(item)철 블록$(), $(item)발광석 분말$(), 그리고 $(item)돌$()이 있습니다.$(br2)모드 아이템으로는: Ice and Fire $(item)용의 뼈$(), AE2 $(item)서투스 수정$(), Create $(item)안산암 합금$(), IE $(item)구리 와이어 코일$(), Mystical Agriculture $(item)번영의 파편$(), Thermal $(item)RF 코일$(), 그리고 Mekanism $(item)고급 합금$()이 있습니다."
+    }
+  ]
+}
+

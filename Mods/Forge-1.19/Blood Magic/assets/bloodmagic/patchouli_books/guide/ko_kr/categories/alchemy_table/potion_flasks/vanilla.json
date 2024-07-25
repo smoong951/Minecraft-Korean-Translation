@@ -1,0 +1,7 @@
+{
+
+"name": "기본 효과",
+"description": "이 효과들은 표준 $(item)양조대$()를 사용하여 복제할 수 있지만, 분명히 효율적이지는 않습니다.",
+  "icon": "minecraft:brewing_stand",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

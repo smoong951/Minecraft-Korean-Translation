@@ -1,0 +1,16 @@
+{
+  "name": "살아있는 장비 업그레이드",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 새로운 갑옷을 입은 동안, 당신은 그 성장을 느끼고 여러 가지 작업에서 나에게 도움을 주려고 노력하는 것을 느꼈습니다. $(br2)여러 분야에서 성장 할 수 있는 것 같지만 결국에는 한계가 있으며 한꺼번에 모든 것을 성장 시키려고하면 큰 효과가 없습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "여러 전문화된 세트를 마련하는것은 좋은 아이디어가 될 수 있을까요? 제대로 가르침을 받지 않은 옵션을 얻기 위해서는 신중하게 강화해야 합니다. $(br2)다행히도 강화을 돕기 위한 $(l:rituals/ritual_list/ritual_upgrade_remove)의식$()과 성장 능력을 부여할 $(l:rituals/ritual_list/ritual_armour_evolve)다른 의식$()을 개발했습니다."
+    }
+  ]
+}

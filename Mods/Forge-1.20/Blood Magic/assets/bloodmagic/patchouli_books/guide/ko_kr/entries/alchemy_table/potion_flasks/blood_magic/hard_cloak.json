@@ -1,0 +1,33 @@
+{
+  "name": "하드 클로크",
+  "icon": "minecraft:obsidian",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)하드 클로크$()은 사용할 때 레벨당 3 포인트의 갑옷 강인함을 제공합니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "하드 클로크 (3:00)",
+      "a.recipe": "bloodmagic:flask/hard_cloak",
+      "b.heading": "하드 클로크 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_hard_cloak",
+      "c.heading": "하드 클로크 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_hard_cloak"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가로 $(l:bloodmagic:alchemy_table/potions#average_potions)일반 촉매$()를 추가하면 포션을 더욱 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "하드 클로크 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_hard_cloak",
+      "b.heading": "하드 클로크 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_hard_cloak"
+    }
+  ]
+}
+
+

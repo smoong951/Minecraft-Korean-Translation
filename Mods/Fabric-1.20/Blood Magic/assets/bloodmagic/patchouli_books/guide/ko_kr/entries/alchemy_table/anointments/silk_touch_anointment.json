@@ -1,0 +1,26 @@
+{
+  "name": "부드러운 코팅",
+  "icon": "bloodmagic:silk_touch_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "부드러운 코팅",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment",
+      "text": "채취한 블록에 실크 터치를 적용합니다. 바닐라 인챈트와 중첩되지 않습니다.$(br2)유효한 아이템: 도구, 검, 차지.$(br2)적용: 부드러운 손길 I (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "부드러운 코팅 L",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 부드러운 손길 I (1024 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "부드러운 코팅 XL",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 부드러운 손길 I (4096 블록)"
+    }
+  ]
+}
+

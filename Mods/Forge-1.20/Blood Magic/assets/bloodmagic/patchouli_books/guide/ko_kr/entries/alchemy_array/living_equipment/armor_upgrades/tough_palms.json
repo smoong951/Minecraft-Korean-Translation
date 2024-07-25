@@ -1,0 +1,15 @@
+{
+ "name": "튼튼한 손바닥",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "효과: 자기 희생에 추가 보너스를 부여하며, 최대 150%까지 증가합니다. $(br2)훈련: 희생의 나이프로 피를 희생. $(br2)최대 레벨: 10"
+     },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:self_sacrifice"
+    }
+  ]
+}

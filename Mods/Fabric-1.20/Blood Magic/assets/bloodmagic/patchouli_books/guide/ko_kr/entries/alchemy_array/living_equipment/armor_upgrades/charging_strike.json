@@ -1,0 +1,15 @@
+{
+  "name": "충전 공격",
+  "icon": "minecraft:golden_axe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "효과: 달리기로 가하는 공격의 피해와 넉백을 증가시킵니다. 최대 +50%. $(br2)훈련: 달리면서 피해 입히기. $(br2)최대 레벨: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:sprint_attack"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "layer.origins-classes.class.name": "직업",
+  "layer.origins-classes.class.missing_origin.name": "미등록",
+  "layer.origins-classes.class.missing_origin.description": "직업이 없습니다.",
+
+  "origins-classes.food_bonus": "영양: +%s",
+  "origins-classes.mining_speed_bonus": "채굴 속도: %s",
+  "origins-classes.longer_potions": "연장됨",
+
+  "origin.origins-classes.warrior.name": "전사",
+  "origin.origins-classes.warrior.description": "이 명예로운 전사들은 검과 방패로 적을 물리칩니다.",
+
+  "origin.origins-classes.archer.name": "궁수",
+  "origin.origins-classes.archer.description": "백발백중.",
+
+  "origin.origins-classes.rogue.name": "도적",
+  "origin.origins-classes.rogue.description": "도적은 일반적으로 도둑과 강도로 알려져 있으며, 매복과 은밀한 공격에 능숙합니다.",
+
+  "origin.origins-classes.beastmaster.name": "동물조련사",
+  "origin.origins-classes.beastmaster.description": "동물조련사는 동물과의 교감을 선호하는 외톨이입니다.",
+
+  "origin.origins-classes.blacksmith.name": "대장장이",
+  "origin.origins-classes.blacksmith.description": "대장장이는 더 나은 도구, 무기, 갑옷을 만들 수 있는 소중한 친구입니다.",
+
+  "origin.origins-classes.cleric.name": "성직자",
+  "origin.origins-classes.cleric.description": "성직자들은 세계에 존재하는 마법을 채널링하여 이를 자신의 이점으로 사용하는 법을 배웠습니다.",
+
+  "origin.origins-classes.cook.name": "요리사",
+  "origin.origins-classes.cook.description": "요리를 준비하는 데 있어 요리사보다 나은 사람은 없습니다.",
+
+  "origin.origins-classes.farmer.name": "농부",
+  "origin.origins-classes.farmer.description": "농부들은 누구나 기억할 수 있을 만큼 오랫동안 모든 사람에게 음식을 제공해 왔습니다.",
+
+  "origin.origins-classes.merchant.name": "상인",
+  "origin.origins-classes.merchant.description": "항상 추가 에메랄드를 찾는 상인들은 숙련된 거래자입니다.",
+
+  "origin.origins-classes.rancher.name": "목장주",
+  "origin.origins-classes.rancher.description": "동물을 최대한 활용하여 많은 유용한 자원을 모을 수 있습니다.",
+
+  "origin.origins-classes.miner.name": "광부",
+  "origin.origins-classes.miner.description": "광부들은 지구의 보물을 캐내는 데 가장 능숙합니다.",
+
+  "origin.origins-classes.lumberjack.name": "나무꾼",
+  "origin.origins-classes.lumberjack.description": "나무꾼이 주변에 있을 때 나무는 조심해야 합니다.",
+
+  "origin.origins-classes.explorer.name": "탐험가",
+  "origin.origins-classes.explorer.description": "탐험가들은 가장 어려운 지형을 쉽게 탐험하고 숨겨진 랜드마크를 발견합니다.",
+
+  "origin.origins-classes.nitwit.name": "멍청이",
+  "origin.origins-classes.nitwit.description": "멍청이는 정말로 아무것도 잘하지 못합니다.",
+
+  "power.origins-classes.less_shield_slowdown.name": "방패 숙련",
+  "power.origins-classes.less_shield_slowdown.description": "방패로 자신을 보호할 때 느려지는 정도가 줄어듭니다.",
+
+  "power.origins-classes.sneaky.name": "은밀함",
+  "power.origins-classes.sneaky.description": "몰래 이동하지 않아도 이름표가 벽을 통해 보이지 않습니다.",
+
+  "power.origins-classes.stealth.name": "그림자 속에서",
+  "power.origins-classes.stealth.description": "10초 동안 웅크리면 은신 상태에 들어갑니다.",
+
+  "power.origins-classes.stealth_descriptor.name": "은신",
+  "power.origins-classes.stealth_descriptor.description": "은신 상태에서는 소음을 줄이고 적을 뒤에서 공격할 때 추가 피해를 줍니다. 은신을 멈추거나 적을 공격할 때 은신 상태에서 벗어납니다.",
+
+  "power.origins-classes.less_bow_slowdown.name": "민첩성",
+  "power.origins-classes.less_bow_slowdown.description": "활을 당기는 동안 다른 사람보다 더 빠르게 이동할 수 있습니다.",
+
+  "power.origins-classes.no_projectile_divergence.name": "정확성",
+  "power.origins-classes.no_projectile_divergence.description": "모든 발사체의 정확도가 향상됩니다.",
+
+  "power.origins-classes.more_attack_damage.name": "무기 지식",
+  "power.origins-classes.more_attack_damage.description": "각 무기를 최대한 활용하여 약간 더 많은 피해를 줍니다.",
+
+  "power.origins-classes.tamed_animal_boost.name": "동물 친구",
+  "power.origins-classes.tamed_animal_boost.description": "길들인 동물은 영구적으로 생명력과 힘이 향상됩니다.",
+
+  "power.origins-classes.tamed_potion_diffusal.name": "효과적인 공감",
+  "power.origins-classes.tamed_potion_diffusal.description": "물약을 마실 때 근처에 있는 길들인 동물도 물약 효과를 받습니다.",
+
+  "power.origins-classes.more_smoker_xp.name": "훈제",
+  "power.origins-classes.more_smoker_xp.description": "훈제기로 음식을 요리하면 더 많은 경험치를 얻습니다.",
+
+  "power.origins-classes.better_crafted_food.name": "좋은 식사",
+  "power.origins-classes.better_crafted_food.description": "당신이 만든 음식은 더 포만감을 줍니다.",
+
+  "power.origins-classes.longer_potions.name": "연장된 물약",
+  "power.origins-classes.longer_potions.description": "물약 양조의 마지막 단계로 가마솥에서 물을 사용하여 물약의 지속 시간을 두 배로 늘릴 수 있습니다.",
+
+  "power.origins-classes.better_enchanting.name": "마법 부여 숙련",
+  "power.origins-classes.better_enchanting.description": "마법 부여대에서 더 나은 마법 부여를 할 수 있습니다.",
+
+  "power.origins-classes.quality_equipment.name": "고품질 장비",
+  "power.origins-classes.quality_equipment.description": "당신이 만든 장비는 작은 버프를 제공합니다.",
+
+  "power.origins-classes.efficient_repairs.name": "효율적인 수리",
+  "power.origins-classes.efficient_repairs.description": "모루에서 장비를 수리할 때 재료가 덜 필요합니다. 장비를 결합하여 수리할 때 더 많은 내구도가 회복됩니다.",
+
+  "power.origins-classes.more_crop_drops.name": "풍성한 수확",
+  "power.origins-classes.more_crop_drops.description": "작물을 수확할 때 두 배의 수확량을 받을 확률이 있습니다.",
+
+  "power.origins-classes.better_bone_meal.name": "비료 기술",
+  "power.origins-classes.better_bone_meal.description": "뼛가루를 작물과 식물에 사용하면 숙련된 사람의 손에서 두 배 더 효과적입니다.",
+
+  "power.origins-classes.twin_breeding.name": "쌍둥이 출생",
+  "power.origins-classes.twin_breeding.description": "당신이 교배한 동물은 두 마리의 새끼를 낳을 확률이 있습니다.",
+
+  "power.origins-classes.more_animal_loot.name": "수집",
+  "power.origins-classes.more_animal_loot.description": "동물을 죽였을 때 더 많은 재료를 얻을 수 있습니다.",
+
+  "power.origins-classes.trade_availability.name": "재고 보충",
+  "power.origins-classes.trade_availability.description": "당신과 거래하는 주민은 당신을 위해 거래할 자원이 부족하지 않습니다.",
+
+  "power.origins-classes.rare_wandering_loot.name": "카리스마",
+  "power.origins-classes.rare_wandering_loot.description": "떠돌이 상인을 설득하여 희귀한 아이템을 제공받을 수 있습니다.",
+
+  "power.origins-classes.no_sprint_exhaustion.name": "건강",
+  "power.origins-classes.no_sprint_exhaustion.description": "달리기로는 지치지 않습니다.",
+
+  "power.origins-classes.explorer_kit.name": "탐험가 도구",
+  "power.origins-classes.explorer_kit.description": "게임을 시작할 때 나침반, 시계, 빈 지도 9장을 가지고 시작합니다.",
+
+  "power.origins-classes.no_mining_exhaustion.name": "경험 많은 채굴자",
+  "power.origins-classes.no_mining_exhaustion.description": "블록을 부수는 것으로는 지치지 않습니다.",
+
+  "power.origins-classes.more_stone_break_speed.name": "채굴 전문가",
+  "power.origins-classes.more_stone_break_speed.description": "곡괭이로 다른 사람보다 더 빨리 재료를 채굴합니다.",
+
+  "power.origins-classes.tree_felling.name": "나무 쓰러뜨리기",
+  "power.origins-classes.tree_felling.description": "웅크리지 않는 한, 나무 전체를 한 번에 베어버립니다.",
+
+  "power.origins-classes.more_planks_from_logs.name": "벌목",
+  "power.origins-classes.more_planks_from_logs.description": "원목 하나로 나무 판자를 두 개 더 얻습니다."
+}

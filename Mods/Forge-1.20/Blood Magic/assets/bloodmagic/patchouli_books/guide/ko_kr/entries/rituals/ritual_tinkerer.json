@@ -1,0 +1,25 @@
+{
+  "name": "의식 조작기",
+  "icon": "bloodmagic:ritualtinkerer",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)의식 조작기$()는 그들의 $(thing)의식$()에서 얻을 수 있는 모든 것을 찾고 있는 고급 혈 술사에게 필수적인 도구입니다. 여러분은 [$(k:sneak)] 및 [$(k:use)]를 눌러 세 가지 주요 모드로 전환할 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_reader"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)정보: $(thing)의식$()의 기능을 설명하며, $(l:bloodmagic:rituals/ritual_diviner)의식 탐지기$()와 유사합니다. $(li)소모 의지 설정: $(thing)의식$()이 $(l:bloodmagic:demon_will/will_manipulation/aura)오라$()에서 어떤 종류의 $(raw)악마의 의지$() (있을 경우)를 소모할지 지정합니다. 이를 위해 핫바에 $(item)악마의 의지 크리스탈$()을 종류 $(raw)의지$()마다 하나씩 가지고 다니세요. $(raw)악마의 의지$()가 $(thing)의식$()에 발휘하는 효과는 이 책의 각 $(thing)의식$() 페이지에서 찾을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)영역 정의: $(thing)의식$()이 작동해야 하는 영역을 지정하고 현재 영역을 표시합니다. 여러 영역을 지정할 수 있는 경우 $(item)마스터 의식 돌$()에 [$(k:sneak)] 및 [$(k:use)]를 누르면 이를 순환합니다. 일부 $(thing)의식$()은 기본 영역을 크게 넘어서 확장될 수 있지만, 이는 $(blood)LP$() 비용이 증가할 것임을 기억하세요..."
+    }
+  ]
+}
+

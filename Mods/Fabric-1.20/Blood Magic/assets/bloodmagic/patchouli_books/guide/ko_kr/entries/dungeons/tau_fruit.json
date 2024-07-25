@@ -1,0 +1,30 @@
+{
+  "name": "타우 열매",
+  "icon": "bloodmagic:weak_tau",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:weak_tau": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "타우 열매는 $(l:bloodmagic:dungeons/lobby)간단한 던전$() 내에서 찾을 수 있으며, 이후에는 재배할 수 있습니다. $(thing)악마의 영역$()의 원주민이므로 그 수명주기는 유감스럽게도 소박한 $(item)감자$()보다는 조금 더 복잡합니다. $(br2)타우 열매는 어떤 조건에서 육성되었느냐에 따라 두 가지 종류 중 하나로 성장합니다. 기본적으로 $(item)타우 열매$()로 자라며, $(item)타우 오일$()로 변환될 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "타우 오일",
+      "recipe": "bloodmagic:alchemytable/tau_oil",
+      "text": "$(italic)블러드 오렌지와 비슷한 맛이 나지만 다릅니다.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "타우 오일은 현재 주로 두 가지 용도가 있습니다. $(l:bloodmagic:alchemy_table/anointments)언오인트$()의 지속 시간을 네 배로 연장하거나, $(item)중급 절삭유$()를 제작하는 데 사용할 수 있습니다. 이는 $(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)기본 절삭유$()와 유사하지만 여덟 배 더 오래 지속되며 25% 속도 향상을 제공합니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:strong_tau",
+      "link_recipe": "true",
+      "text": "그러나 $(item)타우 열매는$()은 다른, 좀 더 도전적인 성장 경로를 가지고 있습니다. 식물이 성숙할 때 $(thing)몹$() (예: 소)이 그 위에 서 있는 경우, 식물은 그 엔티티에서 건강을 빼앗아 어두운 굶주림을 채우게 됩니다. 이 방식으로 $(item)성장한 타우 열매$()로 성장시킬 수 있습니다."
+    }
+  ]
+}

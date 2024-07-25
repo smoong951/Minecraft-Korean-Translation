@@ -1,0 +1,6 @@
+{
+"name": "던전 탐험",
+"description": "$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)숨겨진 영역의 경계$() 을(를) 수행하여 $(thing)악마의 영역.$() 에 발을 들이십시오. 이 위험한 곳은 위협, 함정, 그리고 보물로 가득 차 있습니다!",
+  "icon": "bloodmagic:simplekey",
+  "sortnum": 7
+}

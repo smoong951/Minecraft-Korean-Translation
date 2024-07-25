@@ -1,0 +1,25 @@
+{
+  "name": "용량의 룬",
+  "icon": "bloodmagic:altarcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)용량의 룬$()은 $(l:bloodmagic:altar/blood_altar)블러드 얼타$(/l)의 용량을 룬 당 누적된 +20%로 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)용량의 룬$()의 힘을 두 배로 늘릴 수 있습니다. 룬 당 $(l:bloodmagic:altar/blood_rune/capacity_rune)용량 룬$()의 용량을 누적된 +40%로 증가시킵니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/capacity",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}

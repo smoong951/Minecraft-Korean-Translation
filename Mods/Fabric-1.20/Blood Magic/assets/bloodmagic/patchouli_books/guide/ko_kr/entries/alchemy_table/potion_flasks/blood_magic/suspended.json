@@ -1,0 +1,21 @@
+{
+  "name": "서스펜디드",
+  "icon": "minecraft:cobweb",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)서스펜디드$()는 대상이 점프하거나 낙하하거나 어떤 방식으로든 중력에 영향을 받지 않도록 합니다. 그들은 여전히 움직일 수 있으며 마치 평면적이고 끝없는 얼음 위를 미끄러지는 것처럼 이동합니다. $(br2)이것은 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/gravity)중력$() 물약으로 만들어집니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "서스펜디드 (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity_to_suspended",
+      "b.heading": "서스펜디드 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_suspended",
+      "c.heading": "서스펜디드 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_suspended"
+    }
+  ]
+}
+

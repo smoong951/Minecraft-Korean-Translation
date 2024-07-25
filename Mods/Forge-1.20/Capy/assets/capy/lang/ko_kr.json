@@ -1,0 +1,16 @@
+{
+  "entity.capy.babycapybaraentity": "카피바라",
+  "entity.capy.capybaraentity": "카피바라",
+  "entity.capybara.babycapybaraentity": "카피바라",
+  "entity.capybara.capybaraentity": "카피바라",
+  "item.capy.babycapybaraentity_spawn_egg": "아기 카피바라 생성 알",
+  "item.capy.capybaraentity_spawn_egg": "카피바라 생성 알",
+  "item.capybara.babycapybaraentity_spawn_egg": "아기 카피바라 생성 알",
+  "item.capybara.capybaraentity_spawn_egg": "카피바라 생성 알",
+  "subtitles.ambient": "",
+  "subtitles.ambient1": "",
+  "subtitles.ambient_1": "",
+  "subtitles.ambient_2": "",
+  "subtitles.death": "카피바라가 죽음",
+  "subtitles.hurt": "카피바라가 상처를 입음"
+}

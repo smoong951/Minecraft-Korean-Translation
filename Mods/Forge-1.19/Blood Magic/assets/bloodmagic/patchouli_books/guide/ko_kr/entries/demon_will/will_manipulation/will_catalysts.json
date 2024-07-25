@@ -1,0 +1,69 @@
+{
+  "name": "의지 촉매",
+  "icon": "bloodmagic:rawcatalyst",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(raw)악마의 의지$()에 단점이 있다면, 그것은 수집이 느리고 지루한 과정이라는 것입니다. 거의 가득 찬 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()과 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()을 $(thing)Looting III$()으로 마법부여하고 $(l:bloodmagic:alchemy_table/anointments/looting_anointment)약탈 II$()로 더 강화하더라도 수동적인 과정이 남아 있으며, 거미를 덮쳐 때려잡거나 해골을 썰어버리는 것보다 더 나은 일이 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다행히도, 이 과정을 완전히 자동화하는 것이 가능하며, 여유 시간을 더 많이 확보할 수 있습니다. (또는 선호하는 경우에는 비트 농사로 돌아가도 괜찮습니다.) $(br2)첫 번째 단계는 일부 $(l:bloodmagic/demon_will/will_manipulation/crystallized_will)의지 크리스탈$()을 얻는 것입니다. 우리는 어떤 종류든 상관 없습니다 - $(raw)가공되지 않은$(),  $(steadfast)확고한$(), $(destructive)파괴적인$(), $(vengeful)복수심에 찬$() 또는 $(corrosive)부식의$() 의지, 단 같은 종류의 크리스탈이 4개 있다면 됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "가공되지 않은 크리스탈 군집",
+      "a.recipe": "bloodmagic:soulforge/raw_crystal_block",
+      "b.heading": "확고한 크리스탈 군집",
+      "b.recipe": "bloodmagic:soulforge/steadfast_crystal_block",
+      "c.heading": "파괴적인 크리스탈 군집",
+      "c.recipe": "bloodmagic:soulforge/destructive_crystal_block"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "복수심에 찬 크리스탈 군집",
+      "a.recipe": "bloodmagic:soulforge/vengeful_crystal_block",
+      "b.heading": "부식의 크리스탈 군집",
+      "b.recipe": "bloodmagic:soulforge/corrosive_crystal_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 군집을 얻으면, 어떤 청크에든 놓고 해당 종류의 의지를 청크에 공급하면 기다리기만 하면 됩니다. 결국 새로운 크리스탈이 자라날 것이며, 마치 $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)악마 결정기$() 위에 군집이 자라는 것과 같습니다. $(br2)이 추가적인 크리스탈을 깨는 것은 $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)깨진 수정의 틈$() 의식으로 자동화하고, 결과물 크리스탈을 $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)제피의 부름$() 의식으로 수집할 수도 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기본적인 $(l:bloodmagic:demon_will/item_routing/routing_nodes)라우팅 노드 시스템$()을 사용하면 이러한 초과된 크리스탈들을 $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)악마의 도가니$()에 다시 공급하여 완전 자동, 순수한 루프를 만들 수 있습니다. $(br2)그러나 여기에 약간의 문제가 있습니다 - 이 설정은 느립니다. 아주, 아주 느립니다. 각 크리스탈은 몇 분마다 한 번씩만 새로운 크리스탈을 뿌리며, 불태우기 위해 얻는 의지와 거의 같은 양의 의지가 필요합니다. 평균적으로 말하면, 1분에 1개의 의지 / 분 / 크리스탈 정도 나옵니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "가공되지 않은 의지 촉매",
+      "a.recipe": "bloodmagic:soulforge/raw_catalyst",
+      "b.heading": "확고한 의지 촉매",
+      "b.recipe": "bloodmagic:soulforge/steadfast_catalyst",
+      "c.heading": "파괴적인 의지 촉매",
+      "c.recipe": "bloodmagic:soulforge/destructive_catalyst"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "복수심에 찬 의지 촉매",
+      "a.recipe": "bloodmagic:soulforge/vengeful_catalyst",
+      "b.heading": "부식의 의지 촉매",
+      "b.recipe": "bloodmagic:soulforge/corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다행히도, 여기에서 새로운 친구들인 $(item)의지 촉매$()가 등장합니다. 이 촉매 중 하나를 들고 해당 종류의 $(thing)크리스탈 군집$()에서 [$(k:use)]를 누르면 성장이 가속 됩니다! 각 촉매는 새로운 크리스탈을 키우기 위해 필요한 의지 양을 45에서 단 25로 줄이고 성장 속도를 10배 높입니다. 각 용량은 10개의 첨탑 성장에 유효하며, 이로써 총 200의 의지 보너스를 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "크리스탈 군집에 이중 투입(두번 적용)할 수도 있습니다. 그러나 이로 인해 효과가 10이 아닌 20 성장까지만 지속되며 다른 혜택이 없습니다. $(br2)물론, 미묘한 혈 술사는 이것이 하나의 수동 문제 - 검으로 몬스터를 썰기위해 뛰어다니는 것 - 을 다른 문제로 대체한다는 것을 알아차릴 것입니다. - 촉매를 크리스탈에 뿌리며 뛰어다니는 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다행히도, 이에 대한 의식이 있습니다! $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)버림 받은 영혼의 수집$()은 영향 범위 내의 어떤 크리스탈에도 자동으로 촉매를 적용합니다. 몇 개의 농장과 매우, 매우 영리한 $(thing)라우팅 노드$() 설정으로 전체 과정을 자동화할 수 있습니다... 하지만 말하자면, 그건 독자에게 남겨진 과제입니다."
+    }
+  ]
+}
+
+

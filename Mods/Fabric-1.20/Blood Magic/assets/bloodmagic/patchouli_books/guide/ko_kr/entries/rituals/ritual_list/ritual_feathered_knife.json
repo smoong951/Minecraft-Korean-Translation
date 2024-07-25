@@ -1,0 +1,75 @@
+{
+  "name": "깃털 칼의 의식",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "깃털 칼의 의식",
+      "multiblock_id": "bloodmagic:feathered_knife",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)을 사용하면 쉽게 구성할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "feathered_knife",
+      "text_overrides": [
+        ["혈액", "blood"],
+        ["블러디 알터", "l:bloodmagic:altar/blood_altar"],
+        ["자기 희생 룬", "l:bloodmagic:altar/blood_rune/self_sacrifice_rune"],
+        ["튼튼한 손바닥", "l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough_palms"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "raw",
+      "text_overrides": [
+        ["가공되지 않은 의지", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["향로 보너스", "thing"],
+        ["향로", "l:bloodmagic:utility/incense_altar"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["불굴", "steadfast"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["파괴적인 의지", "destructive"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "altar",
+      "text_overrides": [
+        ["블러디 알터", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "damage"
+    }
+  ]
+}
+

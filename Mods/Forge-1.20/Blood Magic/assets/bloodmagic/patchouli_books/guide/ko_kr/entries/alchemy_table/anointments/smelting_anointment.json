@@ -1,0 +1,26 @@
+{
+  "name": "잔잔하게 타오르는 기름",
+  "icon": "bloodmagic:smelting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "잔잔하게 타오르는 기름",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment",
+      "text": "열을 이용하여 채취한 블록을 녹이는 데 사용됩니다. $(br2)유효한 아이템: 도구, 검, 차지. $(br2)적용: 가열된 도구 I (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "잔잔하게 타오르는 기름 L",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 가열된 도구 I (1024 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "잔잔하게 타오르는 기름 XL",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 가열된 도구 I (4096 블록)"
+    }
+  ]
+}
+

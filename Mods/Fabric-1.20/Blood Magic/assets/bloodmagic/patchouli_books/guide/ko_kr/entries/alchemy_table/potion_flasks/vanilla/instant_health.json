@@ -1,0 +1,21 @@
+{
+  "name": "즉시 회복",
+  "icon": "minecraft:glistering_melon_slice",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)즉시 회복$()은 대상을 레벨당 4포인트씩 치유합니다. 대상이 $(thing)언데드$()인 경우 레벨당 4포인트씩 피해를 입힙니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "즉시 회복",
+      "a.recipe": "bloodmagic:flask/health",
+      "b.heading": "즉시 회복 II",
+      "b.recipe": "bloodmagic:flask/potency_health",
+      "c.heading": "즉시 회복 III",
+      "c.recipe": "bloodmagic:flask/potency_average_health"
+    }
+  ]
+}
+

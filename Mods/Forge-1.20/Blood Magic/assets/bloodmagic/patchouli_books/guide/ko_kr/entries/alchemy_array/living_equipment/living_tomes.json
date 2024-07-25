@@ -1,0 +1,23 @@
+{
+  "name": "업그레이드 톰",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradetome": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)정화된 영혼 소리$()를 활성화하면 주변에 마법적인 $(item)톰$() 시리즈가 나타납니다. $(br2)[$(k:use)]를 누르면서 이 중 하나를 소지하면, 갑옷에 이 스킬의 한 레벨을 '가르칠' 수 있습니다 (충분한 여분의 포인트가 있다고 가정). [$(k:sneak)] 및 [$(k:use)]를 동시에 누르면 대신 톰에서 최대한의 경험치를 소모합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이렇게 하면 $(item)톰$()이 소모되고 그 안의 모든 경험치가 갑옷에 적용됩니다. - 단, 사용 가능한 $(thing)업그레이드 포인트$()가 충분하지 않은 경우에는 예외입니다. $(br2)이 경우 톰은 가능한만큼의 경험치를 적용하고 나머지를 저장합니다. - 단, 1 레벨 이상 남아 있지 않은 경우 톰은 파괴됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이것은 당신이 더 많이 보고 싶은 능력에 집중하고, 편리하게 덜 유용한 능력을 잊어버리는 훌륭한 방법입니다. $(br2)대안으로 다른 갑옷에 서로 다른 기술을 가르칠 수 있으므로 채광용, 전투용, 탐험용 등 다양한 용도의 갑옷을 가질 수 있습니다."
+    }
+  ]
+}  

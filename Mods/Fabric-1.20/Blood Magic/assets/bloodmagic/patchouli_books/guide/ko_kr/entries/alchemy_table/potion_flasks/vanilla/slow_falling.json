@@ -1,0 +1,21 @@
+{
+  "name": "느린 낙하",
+  "icon": "minecraft:phantom_membrane",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)느린 낙하$()는 대상이 천천히 낙하하고 낙하 피해를 입지 않도록 만듭니다. 마치 닭처럼 낙하하는 것과 유사합니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "느린 낙하 (3:00)",
+      "a.recipe": "bloodmagic:flask/slow_fall",
+      "b.heading": "느린 낙하 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_slow_fall",
+      "c.heading": "느린 낙하 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_slow_fall"
+    }
+  ]
+}
+

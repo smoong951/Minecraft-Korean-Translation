@@ -1,0 +1,25 @@
+{
+  "name": "공허 에센스",
+  "icon": "bloodmagic:voiding_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "공허 에센스",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment",
+      "text": "단순한 블록, 예를 들면 돌, 흙, 네더랙과 같은 것들을 채굴할 때 삭제됩니다. $(br2)유효한 아이템: 도구, 검, 차지. $(br2)적용: Voiding I (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "공허 에센스 L",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: Voiding I (1024 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "공허 에센스 XL",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: Voiding I (4096 블록)"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "라우팅 노드",
+  "icon": "bloodmagic:masterroutingnode",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "손으로 물건을 옮기는 것은 어떤 사람들에게는 괜찮을 수 있지만, 우리는 상그리맨서이다. 게다가, 우리는 $(raw)데몬 윌$()에 접근할 수 있습니다! 분명히 더 나은 방법이 있을 것입니다. $(br2)그러므로 당신은 $(thing)라우팅 노드$()를 창안했습니다. 이들은 아이템을 운반하고 정렬하며 필터링하여 당신이 지정하는 대로 마법처럼 공중으로 보냅니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)라우팅 노드 네트워크$()에는 3개의 주요 구성 요소가 있습니다: $(item)입력 노드$(), $(item)출력 노드$(), 그리고 $(item)마스터 라우팅 노드$(). $(br2)모든 네트워크는 정확히 1개의 $(item)마스터 라우팅 노드$()를 필요로 하며, 네트워크의 다른 모든 노드는 직접적으로든 다른 노드를 통해든 마스터까지의 경로를 추적해야 합니다. $(br2)입력 및 출력 노드는 각각 재고에 액세스 할 수 있는 블록에서 아이템을 인출하거나 삽입할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "마스터 라우팅 노드",
+      "recipe": "bloodmagic:soulforge/master_routing_node",
+      "text": "미래에 업그레이드를 받을 수 있지만 현재는 네트워크를 제어하고 지시하는 역할만 하며 '두뇌'로 작동합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)마스터 라우팅 노드$()는 괜찮지만, 다른 두 유형의 노드가 없으면 혼자서는 그다지 유용하지 않습니다. 그러니 다음으로 진행합시다. $(br2)$(item)입력 라우팅 노드$()는 네트워크로 아이템을 끌어들이고, $(item)출력 라우팅 노드$()는 다시 내보냅니다. 그리고 평범한 $(item)라우팅 노드$()는 네트워크의 범위를 확장하는 데 사용됩니다. 현재 입력 및 출력 노드는 그 외에는 동일하므로 특별히 명시하지 않는 한 입력 라우팅 노드에 중점을 둘 것입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "라우팅 노드",
+      "recipe": "bloodmagic:soulforge/routing_node",
+      "text": "혼자서는 많은 일을 하지 않지만, $(thing)라우팅 네트워크$()의 16 블록 범위를 넘어서기 위해 사용될 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "입력 라우팅 노드",
+      "a.recipe": "bloodmagic:soulforge/input_routing_node",
+      "b.heading": "출력 라우팅 노드",
+      "b.recipe": "bloodmagic:soulforge/output_routing_node"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "입력 또는 출력 노드를 설치하면 자동으로 $(thing)모든 인접한 재고$()에 연결되지만 적어도 한 쪽의 슬롯에 어떤 종류의 $(item)필터$()가 들어 있지 않으면 아무 일도 하지 않습니다. 예를 들어 $(item)Furnace$() 위에 $(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준 아이템 필터$()를 $(item)Iron Ore$()로 설정하고, 가장자리에선 석탄을 설정하고, 아래에는 철괴로 설정한 경우가 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_demo.png"
+      ],
+      "border": true,
+      "text": "현실 세계에서의 출력 노드."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_gui_right.png"
+      ],
+      "border": true,
+      "text": "노드 GUI를 열어 봅시다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "오른쪽에는 기본 방향이 있습니다 - $(bold)D$()own, $(bold)U$()p, $(bold)N$()orth, $(bold)S$()outh, $(bold)W$()est, 그리고 $(bold)E$()ast. 당신이 보낸 쪽에 첨부된 재고가없는 경우 아래로 열릴 것입니다. 버튼 자체는 플레이어가 향한 방향을 따르므로 상단 버튼은 '앞', 왼쪽 버튼은 '왼쪽' 등입니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/node_gui_left.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "왼쪽에는 선택한 쪽에 필터를 삽입할 수있는 공간과 우선 순위가 표시됩니다. 숫자가 클수록 중요합니다. $(br2)노드 당 한 쪽에 필터를 하나씩 가질 수 있으므로 원하는 쪽을 선택하고 해당 필터를 넣어야 합니다. (필터에 대한 자세한 내용은 '필터 기본' 참조)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "입력 및 출력 노드를 설정하고 $(l:bloodmagic:demon_will/item_routing/node_router)노드 라우터$()를 사용하여 네트워크에 정확히 1개의 $(item)마스터 라우팅 노드$()가 포함 된 네트워크에 함께 연결되어 연결되었고 올바른 쪽에 아이템 필터가 삽입되면 준비가 된 것입니다! 아이템은 필터 내의 우선 순위와 규칙에 따라 라우팅됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/network_demo.png"
+      ],
+      "border": true,
+      "text": "노드는 반드시 $(item)마스터 라우팅 노드$()에 직접 연결되지 않아도 네트워크의 모든 노드에 연결될 수 있습니다."
+    }
+  ]
+}
+

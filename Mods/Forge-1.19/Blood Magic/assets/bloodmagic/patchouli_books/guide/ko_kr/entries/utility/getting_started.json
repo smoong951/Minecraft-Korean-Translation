@@ -1,0 +1,85 @@
+{
+  "name": "단계 및 시작하기",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)블러디 매직 3$()의 진행은 아직 재작업 중이며 처음 몇 단계는 $(blood)블러디 매직 2$()와 크게 다릅니다. $(br2)우리는 여전히 가이드를 다듬고 있지만 진행이 확정되기를 기다리고 있습니다. 그 동안에는 $(blood)블러디 매직 3$()에서 어떻게 진행되는지 간단한 개요입니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:altar",
+      "title": "블러디 알터 (1단계)",
+      "text": "$(blood)블러디 매직$()의 첫 번째 단계는 $(l:bloodmagic:altar/blood_altar)블러디 알터$()과 $(l:bloodmagic:altar/blood_altar#knife)희생의 칼$()을 건설하는 것입니다. 이를 사용하여 자기 희생에서 $(blood)LP$()를 생성합니다.$(br2)이 $(blood)LP$()를 사용하여 $(l:bloodmagic:altar/soul_network)초보자의 블러디 오브$(), 여러 개의 $(l:bloodmagic:altar/slates)빈 슬레이트$() 및 몇 개의 $(l:bloodmagic:demon_will/will_manipulation/soul_snare)영혼 올가미$()를 제작하세요."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "연금 테이블 (1단계)",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)연금 테이블$()은 플레이어의 $(thing)영혼 네트워크$()에서 $(blood)LP$()를 사용하여 다양한 객체를 제작하는 데 사용됩니다. 이에는 다음이 포함됩니다:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)신비한 재$()$(li)$(item)시질용 재료$()$(li)$(l:bloodmagic:alchemy_table/anointments)윤곽선$()$(li)$(thing)2배 광물 처리$()$(li)그리고 기타 여러가지 물건들."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "연금 배열 (1단계)",
+      "text": "$(thing)연금 배열$()은 지면에 $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)신비한 재$()를 놓아서 만듭니다. 연금 배열에는 [$(k:use)]를 통해 2개의 $(item)아이템$()을 삽입할 수 있으며, $(item)아이템$() (예: $(l:bloodmagic:alchemy_array/sigil/divination)점술 시질$())을 제작하거나 $(thing)일종의 기능$() (예: $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)낮을 밤으로 변경$())을 수행할 것입니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "헬파이어 포지 (1단계)",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$()는 $(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$()를 사용하여 제작됩니다. 첫 번째 $(raw)의지$()은 $(l:bloodmagic:demon_will/will_manipulation/soul_snare)영혼 올가미$()를 사용하여 획득하지만, $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()으로 업그레이드하는 것이 좋습니다. $(item)헬파이어 포지$()는 $(raw)악마의 의지$()과 관련된 것들에 직접 사용되며 ($(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$() 및 $(l:bloodmagic:demon_will/demonic_items/sentient_tools)지각이 깃든 도구$()) 및 소비품 ($(l:bloodmagic:demon_will/demonic_items/explosive_charges)폭발성 폭약$() 및 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)투척 단검$())과 관련이 있습니다."
+    },
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:daggerofsacrifice",
+  "title": "2단계",
+  "text": "이 시점에서 $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)희생용 단검$()을 제작하여 몹을 도살하여 더 많은 $(blood)LP$()를 얻을 수 있게 될 것입니다. 여러 $(item)업그레이드 룬$()이 $(item)블러디 알터$()에 사용 가능하며 몇 가지 추가 $(item)시질$()도 사용 가능할 것입니다. 이전과 마찬가지로 $(l:bloodmagic:altar/blood_altar)알터$()을 더욱 업그레이드하는 데 중점을 두어야 합니다."
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:alchemy_flask",
+  "title": "포션 제조 (2단계)",
+  "text": "$(l:bloodmagic:altar/blood_altar)알터$()을 건설하는 것이 지루해지고 새로운 $(l:bloodmagic:alchemy_table/potions)포션 제조$() 시스템을 시도하고 싶다면 어떨까요? 여러분은 $(thing)연금 플라스크$()를 제작하고 수십 가지 효과를 부여할 수 있을 것입니다."
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:ritualdiviner",
+  "title": "3단계",
+  "text": "이 시점에서 여러분은 기본적인 $(l:bloodmagic:rituals/ritual_basics)의식$()과 $(l:bloodmagic:alchemy_array/living_equipment/living_basics)리빙 아머$()를 만들 수 있을 것입니다. 이 갑옷은 매우 다양하게 사용할 수 있지만 그 전체 잠재력을 해금하려면 노력해야 합니다. 이 시점에서 여러분은 $(l:bloodmagic:altar/blood_altar)알터$()과 여러분의 $(l:bloodmagic:rituals/ritual_diviner)의식 탐지기$()를 업그레이드하여 더 강력한 $(thing)의식$()을 해금해야 할 것입니다. 어떻게, 묻으셨다고요?"
+},
+
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:simplekey",
+  "title": "던전 탐험 (3단계)",
+  "text": " $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)은 숨겨진 영역의 경계$()를 수행하면 가능합니다! 이를 통해 여러분은 $(thing)악마의 영역$()에 제한된 액세스 권한을 부여받게 될 것이며, 희망적으로는 $(l:bloodmagic:dungeons/tau_fruit)타우 열매$()에 접근할 수 있을 것입니다. 이 열매는 $(thing)강화된 타우 열매$()로 재배되고, 그 후에는 $(item)약한 피의 파편$()으로 변환되어 $(l:bloodmagic:utility/alchemical_reaction_chamber)연금 반응 챔버$()에서 사용됩니다. 이것들은 티어 4 알터, 더 강력한 $(l:bloodmagic:alchemy_table/anointments)윤곽선$(), 그리고 $(l:bloodmagic:alchemy_table/potions#average_potions)포션 촉매$()를 만드는 데 사용될 수 있습니다."
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:vengefulcrystal",
+  "title": "4단계",
+  "text": "여러분은 $(l:bloodmagic:rituals/ritual_tinkerer)의식 조작기$()와 여러 종류의 $(l:bloodmagic:demon_will/will_manipulation/aspected_will)지식 측면$()을 살펴보고, 기존 의식을 정제하고 $(l:bloodmagic:demon_will/demonic_items/sentient_tools)지각이 깃든 도구$()와 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)무기$()의 작동 방식을 변경하는 데 어떻게 사용될 수 있는지 고려해볼 가치가 있습니다. 그러나 이 지점을 넘어가려면 $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)악마의 영역$()에 진입해야 할 것입니다..."
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:mineentrancekey",
+  "title": "악마의 영역 (4단계)",
+  "text": "$(thing)끝없는 영역으로의 길$()을 수행함으로써 여러분은 $(thing)악마의 영역$()에 완전히 접근할 수 있으며 그 안에 모든 보물과 공포에 접근할 수 있습니다. 전투 준비를 갖추세요! 깊이 파고들면 $(l:bloodmagic:dungeons/demonite)악마 광석$()의 풍부한 근원을 찾을 수 있으며, 이 광석은 여러분의 알터의 최상단에 사용되는 캡스톤과 함께 $(item)대마법사의 블러디 오브$()를 만들기 위해 일부 $(item)네더라이트 조각$()과 결합될 수 있습니다."
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "bloodmagic:ingot_hellforged",
+  "title": "5단계",
+  "text": "이것은 최고 단계입니다. 이 시점에서 여러분은 $(blood)블러디 매직$()이 제공하는 모든 것에 액세스할 수 있습니다. 악마의 영역을 계속해서 탐험하면 희귀한 보물을 찾을 수 있으며, 행운이 좋으면 $(item)정교한 지옥주조 부품$()을 찾을 수 있습니다. 이 부품은 $(item)네더라이트 스크랩$()과 함께 사용되어 여러분의 알터의 각 룬의 힘을 두 배로 증가시킬 수 있습니다!"
+},
+{
+  "type": "patchouli:spotlight",
+  "item": "minecraft:barrier",
+  "title": "티어 6?",
+  "text": "뭐라고요? 아니요. 1.12에서도 팩 메이커들에게 은혜로 존재했지만 그 이외에는 구현되지 않았습니다. 너무 멀리 왔습니다. 한 페이지 뒤로 돌아가세요."
+}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Anointments(세례)",
+  "description": "",
+  "icon": "bloodmagic:smelting_anointment",
+  "parent": "bloodmagic:alchemy_table"
+}

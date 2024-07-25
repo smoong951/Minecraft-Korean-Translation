@@ -1,0 +1,53 @@
+{
+  "name": "의식 탐지기",
+  "icon": "bloodmagic:ritualdiviner",
+  "category": "bloodmagic:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "의식을 구성하는 것은 복잡한 일입니다. 올바른 $(item)문자 도구$()를 갖고 있더라도 룬 획득을 어떻게하느냐에 따라서 진행이 될수도 안될수도 있습니다. 다행히도 $(item)의식 탐지기$()가 도움을 줍니다. $(br2)[$(k:sneak)]을 누른 채로 공중을 바라보며 [$(k:use)] 또는 [$(k:attack)]를 눌러 사용 가능한 의식을 양방향으로 순환시킬 수 있습니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_0",
+      "text": "단순히 손에 든 상태로 [$(k:use)]를 탭하면 $(item)마스터 의식 돌$()을 보고 선택한 의식으로 현재 의식을 구성합니다. 마치 마법 같지 않나요!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "의식 탐지기는 대체 가능한 블록(높은 풀, 눈 등)은 깰 수 있지만 돌 또는 흙과 같은 단단한 블록은 깰 수 없습니다. 따라서 건설을 시작하기 전에 영역을 청소해야 하며, 그렇지 않으면 $(l:bloodmagic:rituals/activation_crystals)활성화 크리스탈$()이 작동하지 않을 것입니다. $(br2)기본 의식 탐지기는 일부 기본 의식만 생성할 수 있습니다. 지팡이를 최대한 활용하려면 $(dusk)황혼 문자 도구$()로 업그레이드해야 합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_diviner_1",
+      "anchor": "dusk",
+      "text": "원소 문자 도구와 달리 의식 탐지기 및 의식 탐지기 [황혼]은 절대 소모되지 않습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "기본 의식 탐지기는 각각의 $(item)원소 문자 도구$()를 하나씩 사용하여 제작되며, 따라서 3단계 $(l:bloodmagic:altar/blood_altar)피 제단$(/l)이 필요합니다. $(br2)네 가지 기본 원소 문자 도구는 각각 $(blood)1,000 LP$()로 제작할 수 있습니다. 다음 페이지에서 정의된 대로 의식 탐지기 [황혼]는 각각 $(blood)2,000 LP$()의 비용으로 4단계 피 제단에서 두 개의 황혼 원소 문자 도구를 만들어야 합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 도구를 사용하여 룬을 수기로 새길 수도 있지만, 이는 주로 장식 목적으로 사용되어야 하며 느리고 정확하지 않습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "문자 도구: 바람",
+      "a.recipe": "bloodmagic:altar/air_tool",
+      "b.heading": "문자 도구: 불",
+      "b.recipe": "bloodmagic:altar/fire_tool"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "문자 도구: 물",
+      "a.recipe": "bloodmagic:altar/water_tool",
+      "b.heading": "문자 도구: 대지",
+      "b.recipe": "bloodmagic:altar/earth_tool"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "문자 도구: 황혼",
+      "recipe": "bloodmagic:altar/dusk_tool"
+    }
+  ]
+}

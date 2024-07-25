@@ -1,0 +1,109 @@
+{
+  "name": "고동치는 모루의 리듬",
+  "icon": "minecraft:crafting_table",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "고동치는 모루의 리듬",
+      "multiblock_id": "bloodmagic:crafting",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crafting",
+      "text_overrides": [
+        ["아이템 필터", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "$(thing)고동치는 모루의 리듬$(br2)은 표준 제작 레시피와 $(l:bloodmagic:alchemy_table/alchemy_table)연금술 테이블$() 또는 $(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$() (적절한 강화이 되었다면)를 사용하여 자동으로 제작할 수 있는 강력하고 다재다능한 의식입니다. 그러나 조금 복잡할 수 있으므로 다음은 설정하는 방법에 대한 자습서입니다. $(br2)각 의식은 정확히 하나의 레시피를 처리할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "우선 의식이 제작할 레시피를 지정해야 합니다. 이것은 아이템 필터를 사용하여 수행됩니다. $(br2)여러 유형의 아이템 필터를 사용할 수 있지만 의식은 한 번에 하나의 필터 만 수용합니다. 추가 필터는 무시됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다음 필터를 사용할 수 있습니다: $(li)표준 아이템 필터: 각 슬롯에 사용할 아이템을 정확하게 지정합니다. $(li)태그 아이템 필터: 아이템 사용을 지정하는 데 $(thing)태그$()를 사용합니다. 예를 들어 레시피가 어떤 종류의 돌이든 필요로 하는 경우 (안드 사이트, 화강암 등과 작동 함), 필터에 forge:stone을 사용할 수 있습니다. $(li)모드 아이템 필터: 이 슬롯에 모드에서 아이템을 사용하려고 시도합니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/filter_pickaxe.png"
+      ],
+      "title": "샘플 필터",
+      "border": true,
+      "text": "$(item)돌 곡괭이$(br)를 자동으로 제작하도록 구성된 표준 아이템 필터."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다음으로 아이템 필터를 의식에 배치해야 합니다. 이 이미지에서는 $(item)아이템 프레임$()을 사용했지만 대신 상자를 사용할 수 있습니다. 참고로 상자에 여러 $(item)필터$()를 넣으면 첫 번째 것만 사용됩니다. $(br2)기본적으로 입력 상자와 출력 상자는 동일한 위치에 있지만, $(l:bloodmagic/rituals/ritual_tinkerer)의식 수선공$()을 사용하여 변경할 수 있습니다. 이는 혈구 등과 같은 일부 구성 요소를 재사용하는 레시피에 유용할 수 있습니다.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/default_placement.png",
+        "bloodmagic:images/entries/ritual/autocraft/optional_placement.png"
+      ],
+      "title": "배치된 필터",
+      "border": true,
+      "text": "보통 위치에있는 필터와 상자 및 입력 상자 및 출력 상자가있는 $(l:bloodmagic/rituals/ritual_tinkerer)수선된$() 의식"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "의식에 $(steadfast)불굴$() 또는 $(corrosive)부식$() 의 의지을 공급하면 의식은 대신 연결된 $(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$() 또는 $(l:bloodmagic:alchemy_table/alchemy_table)연금술 테이블$()을 사용하여 자동으로 제작을 시도합니다. 이 레시피는 모두 형태가 없지만 항목이 2 개 필요한 경우 필터에 두 번 지정해야합니다.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/catalyst_recipe.png"
+      ],
+      "title": "연금술 필터",
+      "border": true,
+      "text": "$(l:bloodmagic:alchemy_table/potions)간단한 촉매$()를 제작하기위한 구성된 필터."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "recipeRange",
+      "text_overrides": [
+        ["아이템 필터", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "$(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준$(br), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)태그$(), 및 $(l:bloodmagic:demon_will/item_routing/mod_item_filter)모드 아이템 필터$()를 지원합니다."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "inputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputFilterRange",
+      "text_overrides": [
+        ["필터", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "$(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준$(br), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)태그$(), 및 $(l:bloodmagic:demon_will/item_routing/mod_item_filter)모드 아이템 필터$()를 지원합니다."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "hellforgedRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "corrosive"
+    }
+  ]
+}
+

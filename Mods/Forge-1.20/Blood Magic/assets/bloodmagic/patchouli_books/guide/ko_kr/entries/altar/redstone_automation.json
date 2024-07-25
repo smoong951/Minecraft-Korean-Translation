@@ -1,0 +1,31 @@
+{
+  "name": "레드스톤과 자동화",
+  "icon": "minecraft:redstone",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)혈액 제단$()은 환상적인 도구입니다만, 돌을 제작하는 동안 서 있어서 기다리는 것은 여러분이 즐기는 방식이 아닐 것입니다. 다행히, 아이템과 $(blood)LP$()는 제단에 자동으로 공급 및 반출될 수 있지만, 몇 가지 주의 사항이 있습니다. $(br2)간단한 $(item)호퍼$()를 사용하여 아이템을 투입할 수 있지만, 제단은 1회 이상 입력되지 않도록 막지 않습니다. 한 번에 64개의 슬레이트를 제작합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이는 평소보다 64배 많은 $(blood)LP$()를 소비하여 수행되지만, 충분히 빠른 속도로 $(blood)LP$()를 공급할 수 없다면 문제가 발생할 수 있습니다. $(br2)또한 제단은 입력과 출력 간에 구분을하지 않으므로 일종의 필터 없이 항목이 꺼내지고 넣어집니다. 어쩌면 $(l:bloodmagic:demon_will/item_routing/routing_nodes)라우팅 노드$()를 살펴보는 것이 도움이 될 수 있을 것입니다..."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "제단은 또한 외부 탱크로부터 $(blood)생명 정수$()의 전송을 지원합니다. 간단히 원하는 유체 파이프를 연결하면 초과된 $(blood)생명 정수$()를 나중에 사용하기 위해 저장할 수 있습니다. $(br2)전송 속도는 기본적으로 매우 느립니다. 속도를 올리려면 $(l:bloodmagic:altar/blood_rune/acceleration_rune)가속 룬$()과 $(l:bloodmagic:altar/blood_rune/dislocation_rune)이동 룬$()을 살펴보는 것이 좋습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 $(blood)생명 정수$()는 직접 $(l:bloodmagic:altar/blood_altar)제단$()에서 가져오는 것이 아니라 두 번째, 비밀의 내부 탱크에서 가져옵니다. 이 탱크는 제단 자체의 $(blood)생명 정수$()의 $(thing)최대 10%$()를 보유할 수 있으므로 숫자가 완벽하게 맞지 않아 보이거나 $(blood)생명 정수$()가 제단에서 사라지는 것처럼 보인다면 아마도 여기로 가고 있는 것입니다. 동일한 제한이 $(blood)생명 정수$()가 파이프로 공급되는 경우에도 적용됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "제단에 있는 $(blood)생명 정수$()의 양은 측면에 있는 비교기를 통해 읽을 수 있습니다. 이는 바닐라 상자와 유사하게 작동합니다. $(br2)제단 아래에 $(item)Bloodstone Brick$()을 놓으면 비교기는 제단에 넣은 오브의 소유자의 $(l:bloodmagic:altar/soul_network)영혼 네트워크$(/l) 값을 읽습니다. $(br2)신호 강도는 오브가 제단에 있는 오브의 크기에 따라 달라지며 최대 $(blood)LP$()가 아닙니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "예를 들어 $(blood)500,000 LP$()가 있다면 약한 혈액 오브는 완전히 가득 찬 것처럼 표시되지만 마스터 혈액 오브는 반만 차 있는 것으로 나타납니다. 이를 사용하여 $(blood)LP$()가 부족할 때 특정 의식을 비활성화하여 부족하지 않도록 할 수 있습니다. $(br2)마지막으로 제단 아래에 $(item)Redstone Lamp$()를 놓으면 제작 작업이 완료되면 레드스톤 신호를 출력합니다."
+    }
+  ]
+}

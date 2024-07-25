@@ -1,0 +1,14 @@
+{
+  "name": "얼어붙은 호수의 시길 [NYI]",
+  "icon": "bloodmagic:icesigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "extra_recipe_mappings": {
+    "bloodmagic:icesigil": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "[제작 진행 중]$(br)[아직 구현되지 않음]$(br2)얼음 걷기 마법을 부적으로 구현하는 중."
+    }
+  ]
+}

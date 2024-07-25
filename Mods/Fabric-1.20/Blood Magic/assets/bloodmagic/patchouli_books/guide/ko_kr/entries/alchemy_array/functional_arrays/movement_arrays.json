@@ -1,0 +1,20 @@
+{
+  "name": "이동 어레이",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이동 어레이는 플레이어, 몹, 아이템 등을 특정 방향으로 던지는 두 개의 어레이입니다. 하나는 아이템을 수평으로 던지고, 다른 하나는 수직으로 던집니다."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "Speed Array",
+      "a.recipe": "bloodmagic:array/movement",
+      "a.image": "movementarray.png",
+      "b.heading": "Updraft Array",
+      "b.recipe": "bloodmagic:array/updraft",
+      "b.image": "updraftarray.png"
+    }
+  ]
+}

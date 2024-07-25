@@ -1,0 +1,6 @@
+{
+  "name": "의식 목록",
+  "description": "일부 간단한 $(thing)의식$()은 3단계 $(l:bloodmagic:altar/blood_altar)피의 제단$()을 보유할 때 사용할 수 있지만, 더 고급진 것들은 $(dusk)황혼 룬$()과 따라서 4단계 제단이 필요합니다. $(br2)의식을 조립하려면 $(item)의식 지배자$()를 사용하고, 활성화하려면 $(item)활성화 크리스탈$()을 사용하며, 미세 조정하려면 $(item)의식 수선공$()을 사용하세요. $(thing)영혼 네트워크$()를 잊지 말고 항상 유지하세요!",
+  "icon": "bloodmagic:masterritualstone",
+  "parent": "bloodmagic:rituals"
+}

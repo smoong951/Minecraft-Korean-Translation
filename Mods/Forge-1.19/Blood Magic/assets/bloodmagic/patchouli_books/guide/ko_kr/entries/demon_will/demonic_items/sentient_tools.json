@@ -1,0 +1,48 @@
+{
+  "name": "지각이 깃든 도구",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()은 확실한 성공을 거뒀습니다. 다른 도구들이 이와 유사한 치료에 어떻게 반응할지 궁금해집니다... $(br2) 주목할 점은 이러한 도구들이 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()과 마찬가지로 모루에서 $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)결정화된 의지$()로 수리될 수 있다는 것입니다. $(br2)지각이 깃든 도구와 무기는 모두 강력한 마법부여가 가능하다는 것을 말했던가요?"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "지각이 깃든 곡괭이",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "이 곡괭이는 의지과 함께 사용될수록 돌을 쉽게 깎아내립니다. 윌이 없으면 제작된 철 곡괭이보다 약간 좋을 뿐입니다. 그러나 충분한 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()이 있다면 $(item)네더라이트 곡괭이$()조차 능가할 것으로 예상됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)지각이 깃든 낫$()은 철의 상당한 변형된 도구입니다. 여기에 윌을 주입하면 두려운 무기로 변신합니다. 느리지만 다른 무기만큼 강력하지는 않지만, 큰 스윙으로 범위 내의 모든 적에게 완전한 데미지를 입힐 수 있어, 군중 제어에 탁월한 선택입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "지각이 깃든 낫",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "text": "곡괭이와 마찬가지로, 윌이 없으면 낫은 비교적 무딘 상태로 날카롭지 않고 다루기 어렵습니다. 그러나 충분한 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()이 있다면 엄청난 효과적인 도구로 변할 것으로 예상됩니다. $(br)언급했었나요? 이것은 여전히 괭이로서 작동합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)지각이 깃든 도끼$()는 $(item)철 도끼$()보다 뚜렷한 개선이 있습니다. 게다가 데미지 출력도 상당히 증가하여, 손쉽게 다루기 어려운 특성을 가진 강력한 무기가 됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "지각이 깃든 도끼",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "곡괭이와 마찬가지로, 윌이 없으면 도끼는 제작된 $(item)철 도끼$()보다 약간 좋을 뿐입니다. 그러나 충분한 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()이 있다면 $(item)네더라이트 도끼$()조차 능가할 것으로 예상됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)지각이 깃든 삽$()은 $(item)철 삽$()보다 뚜렷한 개선이 있습니다. 추가적인 $(l:bloodmagic:demon_will/will_manipulation/demon_will)악마 의지$() 없이도 더 효율적으로 사용할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "지각이 깃든 삽",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "곡괭이와 마찬가지로, 윌이 없으면 삽은 제작된 $(item)철 삽$()보다 약간 좋을 뿐입니다. 그러나 충분한 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()이 있다면 $(item)네더라이트 삽$()조차 능가할 것으로 예상됩니다."
+    }
+  ]
+}
+

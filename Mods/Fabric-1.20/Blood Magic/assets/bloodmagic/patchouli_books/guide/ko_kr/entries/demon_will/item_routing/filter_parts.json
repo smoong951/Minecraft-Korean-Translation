@@ -1,0 +1,14 @@
+{
+  "name": "필터 부품",
+  "icon": "bloodmagic:componentframeparts",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "필터 부품",
+      "recipe": "bloodmagic:alchemytable/component_frame_parts",
+      "text": "$(item)필터 부품$()은 모든 $(item)필터$()의 필수 구성 요소입니다. 그들 자체로는 사용되지 않습니다."
+    }
+  ]
+}
+

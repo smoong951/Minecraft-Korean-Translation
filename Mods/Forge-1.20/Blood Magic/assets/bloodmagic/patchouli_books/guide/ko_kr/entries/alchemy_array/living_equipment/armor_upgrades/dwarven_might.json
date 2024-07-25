@@ -1,0 +1,15 @@
+{
+  "name": "드워프의 힘",
+"icon": "minecraft:diamond_pickaxe",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 동일한 블록을 캐는 동안 채굴 속도를 증가시킵니다. 일정 레벨 이상이 되면 블록 파괴 후 헤이스트 버프를 부여합니다. $(br2)훈련 방법: 채굴. $(br2)최대 레벨: 10"
+  },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:digging"
+    }
+  ]
+}

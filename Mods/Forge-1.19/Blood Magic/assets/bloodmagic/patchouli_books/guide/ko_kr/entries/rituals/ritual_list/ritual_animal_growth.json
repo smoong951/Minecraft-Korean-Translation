@@ -1,0 +1,55 @@
+{
+  "name": "목자의 의식",
+  "icon": "minecraft:white_wool",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "목자의 의식",
+      "multiblock_id": "bloodmagic:animal_growth",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "animal_growth"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "raw",
+      "text_overrides": [
+        ["가공되지않은", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["상자", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "growing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "chest",
+      "text": "$(steadfast)불굴의 의지$()가 필요합니다."
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "신비",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "신비",
+      "recipe": "bloodmagic:alchemytable/upgrade_brilliance",
+      "text": "효과: 갑옷 방어력을 향상시킵니다. +5 갑옷 및 +8 강인함까지 상한이 있습니다. $(br2)훈련: 연금 테이블에서 살아있는 서적을 제작합니다. 각 서적은 신비의 1 레벨을 추가합니다. $(br2)최대 레벨: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:diamond_protect"
+    }
+  ]
+}

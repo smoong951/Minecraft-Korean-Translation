@@ -1,0 +1,61 @@
+{
+  "name": "연금술 반응 챔버",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+     {
+      "type": "patchouli:text",
+      "text": "$(item)연금술 반응 챔버$()는 완전히 구현되지 않았지만, 다른 기능들 중에서는 $(thing)화로$()로 작동할 수 있으며, $(l:bloodmagic:utility/ore_processing)광석 불리기$()의 형태를 제공하며, $(l:bloodmagic:altar/soul_network)블러디 오브$()를 되돌릴 수 있으며, $(item)네더라이트$() 및 $(item)강화된 룬$()을 되돌릴 수 있으며, 현재는 $(l:bloodmagic:dungeons/tau_fruit)성장한 타우$()에서 $(blood)약한 피의 파편$()을 얻을 수 있는 유일한 방법입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "혈기 되돌리기",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+	  "anchor": "blood_shard",
+      "text": "$(item)혈기 되돌리기$()는 $(blood)약한 혈의 파편$()을 만들고, $(l:bloodmagic:altar/soul_network)블러디 오브$(), $(item)네더라이트$(), $(item)강화된 룬$()을 해당 제작 아이템으로 되돌릴 때 사용됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "약한 피의 파편",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "초보자용 블러디 오브 되돌리기",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "견습생 블러디 오브 되돌리기",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "마법사 블러디 오브 되돌리기",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "대마법사의 블러디 오브 되돌리기",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "네더라이트 되돌리기",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "강화된 룬 되돌리기",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "이 방법으로 모든 강화된 룬을 되돌릴 수 있습니다. 이것은 단지 데모입니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "가습 셀",
+      "recipe": "bloodmagic:primitive_hydration_cell",
+      "text": "가습 셀은 균형의 중추, 진흙을 만드는 데 사용됩니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "모래에서 진흙으로",
+      "a.recipe": "bloodmagic:arc/clay_from_sand",
+      "a.fluid_input": "minecraft:water_bucket",
+      "b.heading": "테라코타에서 진흙으로",
+      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
+      "b.fluid_input": "minecraft:water_bucket"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "무거운 영혼의 속죄",
+  "icon": "bloodmagic:upgradescraps",
+  "category": "bloodmagic:rituals/ritual_list",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradescraps": 5
+  },
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "무거운 영혼의 속죄",
+      "multiblock_id": "bloodmagic:downgrade",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "downgrade"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "downgrades",
+      "text": "이 의식은 여분의 $(thing)Upgrade Points$() (톰, 조각, 합성 업그레이드 포인트의 형태로)를 소비하여 $(l:bloodmagic:alchemy_array/living_equipment/living_basics)살아있는 갑옷$()에 다운그레이드를 적용합니다. 이 다운그레이드는 여러분의 능력을 엄격하게 제한하지만 훨씬 더 특수화된 플레이를 가능케하며, 이전에는 불가능했던 다양한 $(thing)업그레이드 포인트$()를 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:synthetic_point",
+      "text": "여분의 포인트가 부족하면 합성 업그레이드 포인트를 제작할 수 있습니다. 각각의 이것은 하나의 업그레이드 포인트와 동일합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "의식을 사용하려면 간단히 톰 (또는 다운그레이드에 필요한 특정 아이템)과 $(item)살아있는 갑옷$()를 착용한 채로 이전 페이지에서 볼 수 있는 상자에 필요한 아이템을 넣어두십시오. 의식은 포인트를 소비하고 갑옷에 다운그레이드를 적용합니다. 소비 순서는 $(item)살아있는 갑옷 업그레이드 스크랩$() → $(item)살아있는 갑옷의 업그레이드 톰$() → $(item)업그레이드 포인트$()입니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradescraps",
+      "title": "LA(Living Armour) 업그레이드 스크랩",
+      "text": "여분의 포인트는 $(item)살아있는 갑옷 업그레이드 스크랩$()의 형태로 반환됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "갑옷에 적용되는 다운그레이드는 상자에 어떤 아이템을 넣었느냐에 따라 달라집니다. 특정 다운그레이드에 일치하는 각 아이템은 해당 다운그레이드의 레벨을 1 증가시킵니다. 이 방식으로 단일 의식 활성화로 여러 다운그레이드를 동시에 적용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "의식은 여러분이 $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)살아있는 갑옷 트레이닝 브레이슬릿$()에서 구성한 설정을 존중하며, '다른 업그레이드 허용하지 않음'으로 설정했다면 의식은 다운그레이드를 적용하지 않습니다. 의심스러우면 트레이닝 팔찌를 떼어놓으세요!"
+    }
+  ]
+}
+

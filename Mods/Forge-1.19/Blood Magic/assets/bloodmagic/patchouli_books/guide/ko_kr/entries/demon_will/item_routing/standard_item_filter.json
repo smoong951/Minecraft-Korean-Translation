@@ -1,0 +1,32 @@
+{
+  "name": "표준 아이템 필터",
+  "icon": "bloodmagic:itemrouterfilterexact",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "표준 아이템 필터를 사용하면 $(l:bloodmagic:demon_will/item_routing/routing_nodes)라우팅 노드$()에 삽입할 때 인접한 인벤토리에서 인출하거나 삽입할 최대 9개의 항목을 선택할 수 있습니다. $(br2)각 항목에는 수량이 있으며, 이를 비워 두면 기본값으로 '모두'가 됩니다. $(br2)필터에는 허용 및 거부 기능이 있습니다. 거부 모드에서는 수량이 무시됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "표준 아이템 필터",
+      "recipe": "bloodmagic:alchemytable/router_filter",
+      "text": "$(br)$(item)Input Routing Node$()에서 사용할 때 수량은 노드에게 선택한 인벤토리에 해당 항목을 몇 개 남길지 알려줍니다. 이 수량을 초과하는 모든 항목은 네트워크로 가져옵니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Output Routing Node$()에서 사용할 때 수량은 노드에게 선택한 인벤토리를 해당 항목으로 얼마나 채울지 알려줍니다. 이 수량을 초과하는 모든 항목은 네트워크에 남아 있습니다. 다른 유효한 인벤토리로 전달되거나 그대로 남을 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
+      ],
+      "title": "표준 아이템 필터 GUI",
+      "border": true,
+      "text": "구성된 필터의 GUI 및 마우스 오버 텍스트."
+    }
+  ]
+}
+

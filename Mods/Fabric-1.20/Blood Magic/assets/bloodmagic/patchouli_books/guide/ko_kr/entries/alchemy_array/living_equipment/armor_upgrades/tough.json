@@ -1,0 +1,15 @@
+{
+  "name": "튼튼함",
+  "icon": "minecraft:shield",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "효과: 비 투사체(발사체) 피해로부터 보호합니다. $(br2)훈련 방법: 투사체 이외의 모든 것에서 피해를 받습니다. $(br2)최대 레벨: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:physical_protect"
+    }
+  ]
+}

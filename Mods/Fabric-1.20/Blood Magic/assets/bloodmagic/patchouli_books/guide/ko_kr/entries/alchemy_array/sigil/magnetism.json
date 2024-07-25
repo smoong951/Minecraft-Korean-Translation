@@ -1,0 +1,24 @@
+{
+  "name": "자석의 시길",
+  "icon": "bloodmagic:sigilofmagnetism",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)자석의 시길$()은 플레이어의 아이템 획득 범위를 활성화된 상태에서 7 블록으로 증가시킵니다. 부적을 손에 들고 [$(k:sneak)]를 누른 채 [$(k:use)]를 눌러 토글하여 켜거나 끌 수 있습니다. $(br2)활성화된 상태에서 매 5초마다 50 $(blood)LP$()를 소비합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "자석의 시길 촉매",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_magnetism",
+      "array.heading": "자석의 시길",
+      "array.recipe": "bloodmagic:array/magnetismsigil"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "만약 $(thing)Curios API$()를 설치했다면, 이 $(item)부적$()을 부적으로 장착할 수 있습니다. 여러 부적을 동시에 착용하려면 $(l:bloodmagic:alchemy_array/sigil/holding)부적 보관함$()이나 $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)리빙 아머의 소켓 업그레이드$()를 사용해보세요."
+    }
+  ]
+}
+

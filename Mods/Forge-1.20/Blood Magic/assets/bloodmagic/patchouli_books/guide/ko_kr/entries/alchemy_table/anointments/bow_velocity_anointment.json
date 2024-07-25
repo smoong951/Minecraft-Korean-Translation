@@ -1,0 +1,38 @@
+{
+  "name": "궁수의 매끈함",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "궁수의 매끈함",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "발사된 화살의 속도를 50% 증가시킵니다. 이는 화살이 가하는 피해를 비례해서 증가시킵니다. 바닐라 인챈트와 함께 중첩됩니다. $(br2)유효한 아이템: 활, 석궁.$(br2)적용: 스나이핑 I (256번의 사격)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "궁수의 매끈함 L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 스나이핑 I (1024번의 사격)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "궁수의 매끈함 II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "이 강화된 버전은 속도를 100% 증가시킵니다. $(br2)적용: 스나이핑 II (256번의 사격)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "궁수의 매끈함 XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 스나이핑 I (4096번의 사격)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "궁수의 매끈함 III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "이 강화된 버전은 속도를 150% 증가시킵니다. $(br2)적용: 스나이핑 III (256번의 사격)"
+    }
+  ]
+}
+

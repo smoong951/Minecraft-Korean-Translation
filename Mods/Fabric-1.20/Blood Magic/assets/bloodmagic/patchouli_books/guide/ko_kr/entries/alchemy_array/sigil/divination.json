@@ -1,0 +1,56 @@
+{
+  "name": "예지의 시길",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)예지의 시길$()은 블러디 매직에서 제작하고 싶어하는 여러 부적 중에서 가장 먼저 제작하고 싶은 부적일 것입니다. 이 부적을 제작하려면 $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)연금 어레이$(/l)을 만들고, 각각 기본 및 촉매 아이템으로 $(item)레드스톤 가루$()와 $(item)비어있는 시길$()을 사용해야 합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "예지의 시길",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": "$(italic)영혼을 들여다 봅니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "예지의 시길 어레이",
+      "border": true,
+      "text": "예지의 시길, 제작 어레이 옆에 위치."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "예지의 시길은 두 가지 주요 용도가 있습니다: $(br)$(li)플레이어가 묶인 부적으로 공중을 향해 [$(k:use)]를 누르면, 소유자의 $(l:bloodmagic:altar/soul_network)영혼 네트워크$()에 있는 $(blood)LP$() 양을 표시합니다.$(/l)$(li)$(l:bloodmagic:altar/blood_altar)피의 제단$(/l)에서 [$(k:use)]를 누르면 현재 제단의 티어, 제단에 저장된 $(blood)생명 정수$() 양 및 현재 최대 수용량을 알려줍니다. $(item)예지의 시길$()은 또한 $(l:bloodmagic:utility/incense_altar)향로$(/l)에도 도움이 됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "예지의 시길 디스플레이",
+      "border": true,
+      "text": "예지의 시길은 피의 제단을 바라볼 때 이 HUD를 표시합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "마지막으로, 웅크리고 [$(k:use)]를 누르면 새로운 인터페이스가 열리며 블러디 매직의 모든 사용 가능한 HUD 요소가 표시됩니다. 요소를 선택하고 드래그하여 요소를 이동할 수 있습니다. 요소를 놓고 \"Save\"를 클릭하면 요소의 새 위치가 저장됩니다.$(br2)\"Default\"를 선택하면 요소가 기본 위치로 돌아갑니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "GUI 편집",
+      "border": true,
+      "text": "블러디 매직의 다양한 GUI 요소."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "요소는 위에서 아래로, 그리고 왼쪽에서 오른쪽으로 다음과 같습니다: $(li)$(l:bloodmagic:utility/incense_altar)향로$(/l) (연한 회색)$(li)$(l:bloodmagic:alchemy_array/sigil/seer)점술사 부적$(/l) (보라)$(li)$(item)예지의 시길$() (라벤더)$(li)$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)악마 의지 오라 게이지$(/l) (주황) $(li)$(l:bloodmagic:alchemy_array/sigil/holding)부적 보관함$(/l) (녹색)"
+    }
+  ]
+}

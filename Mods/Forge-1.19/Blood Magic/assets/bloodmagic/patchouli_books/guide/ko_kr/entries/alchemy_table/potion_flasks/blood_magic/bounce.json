@@ -1,0 +1,21 @@
+{
+  "name": "바운스",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "대상이 낙하 대미지를 입을 경우, $(thing)바운스$()는 그들이 대신에 땅에서 무해하게 튀게 만듭니다. Whee! $(br2)충돌 전에 앉으면 튕기지 않습니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "바운스 (3:00)",
+      "a.recipe": "bloodmagic:flask/bounce",
+      "b.heading": "바운스 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_bounce",
+      "c.heading": "바운스 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_bounce"
+    }
+  ]
+}
+

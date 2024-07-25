@@ -1,0 +1,58 @@
+{
+  "name": "공허의 하품",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "공허의 하품",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "순수한 의지"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["filter", "아이템"]
+      ],
+      "text": "필터를 설정하려면 연결된 $(item)상자$()에 $(item)아이템 필터$()의 형태를 넣어주세요. 의식은 찾은 첫 번째 필터만 사용하지만, $(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)태그$(), $(l:bloodmagic:demon_will/item_routing/mod_item_filter)모드$(), 그리고 $(l:bloodmagic:demon_will/item_routing/composite_item_filter)복합 아이템 필터$()를 받아들입니다. 블랙리스트도 작동합니다!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        ["Item Filter", "아이템"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}
+

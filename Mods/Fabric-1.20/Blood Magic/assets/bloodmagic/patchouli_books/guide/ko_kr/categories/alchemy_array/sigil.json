@@ -1,0 +1,8 @@
+{
+
+"name": "시길",
+"description": "$(item)시길$()는 $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)연금술 어레이$()과 어떤 형태의 $(item)약품$() 및 $(l:bloodmagic:altar/slates)현판$()을 사용하여 형성됩니다. 이들은 유용한 여러 작업을 수행하기 위해 $(blood)LP$()를 귀하의 $(l:bloodmagic:altar/soul_network)영혼 네트워크$()에서 끌어옵니다.",
+  "icon": "bloodmagic:divinationsigil",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 1
+}

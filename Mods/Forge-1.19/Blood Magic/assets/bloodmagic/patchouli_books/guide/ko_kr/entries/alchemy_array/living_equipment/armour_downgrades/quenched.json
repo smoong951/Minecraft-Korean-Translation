@@ -1,0 +1,16 @@
+{
+"name": "입막음",
+"icon": "minecraft:glass_bottle",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "갑옷을 입은 상태에서 물약을 마시지 못하게 합니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/quenched",
+      "b.upgrade": "bloodmagic:quenched"
+    }
+  ]
+}

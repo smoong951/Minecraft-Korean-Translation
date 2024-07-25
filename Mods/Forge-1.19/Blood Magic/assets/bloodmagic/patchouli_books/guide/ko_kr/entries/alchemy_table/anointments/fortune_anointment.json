@@ -1,0 +1,37 @@
+{
+  "name": "행운의 추출",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "행운의 추출",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "일부 수확된 블록의 수확량을 증가시킵니다. 또한 포춘 인챈트와 중첩됩니다. $(br2)유효한 아이템: 도구, 검, 차지. $(br2)적용: 포춘 I (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "행운의 추출 L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 포춘 I (1024 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "행운의 추출 II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "이 강화된 버전은 수확량을 증가시킵니다. $(br2)적용: 포춘 II (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "행운의 추출 XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 포춘 I (4096 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "행운의 추출 III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "이 강화된 버전은 수확량을 증가시킵니다. $(br2)적용: 포춘 III (256 블록)"
+    }
+  ]
+}

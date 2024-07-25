@@ -1,0 +1,47 @@
+{
+  "name": "투척 단검",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)활$()과 $(item)석궁$()은 자기 방식대로 괜찮지만, $(item)자갈$()을 훑어가며 $(item)부싯돌$()을 얻거나 닭을 잡아서 $(item)깃털$()을 얻는 것은 솔직히 당신에게는 맞는 수준은 아닙니다. 이 빛나는 (그리고 매우 날카로운) $(item)투척 단검$()은 또한 몇 가지 꽤 사악한 효과도 가지고 있습니다. 당신이 그렇게 말한다면 말이죠."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "철 투척 단검",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+	  "anchor":"iron_throwing_dagger",
+	  "text": "$(item)철 투척 단검$()은 빠르게 공격하며, 높은 쿨다운과 함께 10의 데미지를 입힙니다. 뿐만 아니라, 당신이 몸에 $(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$() (그것이 원형 형태이든지, 또는 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$() 안에 저장된 형태이든)를 가지고 있다면, 이 단검은 $(raw)의 의지$()를 드롭합니다. 그럼 마치 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)지각이 깃든 검$()이 드리는 것처럼 말이죠."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "주사기 투척 단검",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+	  "anchor":"syringe_throwing_dagger",
+	  "text": "$(item)주사기 투척 단검$()은 혈 마법사가 $(blood)생명 정수$() 획득에 더 관심이 있는 경우입니다. 데미지는 약간 적지만, 뚜렷하게 저렴하며, 이 무기로 죽인 적은 $(item)돌 앰풀$()을 드롭할 기회가 있습니다 - 그들이 충분히 강하다면 더 많이 드립니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "돌 앰풀",
+      "text": "이 매력적인 작은 유리병은 $(l:bloodmagic:altar/blood_altar)블러디 알터$() 근처에서 유리병을 깨트려면 $(blood)500 LP$()를 전송하고 파괴되는 $(item)앰풀$()입니다. 이 증가량은 당신이 가지고 있는 $(item)룬$()에 영향을 받지 않습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "자수정 투척 단검",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor":"amethyst_throwing_dagger",
+      "text": "$(item)자수정 투척 단검$()은 $(item)철 투척 단검$()만큼의 데미지를 입히지만, 몹이 죽을 때 $(raw)의지$()를 드롭하지 않습니다. 대신, $(item)황금 알키미 플라스크$()와 함께 $(item)알키미 반응 챔버$()에서 $(item)티핑 자수정 투척 단검$()을 만들기 위해 여덟 개를 조합할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "팁이 달린 투척 단검",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "이들은 몹에게 맞으면 $(item)연금 플라스크$()의 구름에 들어갔을 때와 마찬가지로 그 효과를 전달합니다. 가장 불리하고 사악한 단검을 만들기 위해 효과를 결합해 실험해 보세요!"
+    }
+  ]
+}

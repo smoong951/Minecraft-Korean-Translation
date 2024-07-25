@@ -1,0 +1,28 @@
+{
+  "name": "태그 아이템 필터",
+  "icon": "bloodmagic:itemrouterfilteroredict",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)태그 아이템 필터$()를 사용하면 최대 9개의 아이템을 선택하고 그들의 관련 $(thing)태그$()로 필터링할 수 있습니다. $(l:bloodmagic:demon_will/item_routing/standard_item_filter)표준 아이템 필터$()와 유사하게 수량 선택기와 허용/거부 기능이 있습니다. 수량을 비워 두면 기본값으로 '모두'가 됩니다. $(br2)이 필터에 넣은 각 아이템에 대해 $(thing)한 가지 특정한 태그$()를 기반으로 아이템을 일치시킬지, 또는 $(thing)그 태그 중 어떤 것이라도$() 일치시킬지를 선택할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "태그 아이템 필터",
+      "recipe": "bloodmagic:alchemytable/tag_router_filter",
+      "text": "이를 통해 아이템 카테고리를 거부하거나 허용할 수 있어서 예를 들어 태그가 $(thing)forge:ores$()인 모든 아이템이 귀하의 화로로 전송되도록 지정할 수 있습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/tag_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/tag_item_filter_mouseover.png"
+      ],
+      "title": "태그 아이템 필터 GUI",
+      "border": true,
+      "text": "구성된 필터의 GUI 및 마우스 오버 텍스트입니다."
+    }
+  ]
+}
+

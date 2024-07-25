@@ -1,0 +1,7 @@
+{
+
+"name": "리빙 아머 업그레이드",
+"description": "사용 가능한 리빙 아머 업그레이드 목록입니다.",
+  "icon": "bloodmagic:upgradetome",
+  "parent": "bloodmagic:alchemy_array/living_equipment"
+}

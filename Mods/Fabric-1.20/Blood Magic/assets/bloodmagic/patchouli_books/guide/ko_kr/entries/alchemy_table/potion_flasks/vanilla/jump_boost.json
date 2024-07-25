@@ -1,0 +1,32 @@
+{
+  "name": "점프 강화",
+  "icon": "minecraft:rabbit_foot",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)점프 강화$()는 대상의 점프 높이를 레벨당 50%씩 증가시킵니다. 또한 레벨당 낙하 피해를 1 포인트씩 감소시킵니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "점프 강화 (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_boost",
+      "b.heading": "점프 강화 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_jump_boost",
+      "c.heading": "점프 강화 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_jump_boost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$()로 물약을 더 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "점프 강화 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_jump_boost",
+      "b.heading": "점프 강화 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_jump_boost"
+    }
+  ]
+}
+

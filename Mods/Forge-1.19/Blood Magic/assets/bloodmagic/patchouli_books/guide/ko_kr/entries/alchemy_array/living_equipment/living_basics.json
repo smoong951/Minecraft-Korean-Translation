@@ -1,0 +1,36 @@
+{
+  "name": "살아있는 장비 기초",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)살아있는 장비$()를 만들려면 먼저 $(item)철 갑옷$() (또는 선호하는 경우 $(item)철 갑옷$())과 일부 $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)신비한 재$() 및 $(item)결합 반응물$()이 필요합니다. 또한 $(br)적어도 $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)일반 유형의 타르타릭 젬$()이 있어야 합니다. 이는 $(item)악마의 의지$()를 보관하기 위해 필요합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "결합 반응물",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)그것은 나에게 꽉 붙어있다...$() $(br2)$(br2)$(item)살아있는 장비$()의 내구성은 $(item)다이아몬드 갑옷$()과 동등하며, 더 많은 $(thing)결합 반응물$()으로 $(thing)모루$()에서 수리할 수 있습니다.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "다른 연소재와 마찬가지로 $(item)신비한 재$()를 손에 들고 블록을 바라보면서 [$(k:use)]를 누르고, 그 후에 $(item)결합 반응물$()을 적용합니다. 그런 다음 $(item)철 투구$(), $(item)철 갑주$(), $(item)철 다리보호구$(), 또는 $(item)철 부츠$()에 넣어주세요. 물러나서 쇼를 관람하세요.$(br2) 살아있는 장비는 처음에는 철과 동등하지만, $(thing)업그레이드 포인트$()를 가지고 있어 조심히 사용하여 특정 방식으로 훈련시킬 수 있습니다. 시작은 100이지만 이 제한을 뛰어넘을 방법이 있을 수 있습니다..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "결합의 의식",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "그건 확실히 살아있어... 그리고 당신에게서 배우고 있습니다. 가르치는 것에 조심하는 게 좋겠군요. $(br2)당신이 볼 때 [$(k:sneak)]를 누르면 그가 지금까지 배운 것을 더 자세히 살펴볼 수 있습니다."
+    }
+  ]
+}
+
+

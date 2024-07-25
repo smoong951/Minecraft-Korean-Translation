@@ -1,0 +1,16 @@
+{
+"name": "무딘 칼날",
+"icon": "minecraft:stone_sword",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "근접 공격 데미지를 감소시킵니다. 최대 80% 감소합니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/melee_decrease",
+      "b.upgrade": "bloodmagic:melee_decrease"
+    }
+  ]
+}

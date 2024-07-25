@@ -1,0 +1,15 @@
+{
+  "name": "체력 강화",
+  "icon": "minecraft:cooked_beef",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "효과: 넉백 저항과 추가 체력 부여. 100% 저항과 10 반 마음의 체력에서 캡 됨. $(br2)훈련: 음식 섭취. $(br2)최대 레벨: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:knockback_resist"
+    }
+  ]
+}

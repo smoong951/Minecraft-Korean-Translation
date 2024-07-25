@@ -1,0 +1,37 @@
+{
+  "name": "숫돌 기름",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "숫돌 기름",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "일시적으로 근접 데미지를 +3 증가시킵니다. $(br2)유효한 아이템: 도구, 검.$(br2)적용: 숫돌 I (256 히트)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "숫돌 기름 L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: 숫돌 I (1024 히트)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "숫돌 기름 II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "이 강화된 버전은 근접 데미지를 +6으로 증가시킵니다. $(br2)적용: 숫돌 II (256 히트)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "숫돌 기름 XL",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: 숫돌 I (4096 히트)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "숫돌 기름 III",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
+      "text": "이 강화된 버전은 근접 데미지를 +9으로 증가시킵니다. $(br2)적용: 숫돌 III (256 히트)"
+    }
+  ]
+}

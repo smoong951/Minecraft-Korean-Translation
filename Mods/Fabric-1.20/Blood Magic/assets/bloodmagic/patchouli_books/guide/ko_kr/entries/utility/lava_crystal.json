@@ -1,0 +1,17 @@
+{
+  "name": "라바 크리스탈",
+  "icon": "bloodmagic:lavacrystal",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)라바 크리스탈$()은 강력한 열원입니다. 제작에 사용된 $(fire)라바$()와 $(l:bloodmagic:altar/soul_network)소울 네트워크$()의 힘으로 인해 언제까지나 식을 것이 없을 것으로 확신합니다.$(br2) 세계의 어떤 블록이든 바라보면서 [$(k:use)]를 누르면 해당 블록에 불을 붙일 수 있습니다. 이 작업은 100 LP의 비용이 듭니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:lava_crystal",
+      "text": "$(br)게다가, $(item)화로$()의 연료 슬롯에 놓으면 무한한 $(thing)연료원$()으로 작동하며, 50LP를 소모하여 10초 동안 연소하거나 하나의 아이템을 조리할 수 있을 만큼 충분한 시간이 소요됩니다."
+    }
+  ]
+}
+

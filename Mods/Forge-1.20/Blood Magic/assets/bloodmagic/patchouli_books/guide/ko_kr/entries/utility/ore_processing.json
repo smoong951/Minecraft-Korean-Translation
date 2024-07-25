@@ -1,0 +1,131 @@
+{
+  "name": "광물 처리",
+  "icon": "bloodmagic:basiccuttingfluid",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:copperfragment": 7,
+    "bloodmagic:goldfragment": 7,
+    "bloodmagic:fragment_netherite_scrap": 7,
+    "bloodmagic:coppergravel": 9,
+    "bloodmagic:goldgravel": 9,
+    "bloodmagic:gravel_netherite_scrap": 9,
+    "bloodmagic:coppersand": 7,
+    "bloodmagic:sand_netherite": 7
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 $(l:bloodmagic:alchemy_table/alchemy_table)연금술 테이블$()은 다양한 용도 중 하나로 광석을 두 배로 증가시키는 데 사용될 수 있으며, $(l:bloodmagic:utility/alchemical_reaction_chamber)연금술 반응 챔버$()는 $(item)원석$() 당 2.5 주괴 또는 $(item)광석 블록$() 당 4.5 주괴를 얻을 수 있습니다. 혈액의 힘으로 광산 탐험을 더욱 풍부하게 즐겨보세요!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "기본 절단 유체",
+      "anchor": "cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
+      "text": "$(item)절단 유체$()는 광물 처리의 모든 형태에서 끝 단계입니다. 이것은 $(l:bloodmagic:utility/alchemical_reaction_chamber)연금술 반응 챔버$(/l)에서 원석 블록으로부터 3개의 광석 모래 또는 원석에서 평균 1.5개의 광석 모래를 얻을 수 있습니다. 이 시연에서는 $(l:bloodmagic:alchemy_array/sigil/water)물 주문서$()가 사용되었지만, 간단한 $(water)물 병$()을 사용할 수도 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "중급 절단 유체",
+      "anchor": "intermediate_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
+      "text": "중급 절단 유체는 지속 시간이 여덟 배로 늘어나고 제작 속도가 50% 증가한 향상된 버전입니다. 다만, 토 오일을 얻기 위해 $(l:bloodmagic:dungeons/lobby)던전 탐험$()을 해야합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "고급 절단 유체",
+      "anchor": "advanced_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/advance_cutting_fluid_sigil",
+      "text": "고급 절단 유체는 지속 시간이 16배로 늘어나며 제작 속도가 두 배이며, 사용된 모든 레시피에서 추가 결과의 확률이 두 배로 늘어납니다. 이를 위해 $(l:bloodmagic:dungeons/endless_realm)심층 던전 탐험$()을 해야합니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "철 모래",
+      "a.recipe": "bloodmagic:alchemytable/sand_iron",
+      "b.heading": "금 모래",
+      "b.recipe": "bloodmagic:alchemytable/sand_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "광석을 3개의 금속 모래로",
+      "recipe": "bloodmagic:arc/dustsfrom_ore_iron",
+      "text": "$(l:bloodmagic:utility/alchemical_reaction_chamber)연금술 반응 챔버$(/l)에 액세스하면 채굴한 모든 광석에서 3개의 모래를 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "bloodmagic:smelting/ingot_iron",
+      "recipe2": "bloodmagic:smelting/ingot_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "폭발성 가루",
+      "anchor": "ore_processing",
+      "recipe": "bloodmagic:alchemytable/explosive_powder",
+      "text": "$(item)폭발성 가루$()는 $(item)ARC$()에서 사용되어 $(item)광석$()을 평균 4.5 $(item)광석 파편$()으로 변환하거나 $(item)생 광석$()을 평균 2.25 광석으로 변환하거나 $(item)주괴$()을 해당 $(item)모래$() 변형으로 변환할 수 있습니다. 또한, $(fire)네더랙$()을 $(air)황$()과 50mb의 $(fire)용암$()으로 변환할 수 있습니다. 이것에는 개선된 두 가지 버전이 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "강화된 폭발 셀",
+      "a.recipe": "bloodmagic:alchemytable/explosive_cell",
+      "b.heading": "지옥단 폭발 셀",
+      "b.recipe": "bloodmagic:alchemytable/hellforged_explosive_cell",
+      "text": "강화 및 지옥단 폭발 세포는 기본 변형보다 지속 시간이 더 길고 제작 속도가 빠릅니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "생 광석에서 파편으로",
+      "a.recipe": "bloodmagic:arc/fragmentsiron",
+      "b.heading": "광석에서 파편으로",
+      "b.recipe": "bloodmagic:arc/fragmentsfrom_ore_iron",
+      "c.heading": "황 및 용암",
+      "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
+      "c.fluid_output": "minecraft:lava_bucket"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "공명체",
+      "recipe": "bloodmagic:soulforge/resonator",
+      "text": "$(item)공명체$()는 $(item)광석 파편$()을 계속해서 광물 처리용 관련 $(item)자갈$()로 변환하며, $(item)작은 오염된 먼지$()를 생성합니다. 강화된 공명체는 4배의 내구성을 가지며, 지옥단 공명체는 16배의 내구성을 가지며 모든 추가 결과를 두 배로 만듭니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "강화된 공명체",
+      "a.recipe": "bloodmagic:soulforge/primitive_resonator",
+      "b.heading": "지옥단 공명체",
+      "b.recipe": "bloodmagic:soulforge/hellforged_resonator"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "파편에서 자갈로",
+      "a.recipe": "bloodmagic:arc/gravelsiron",
+      "b.heading": "자갈에서 모래로",
+      "b.recipe": "bloodmagic:arc/dustsfrom_gravel_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "오염된 먼지",
+      "recipe": "bloodmagic:corrupted_dust",
+      "text": "작은 오염된 먼지는 $(item)오염된 먼지$()로 결합될 수 있으며, 이는 다른 광물의 수확량을 더욱 향상시키는 데 사용될 수 있습니다. 일부 예제는 다음 페이지를 참조하세요."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "오염된 석탄",
+      "a.recipe": "bloodmagic:alchemytable/corrupted_coal",
+      "b.heading": "오염된 철",
+      "b.recipe": "bloodmagic:alchemytable/corrupted_iron",
+      "c.heading": "오염된 잔해",
+      "c.recipe": "bloodmagic:alchemytable/corrupted_netherite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "연료 셀 (화로)",
+      "recipe": "bloodmagic:primitive_furnace_cell",
+      "text": "$(item)ARC$()는 또한 $(thing)화로$()로 작동하지만 허용되는 유일한 연료 원료는 $(item)원시 연료 셀$() 또는 $(l:bloodmagic:utility/lava_crystal)용암 수정$(/l)입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)원시 연료 셀$()은 개별 사용에 좋습니다. 이것은 제작이 완료될 때만 내구성이 감소하므로 $(item)석탄 블록$() (60 개의 아이템)을 제작하는 데 사용된 것보다 많은 128번의 사용이 가능합니다. 또한 연료가 낭비되지 않습니다."
+    }
+  ]
+}
+

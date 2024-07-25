@@ -1,0 +1,23 @@
+{
+  "name": "콘도르의 경외",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "콘도르의 경외",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)리추얼 다이버 [황혼]$(/l)을 사용하면 쉽게 구성할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}
+

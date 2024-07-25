@@ -1,0 +1,38 @@
+{
+  "name": "수리 기름",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "수리 기름",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "도구를 사용할 때 손상된 도구를 1 포인트 수리합니다. $(br2)유효한 아이템: 도구, 검.$(br2)적용: Regular Maintenance I (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "수리 기름 L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "이 강화된 버전은 네 배 더 오래 지속됩니다. $(br2)적용: Regular Maintenance I (1024 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "수리 기름 II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "이 강화된 버전은 도구가 받은 피해당 2 포인트를 수리합니다. 수리 보너스의 일부가 낭비되지 않는 경우에만 활성화됩니다. $(br2)적용: Regular Maintenance II (256 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "수리 기름 XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "이 강화된 버전은 16배 더 오래 지속됩니다. $(br2)적용: Regular Maintenance I (4096 블록)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "수리 기름 III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "이 강화된 버전은 도구가 받은 피해당 3 포인트를 수리합니다. 수리 보너스의 일부가 낭비되지 않는 경우에만 활성화됩니다. $(br2)적용: Regular Maintenance III (256 블록)"
+    }
+  ]
+}
+

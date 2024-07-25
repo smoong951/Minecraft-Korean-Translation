@@ -1,0 +1,20 @@
+{
+  "block.create_compressed.brass_sheet_block": "황동 판 블록",
+  "block.create_compressed.crushed_zinc_pile": "분쇄된 아연 더미",
+  "block.create_compressed.mechanism_block": "기계장치 블록",
+  "block.create_compressed.crushed_copper_pile": "분쇄된 구리 더미",
+  "block.create_compressed.cogwheel_block": "톱니바퀴 상자",
+  "block.create_compressed.shaft_bundle": "축 꾸러미",
+  "block.create_compressed.belt_block": "기계식 벨트 상자",
+  "block.create_compressed.iron_sheet_block": "철 판 블록",
+  "block.create_compressed.copper_sheet_block": "구리 판 블록",
+  "block.create_compressed.wheat_flour_pile": "밀가루 더미",
+  "block.create_compressed.crushed_gold_pile": "분쇄된 금 더미",
+  "block.create_compressed.powdered_obsidian_pile": "흑요석 가루 더미",
+  "block.create_compressed.cinder_flour_pile": "잿가루 더미",
+  "block.create_compressed.large_cogwheel_block": "큰 톱니바퀴 상자",
+  "block.create_compressed.gold_sheet_block": "금 판 블록",
+  "block.create_compressed.sturdy_sheet_block": "강판 블록",
+  "block.create_compressed.crushed_iron_pile": "분쇄된 철 더미",
+  "block.create_compressed.dough_block": "반죽 블록"
+}

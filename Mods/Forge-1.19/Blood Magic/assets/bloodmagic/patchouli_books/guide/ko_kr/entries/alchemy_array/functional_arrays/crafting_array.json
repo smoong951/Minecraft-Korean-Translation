@@ -1,0 +1,15 @@
+{
+  "name": "어레이로 제작하기",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(1)제작용 연금 어레이$()는 가장 간단한 어레이 중 하나입니다. 이 어레이들은 $(item)기본 아이템$()을 $(item)촉매$()에 새기며, 작은 아름다운 애니메이션 뒤에 두 아이템을 유용한 아이템으로 변환합니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "생성된 몇몇 아이템은 $(l:bloodmagic:alchemy_array/sigil/divination)매우 간단한 재료를 사용하여 제작$(/l)할 수 있지만, 다른 것들은 유용한 아이템을 만들려면 추가 단계가 필요합니다."
+    }
+  ]
+}  

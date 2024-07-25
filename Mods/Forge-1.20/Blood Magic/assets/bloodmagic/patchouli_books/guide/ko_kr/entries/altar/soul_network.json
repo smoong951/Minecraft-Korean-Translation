@@ -1,0 +1,44 @@
+{
+  "name": "영혼 네트워크",
+  "icon": "bloodmagic:weakbloodorb",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)영혼 네트워크$()는 여러분의 $(thing)영혼$()을 모든 결속된 아이템, 의식, 그리고 블록에 연결하는 네트워크입니다. 기능적으로 각 플레이어에게 독특한 $(blood)LP$()의 전역 저장소이며, 플레이어의 결속된 아이템을 중간 매개체로 사용하여 추가 및 추출이 가능합니다. 처음으로 [$(k:use)]를 눌러 $(thing)영혼 네트워크$()에 결속 가능한 아이템이 있다면, 여러분에게 결속되어 '소유'로 표시됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "따라서 아이템이 하는 어떠한 행동 중에 $(blood)LP 비용$()이 있는 경우, 해당 비용은 여러분의 $(thing)영혼 네트워크$()에서 소진됩니다. 어떤 경우에는 아이템이 $(thing)영혼 네트워크$()로부터 $(blood)LP$()를 얻을 수 없을 때, 대신 여러분의 건강에서 $(blood)LP$() 비용을 직접 빼앗아 갈 것입니다.$(br2)다른 경우에는 (예: 진행 중인 $(thing)의식$()이 네트워크를 완전히 소진시키는 경우) 의식이 비활성화되거나 여러분의 $(thing)영혼 네트워크$()가 재충전될 때까지 계속해서 메스꺼움을 유발할 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)영혼 네트워크$()를 충전하기 위해서는 $(item)블러디 오브$()를 만들어야 합니다.$(br2)블러디 오브는 두 가지 방법으로 $(blood)LP$()를 충전할 수 있습니다. $(li)플레이어는 $(item)블러디 오브$()와 함께 [$(k:use)]를 누름으로써 건강에서 1 하트를 희생하여 결속된 $(thing)영혼 네트워크$()에 $(blood)200 LP$()를 제공할 수 있습니다. $(li)$(item)블러디 오브$()를 $(l:bloodmagic:altar/bloody_alter)블러디 알터$(/l)에 넣어 일부 $(blood)생명 정수$()가 든 상태에서 놓으면 됩니다. 오브는 여러분의 알터의 $(item)속도 룬$()에 의해 제한되지만 최대한 빨리 흡수할 것입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "각 $(item)블러디 알터$()의 티어에 대한 별도의 $(item)블러디 오브$()가 만들어질 수 있습니다. 그들의 레시피는 다음 페이지에 기록되어 있습니다. $(li)$(item)초보자의 블러디 오브$() - 최대 용량: $(blood)5k LP$(). $(li)$(item)견습생의 블러디 오브$() - 최대 용량: $(blood)25k LP$(). $(li)$(item)마법사의 블러디 오브$() - 최대 용량: $(blood)150k LP$(). $(li)$(item)대마법사의 블러디 오브$() - 최대 용량: $(blood)1M LP$(). $(li)$(item)마스터의 블러디 오브$() - 최대 용량: $(blood)10M LP$()."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "초보자용 블러디 오브",
+      "a.recipe": "bloodmagic:altar/weakbloodorb",
+      "b.heading": "견습생의 블러디 오브",
+      "b.recipe": "bloodmagic:altar/apprenticebloodorb"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "마법사의 블러디 오브",
+      "a.recipe": "bloodmagic:altar/magicianbloodorb",
+      "b.heading": "대마법사의 블러디 오브",
+      "b.recipe": "bloodmagic:altar/masterbloodorb"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "마스터의 블러디 오브",
+      "recipe": "bloodmagic:altar/archmagebloodorb",
+      "text": "만약 이것이 여러분에게 충분한 $(blood)LP 저장 공간$()이 아니라면, $(l:bloodmagic:altar/blood_rune/orb_rune)오브 룬$()을 사용하는 것을 고려해보세요."
+    }
+  ]
+}
+

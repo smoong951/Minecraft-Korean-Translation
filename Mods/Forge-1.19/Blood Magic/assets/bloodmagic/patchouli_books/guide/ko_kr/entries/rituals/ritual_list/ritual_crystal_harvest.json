@@ -1,0 +1,30 @@
+{
+  "name": "부서진 수정의 균열",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "깨진 수정의 틈",
+      "multiblock_id": "bloodmagic:crystal_harvest",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 건축자 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_harvest",
+      "text_overrides": [
+        ["악마의 의지 수정 군락", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["원소", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crystal_harvest",
+      "page_type": "crystal",
+      "text_overrides": [
+        ["악마의 의지", "raw"]
+      ]
+    }
+  ]
+}
+

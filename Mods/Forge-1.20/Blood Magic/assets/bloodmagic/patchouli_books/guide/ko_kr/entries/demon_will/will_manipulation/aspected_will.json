@@ -1,0 +1,56 @@
+{
+  "name": "악마 의지의 측면",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)악마의 의지$()를 대기로 방출하는 것은 분명히 훌륭한 아이디어였습니다. 이것은 $(item)의식$()에 힘을 실어주는 데 매우 유용하게 사용되었을 뿐만 아니라, 성공적으로 $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)결정화된 의지$()로 압축했으며, 다음에 어떤 것에 관심을 기울일지 궁금해하고 있습니다. $(br2)이러한 $(item)결정체$()들은 어떤 식으로든... 당신에게는 갈등된 느낌이 듭니다. 어떤 $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)의식$()이 그것들을 더 순수한 형태로 끌어내는 데 도움이 될 수 있을 것입니다..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "의지의 측면",
+      "border": true,
+      "text": "$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)조각난 결정의 공명$() 의식의 작동 중입니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이제 $(item)결정화된 의지$()가 네 가지의 매운 맛으로 나왔습니다! $(water)물 룬$()에는 $(steadfast)확고한 의지$(), $(air)공기 룬$()에는 $(destructive)파괴적인 의지$(), $(fire)불 룬$()에는 $(vengeful)복수심 있는 의지$(), 그리고 $(earth)대지 룬$()에는 $(corrosive)부식적인 의지$()가 있습니다.$(br2)이러한 다양한 새로운 종류의 의지는 $(item)악마 용광로$()에서 원형 의지와 마찬가지로 태울 수 있으며, 그로부터 다양한 의식에 흥미로운 효과를 주기 위해 사용할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "그러나 이것들은 또한 당신의 지각이 깃든 도구의 행동 방식을 변경합니다. 그들을 더 강력하게 만듭니다.$(br) $(li)$(raw)원형 의지$(): 데미지 증가. $(corrosive)$(li)부식적인 의지$(): 공격이 적에게 독이나 위더를 적용할 확률이 있으며, 그렇지 않으면 $(raw)원형$()과 동일합니다. $(vengeful)$(li)복수심 있는 의지$(): 데미지 증가, 그러나 $(raw)원형$()만큼은 아닙니다. 공격 속도 증가. 의지 양이 높을수록 이동 속도 버프 부여."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)확고한 의지$(): 데미지 증가 (하지만 $(raw)원형$()만큼은 아님) 및 킬 후 흡수 부여. $(destructive)$(li)파괴적인 의지$(): 다른 어떤 의지 유형보다 데미지 증가, 그러나 공격 속도 감소."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "아마 당신은 궁금할 것입니다: \"이 의지를 어떻게 사용 가능한 형태로 만들까요?\" 그것의 답은 간단합니다. 빈 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()을 $(l:bloodmagic:demon_will/will_manipulation/soul_forge)지옥불 도가니$()에 같은 청크에 놓은 채로 놓고, 그리고 나서 원하는 의지 측면의 $(item)악마 용광로$()에 피드합니다. 당신의 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()은 그 의지 측면으로 가득 찰 것입니다. 당신이 $(raw)지각이 깃든 도구$()를 들고 있을 때 [$(k:use)]를 눌러 $(raw)도구$()가 사용하는 의지 종류를 변경할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "주의할 점은 당신의 $(item)지각이 깃든 도구$()가 당신의 인벤토리에서 가장 많은 $(raw)의지$() 측면을 가진 것으로 변할 것이라는 것입니다. 한 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()에 10의 $(corrosive)부식적인 의지$()를 가지고 있고, 다른 것에 1,000의 $(raw)원형 의지$()를 가지고 있다면, 당신의 검은 $(raw)원형$() 상태를 유지할 것입니다. $(br2)$(l:bloodmagic:demon_will/will_manipulation/soul_forge)지옥불 도가니$()는 제작에 어떤 종류의 $(raw)의지$()도 허용하므로 다양한 $(item)타르타릭 젬$()을 통해 여러 종류의 $(raw)의지$()를 번갈아 사용해야 하는 걱정은 하지 않아도 됩니다."
+    }
+  ]
+}
+

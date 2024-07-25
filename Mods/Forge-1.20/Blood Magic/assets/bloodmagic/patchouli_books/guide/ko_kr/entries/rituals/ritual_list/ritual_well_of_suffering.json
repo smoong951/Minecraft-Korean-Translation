@@ -1,0 +1,42 @@
+{
+  "name": "고통의 우물",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "고통의 우물",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["blood altar", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 의식은 피해 범위 내의 몹을 공격하고 수확된 $(blood)피$()를 근처의 $(l:bloodmagic:altar/blood_altar)피의 제단$()에 넣습니다. 제단에 $(l:bloodmagic:altar/soul_network)피 오브$()를 넣고 몇 개의 $(l:bloodmagic:altar/blood_rune/sacrifice_rune)희생의 룬$()을 추가하면 LP 공급에 대해 더 이상 걱정하지 않아도 될 것입니다... 충분한 몹을 공급할 수 있다면 말이죠."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "이 의식은 한 번에 하나의 제단에만 링크될 수 있습니다.",
+      "text_overrides": [
+        ["Blood Altar", "l:bloodmagic:altar/blood_altar"],
+        [" Blood", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "몹들은 여전히 플레이어 킬이 아닌 몹 드롭을 떨어뜨립니다."
+    }
+  ]
+}
+

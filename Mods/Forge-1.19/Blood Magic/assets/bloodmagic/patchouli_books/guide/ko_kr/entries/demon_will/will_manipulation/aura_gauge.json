@@ -1,0 +1,30 @@
+{
+  "name": "악마의 의지 오라 게이지",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "플레이어의 인벤토리에 있을 때 $(item)악마의 의지 오라 게이지$()는 로컬 $(l:bloodmagic:demon_will/will_manipulation/aura)오라$()에 얼마나 많은 $(raw)악마의 의지$()기 녹아 있는지를 나타내는 HUD 요소를 표시합니다. $(br2)상단에서 하단으로 측정되는 의지의 측면은 다음과 같습니다: $(li)$(raw)가공되지 않은$() $(li)$(corrosive)부식의$() $(li)$(steadfast)확고한$() $(li)$(destructive)파괴적인$() $(li)$(vengeful)복수심에 불타는$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "악마의 의지 오라 게이지",
+      "text": "HUD 요소의 이미지에 대한 설명은 뒷면을 참조하십시오."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "오라 게이지 HUD 요소",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 게이지는 화면 좌측 상단에 나타납니다. 색상 막대는 현재 청크에 얼마나 많은 $(l:bloodmagic:demon_will/will_manipulation/aspected_will)의지$()가 녹아 있는지를 추정할 수 있습니다. $(br2) [$(k:sneak)]를 눌러 각 측면에 대한 1에서 100까지의 숫자 값을 얻을 수 있습니다. 100은 청크에 포함 될 수있는 $(raw)의지$()의 최대량입니다."
+    }
+  ]
+}
+

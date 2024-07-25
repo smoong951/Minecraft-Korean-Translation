@@ -1,0 +1,34 @@
+{
+  "name": "다면체 크리스탈의 공명",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "다면체 크리스탈의 공명",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["가공되지 않은 크리스탈 군", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["속성을 가진 크리스탈 군", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이 의식은 잘 자란(적어도 5개의 크리스탈) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)가공되지 않은 크리스탈 군집$(/l)을 사용하여 $(item)마스터 의식의 돌$() 바로 위의 2 블록에 위치한 것을 나누어 4 개의 원소 의식 돌 바로 위에 각각 $(l:bloodmagic:demon_will/will_manipulation/aspected_will)속성이 있는 크리스탈 군집$(/l)을 만듭니다. 이 간격은 $(item)악마의 결정기$()를 $(item)마스터 의식의 돌$() 위에 놓을 수 있도록 설계되었습니다.$(br2)악마의 의지 크리스탈을 자라게 하는 방법에 대한 자세한 내용은 $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)결정화된 의지$(/l)를 참조하십시오.",
+      "text": ""
+    },
+    {
+      "type": "patchouli:image",
+      "title": "의식 설치",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "다면체 크리스탈의 공명 의식을 위한 권장 설치 방법."
+    }
+  ]
+}
+

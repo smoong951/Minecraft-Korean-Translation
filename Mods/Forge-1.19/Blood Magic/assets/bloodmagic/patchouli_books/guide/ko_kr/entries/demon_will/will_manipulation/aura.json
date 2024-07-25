@@ -1,0 +1,57 @@
+{
+  "name": "악마의 의지 오라",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "우리가 $(l:bloodmagic:demon_will/will_manipulation/demon_will)확인한 것$()처럼, $(raw)악마적 의지$()는 특정 생물 주변에 응집되어 그들을 사악한 힘으로 추진합니다. 그러나 이것이 $(raw)의지$()가 존재할 수 있는 유일한 장소는 아닙니다. $(item)악마의 도가니$()에서 $(raw)의지$()를 태우면 그 의지를 $(thing)오라$()로 풀어 헤칠 수 있습니다. 그 효과는 상당히 흥미롭습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "악마의 도가니",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "충전된 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$() 또는 $(item)악마의 의지$() 또는 $(item)악마의 크리스탈$()을 넣고 실행하면 됩니다. $(item)크리스탈$()은 청크의 $(raw)의지$()가 50 아래로 떨어지면 소비되며, $(raw)악마적 의지$() (아이템 또는 $(item)타르타릭 젬$()에서 나오는)는 필요할 때 조금씩 소비됩니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "악마의 도가니",
+      "border": true,
+      "text": "$(item)악마의 도가니$(), 안에 $(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()이 들어가 있다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "이제 우리는 대기 중에 $(raw)가공되지 않은 의지$()을 가지고 있습니다. 좋아, 이제 어떻게 해야 하죠? $(br2)일부 $(thing)의식$()은 $(raw)가공되지 않은 의지$()에서 혜택을 받지만, 이것에서 주로 얻는 이점은 정제된 $(item)악마의 의지 크리스탈$()을 만들고, 거기서 $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)분할$()하여 $(l:bloodmagic:demon_will/will_manipulation/aspected_will)포함된 것들$()로 만들 수 있는 능력입니다. $(br2)일부 $(item)포함된 의지 크리스탈$()을 획득하면 $(item)크리스탈$()을 다시 $(item)도가니$()에 태우면 $(thing)오라$()에 풀어 헤칠 수 있어 더 많은 이점을 얻을 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "알려드린 것처럼 $(thing)오라$()는 청크 기반입니다. 즉, 태우는 $(raw)의지$()는 해당 청크에 최대 100까지 채워집니다. $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)악마적 의지 오라 게이지$()를 사용하여 이를 측정할 수 있습니다. $(br2)악마적 의지를 옮기려면 인접한 청크에 $(item)악마의 파일론$()을 놓고 $(raw)의지$()가 그쪽으로 흘러들어갈 것입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "악마의 파일론",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "text": "파일론은 인접한 모든 청크에서 모든 종류의 의지를 끌어들입니다 (대각선을 포함하지 않음). 여러 파일론을 연결하여 더 긴 거리에 걸쳐 의지를 전송할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_gem)타르타릭 젬$()을 하나 놓으면 $(l:bloodmagic:demon_will/will_manipulation/soul_forge)헬파이어 포지$() 안에 넣으면 해당 청크에서 $(raw)의지$()를 신속하게 흡수합니다. $(br2)청크에 $(raw)의지$()가 있는 경우, $(raw)Raw$() 또는 $(corrosive)Corrosive$()와 같은 측면이 비어있는 $(item)타르타릭 젬$()이 있으면 그 측면으로 젬을 채울 수 있습니다. $(br2)이렇게 하면 $(l:bloodmagic:demon_will/demonic_items/sentient_tools)지각이 깃든 도구$()와 $(l:bloodmagic:demon_will/demonic_items/sentient_sword)검$()을 수정할 수 있습니다. 효과는 $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)여기$()에서 정의되어 있습니다."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "관련 링크",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "더 많은 것을 할 수 있을 것 같아요..."
+    }
+  ]
+}
+

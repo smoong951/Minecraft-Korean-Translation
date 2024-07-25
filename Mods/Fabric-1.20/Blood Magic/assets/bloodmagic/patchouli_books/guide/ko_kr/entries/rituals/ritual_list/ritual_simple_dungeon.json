@@ -1,0 +1,21 @@
+{
+  "name": "숨겨진 영역의 경계",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "숨겨진 영역의 경계",
+      "multiblock_id": "bloodmagic:simple_dungeon",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner)의례 초절기$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "simple_dungeon",
+      "text_overrides": [
+        ["Demon Realm", "thing"]
+      ]
+    }
+  ]
+}
+

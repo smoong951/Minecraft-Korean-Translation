@@ -1,0 +1,16 @@
+{
+"name": "손상된 팔",
+"icon": "minecraft:shield",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 보조 아이템 사용을 금지합니다. 횃불 설치, 방패 들기 등이 포함됩니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/crippled_arm",
+      "b.upgrade": "bloodmagic:crippled_arm"
+    }
+  ]
+}

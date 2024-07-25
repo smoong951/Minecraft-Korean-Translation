@@ -1,0 +1,86 @@
+{
+  "item.expandeddelight.asparagus": "아스파라거스",
+  "item.expandeddelight.asparagus_seeds": "아스파라거스 씨앗",
+  "item.expandeddelight.asparagus_soup": "아스파라거스 수프",
+  "item.expandeddelight.asparagus_soup_creamy": "크림 아스파라거스 수프",
+  "item.expandeddelight.asparagus_and_bacon_cheesy": "치즈 아스파라거스와 베이컨",
+
+  "item.expandeddelight.sweet_potato": "고구마",
+  "item.expandeddelight.baked_sweet_potato": "구운 고구마",
+  "item.expandeddelight.sweet_potato_salad": "고구마 샐러드",
+
+  "item.expandeddelight.chili_pepper": "고추",
+  "item.expandeddelight.chili_pepper_seeds": "고추 씨앗",
+  "item.expandeddelight.peperonata": "페페로나타",
+
+  "item.expandeddelight.peanut": "땅콩",
+  "item.expandeddelight.peanut_butter": "땅콩 버터",
+  "item.expandeddelight.peanut_butter_sandwich": "땅콩 버터 샌드위치",
+  "item.expandeddelight.peanut_butter_honey_sandwich": "땅콩 버터와 꿀 샌드위치",
+  "item.expandeddelight.peanut_salad": "땅콩 샐러드",
+  "item.expandeddelight.peanut_honey_soup": "꿀 땅콩 수프",
+  "item.expandeddelight.sweet_berry_jelly_sandwich": "땅콩 버터와 달콤한 열매잼 샌드위치",
+  "item.expandeddelight.glow_berry_jelly_sandwich": "땅콩 버터와 발광 열매잼 샌드위치",
+
+  "item.expandeddelight.glass_jar": "유리병",
+  "item.expandeddelight.raw_cinnamon": "시나몬 스틱",
+  "item.expandeddelight.ground_cinnamon": "시나몬",
+  "item.expandeddelight.salt_rock": "소금암",
+  "item.expandeddelight.ground_salt": "소금",
+
+  "item.expandeddelight.cheese_wheel": "치즈 휠",
+  "item.expandeddelight.cheese_slice": "치즈 조각",
+  "item.expandeddelight.cheese_sandwich": "치즈 샌드위치",
+  "item.expandeddelight.grilled_cheese": "구운 치즈 샌드위치",
+  "item.expandeddelight.mac_and_cheese": "맥앤치즈",
+  "item.expandeddelight.sweet_roll": "달콤한 롤",
+  "item.expandeddelight.berry_sweet_roll": "달콤한 열매 롤",
+  "item.expandeddelight.glow_berry_sweet_roll": "발광 열매 롤",
+  "item.expandeddelight.cinnamon_rice": "시나몬밥",
+  "item.expandeddelight.cinnamon_apples": "시나몬 사과",
+  "item.expandeddelight.chocolate_cookie": "초콜릿 쿠키",
+  "item.expandeddelight.sugar_cookie": "슈가 쿠키",
+  "item.expandeddelight.snickerdoodle": "스니커두들",
+
+  "item.expandeddelight.apple_juice": "사과 주스",
+  "item.expandeddelight.sweet_berry_juice": "달콤한 열매 주스",
+  "item.expandeddelight.glow_berry_juice": "발광 열매 주스",
+
+  "item.expandeddelight.sweet_berry_jelly": "달콤한 열매잼",
+  "item.expandeddelight.glow_berry_jelly": "발광 열매잼",
+
+  "item.expandeddelight.mortar_and_pestle_item": "막자사발과 막자",
+
+  "item.expandeddelight.juicer_item": "주스기",
+
+  "block.expandeddelight.asparagus_crate": "아스파라거스 상자",
+  "block.expandeddelight.wild_asparagus": "야생 아스파라거스",
+  "block.expandeddelight.asparagus_crop": "아스파라거스",
+
+  "block.expandeddelight.sweet_potato_crate": "고구마 상자",
+  "block.expandeddelight.wild_sweet_potatoes": "야생 고구마",
+  "block.expandeddelight.sweet_potatoes_crop": "고구마",
+
+  "block.expandeddelight.chili_pepper_crate": "고추 상자",
+  "block.expandeddelight.wild_chili_pepper": "야생 고추",
+  "block.expandeddelight.chili_pepper_crop": "고추",
+
+  "block.expandeddelight.wild_peanuts": "야생 땅콩",
+  "block.expandeddelight.peanut_crop": "땅콩",
+
+  "block.expandeddelight.cinnamon_sapling": "시나몬 묘목",
+  "block.expandeddelight.cinnamon_log": "시나몬 원목",
+  "block.expandeddelight.salt_ore": "소금 광석",
+  "block.expandeddelight.deepslate_salt_ore": "심층암 소금 광석",
+
+  "block.expandeddelight.juicer": "주스기",
+
+  "block.expandeddelight.mortar_and_pestle": "막자사발과 막자",
+  "block.expandeddelight.mortar_and_pestle.pass": "그것은 분쇄할 수 없는 것입니다...",
+
+  "container.expandeddelight.juicer": "주스기",
+
+  "itemGroup.expandeddelight.group": "Expanded Delight",
+
+  "expandeddelight.rei.juicing": "주스기 사용"
+}

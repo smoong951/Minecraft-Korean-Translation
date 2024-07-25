@@ -1,0 +1,7 @@
+{
+
+"name": "물약 플라스크",
+"description": "다양한 효과가 존재하기 때문에 정리를 위해 원본에 따라 정렬해 보았습니다.",
+  "icon": "bloodmagic:alchemy_flask",
+  "parent": "bloodmagic:alchemy_table"
+}

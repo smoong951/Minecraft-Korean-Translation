@@ -1,0 +1,16 @@
+{
+"name": "절뚝거리는 다리",
+"icon": "minecraft:soul_sand",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 이동 속도를 크게 감소시킵니다. 70% 감소로 제한됩니다. $(br2)최대 레벨: 10"
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/speed_decrease",
+      "b.upgrade": "bloodmagic:speed_decrease"
+    }
+  ]
+}

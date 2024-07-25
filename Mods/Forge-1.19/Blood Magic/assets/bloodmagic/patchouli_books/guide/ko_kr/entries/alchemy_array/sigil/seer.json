@@ -1,0 +1,32 @@
+{
+  "name": "예지자의 시길",
+  "icon": "bloodmagic:seersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)예지자의 시길$()은 $(l:bloodmagic:alchemy_array/sigil/divination)예지의 시질$()의 더 발전된 형태입니다. $(l:bloodmagic:altar/soul_network)솔 네트워크$(/l)에 바인딩된 플레이어의 LP 양을 표시하는 것 외에도 $(l:bloodmagic:altar/blood_altar)블러디 알터$(/l)을 볼 때 더 많은 정보를 표시합니다. $(br2)$(item)예지의 시질$()과 마찬가지로 GUI를 편집하는 데에도 사용할 수 있습니다. (자세한 내용은 예지의 시질 항목 참조)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "시력 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_sight",
+      "array.heading": "예지자의 시길",
+      "array.recipe": "bloodmagic:array/seersigil",
+      "array.text": "$(italic)모든 것을 보는 것이 충분하지 않을 때"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "위에서 아래로 보면: $(li)$(l:bloodmagic:altar/blood_altar)블러디 알터$(/l)의 현재 티어. $(li)블러디 알터 안에 현재 들어 있는 피의 양 및 알터의 현재 총 수용량. (기본값은 10,000mb이지만 $(l:bloodmagic:altar/blood_rune/capacity_rune)용량 룬$() 및 $(l:bloodmagic:altar/blood_rune/aug_capacity_rune)증강된 용량 룬$()으로 증가시킬 수 있습니다. $(li)현재 진행 중인 제작이 있는 경우 해당 정보. $(li)LP 소비/틱 - 제작 중일 때 알터에 틱당 사용하는 LP 양. $(li)가지고 있는 $(l:bloodmagic:altar/blood_rune/charging_rune)충전 룬$()의 현재 LP 저장량."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/seer_sigil_info.png"
+      ],
+      "title": "예지자의 시길 디스플레이",
+      "border": true,
+      "text": "예지자의 시길은 블러디 알터을 바라볼 때 이 HUD를 표시합니다."
+    }
+  ]
+}

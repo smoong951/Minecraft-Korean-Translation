@@ -1,0 +1,7 @@
+{
+
+"name": "피의 마법 효과",
+"description": "이러한 효과들은 진정한 피의 마법사의 손길로만 제작될 수 있습니다.",
+  "icon": "bloodmagic:simplecatalyst",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

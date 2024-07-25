@@ -1,0 +1,17 @@
+{
+"name": "일라이트라",
+"icon": "minecraft:elytra",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "리빙 아머에 일라이트라를 추가합니다. 훈련되는 대신 $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)업그레이드 톰$()을 제작해야 합니다. $(br2)이 일라이트라는 흉갑의 내구도를 소모하지만 일반 일라이트라보다 절반의 속도로 소모됩니다. $(br2)또한 꽤 멋지게 보입니다."
+  },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Elytra Tome",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

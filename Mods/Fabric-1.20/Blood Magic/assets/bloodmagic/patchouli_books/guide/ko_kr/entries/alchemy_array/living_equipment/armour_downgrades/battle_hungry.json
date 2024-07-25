@@ -1,0 +1,16 @@
+{
+"name": "전투에 굶주린",
+"icon": "minecraft:rotten_flesh",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "최근에 공격한 적이 없다면 굶주림 효과를 부여합니다. 높은 레벨일수록 쿨다운 윈도우가 짧아지며 굶주림이 더 심해집니다."
+  },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/battle_hungry",
+      "b.upgrade": "bloodmagic:battle_hungry"
+    }
+  ]
+}

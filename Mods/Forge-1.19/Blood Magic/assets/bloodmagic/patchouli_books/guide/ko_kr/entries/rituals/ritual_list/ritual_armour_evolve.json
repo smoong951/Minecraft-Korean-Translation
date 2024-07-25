@@ -1,0 +1,22 @@
+{
+  "name": "살아있는 진화 의식",
+  "icon": "bloodmagic:livingplate",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "살아있는 진화 의식",
+      "multiblock_id": "bloodmagic:armour_evolve",
+      "text": "더 쉬운 건설을 위해 $(l:bloodmagic:rituals/ritual_diviner#dusk)의식 탐지기 [황혼]$(/l)을 사용하세요."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "armour_evolve",
+      "text_overrides": [
+        ["살아있는 갑옷", "l:bloodmagic:alchemy_array/living_equipment/living_basics"]
+      ],
+      "text": "$(l:bloodmagic:rituals/ritual_stones)마스터 의식 돌$() 위에 서면서 $(l:bloodmagic:alchemy_array/living_equipment/living_basics)살아있는 갑옷$()을 착용하면 이 $(thing)의식$()을 사용할 수 있습니다."
+    }
+  ]
+}
+

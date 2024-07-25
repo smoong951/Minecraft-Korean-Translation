@@ -1,0 +1,26 @@
+{
+  "name": "이동 룬",
+  "icon": "bloodmagic:dislocationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)이동 룬$()은 외부 탱크와 펌프를 통해 혈액 얼타로부터 외부 탱크로, 그리고 외부 탱크에서 혈액 얼타로의 $(blood)생명의 정수$()의 유속을 누적된 +20%로 증가시킵니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)이동 룬$()의 힘을 두 배로 늘릴 수 있습니다. 룬 당 유속을 누적된 +40%로 증가시킵니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/displacement",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}
+

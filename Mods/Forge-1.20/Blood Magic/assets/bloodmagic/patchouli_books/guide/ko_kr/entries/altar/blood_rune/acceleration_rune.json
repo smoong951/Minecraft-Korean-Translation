@@ -1,0 +1,25 @@
+{
+  "name": "가속 룬",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)가속 룬$()은 일부 작업의 속도를 증가시킵니다. 일반적으로 $(l:bloodmagic:altar/blood_rune/charging_rune)충전 룬$(/l)과 $(l:bloodmagic:altar/blood_rune/dislocation_rune)이동 룬$(/l)의 작업은 20 틱마다 발생하지만, 룬 당 1 틱의 지연이 제거되어 최소 1 틱당 작업이 발생합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)가속 룬$()의 힘을 두 배로 늘릴 수 있습니다. 룬 당 1 대신 2 틱이 제거되어 얼터 주위의 다른 슬롯이 더 활용됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/acceleration",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "수동적",
+  "icon": "minecraft:honeycomb",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)수동적$()은 영향을 받은 대상이 공격하지 못하도록 막습니다. 그러나 플레이어는 영향을 받지 않습니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "수동적 (3:00)",
+      "a.recipe": "bloodmagic:flask/passivity",
+      "b.heading": "수동적 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_passivity",
+      "c.heading": "수동적 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_passivity"
+    }
+  ]
+}
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "자기 희생의 룬",
+  "icon": "bloodmagic:selfsacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)자기 희생의 룬$()은 플레이어의 체력을 사용하는 수단을 통해 블러드 얼타에서 얻는 $(blood)생명 에센스$() 양을 증가시킵니다. 각 룬은 룬 당 더해지는 방식으로 +10%의 보너스를 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sac_2",
+      "text":"$(item)네더라이트 스크랩$()과 $(item)복잡한 헬포지드 부품$() 몇 개를 $(l:bloodmagic:dungeons/endless_realm)악마의 영역$()에서 얻어서, $(item)자기 희생의 룬$()의 힘을 두 배로 늘릴 수 있습니다. 룬 당 보너스가 더해지는 방식으로 +20%로 증가합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/self_sac",
+      "text":"만약 마음을 바꾸면 ARC에서 레시피를 취소할 수 있습니다."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "용암 시길",
+  "icon": "bloodmagic:lavasigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_array/sigil/water)물 시길$(/l)의 자매 시길입니다. $(item)용암 시길$()을 들고 있을 때 [$(k:use)]를 누르면 땅에 $(fire)용암$() 소스 블록을 생성하며, 이 기능은 $(blood)1000 LP$()의 비용이 듭니다. $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)연금 어레이$(/l)에서 $(item)용암 화합물$()과 $(item)빈 슬레이트$()를 사용하여 제작되며, 만약 $(l:bloodmagic:altar/soul_network)솔 네트워크$(/l)에 충분한 LP가 없다면 5 하트를 소모합니다.$(/l)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "용암 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
+      "array.heading": "용암 시길",
+      "array.recipe": "bloodmagic:array/lavasigil",
+      "array.text": "$(italic)뜨거워요! 먹지 마세요$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/lava_sigil1.png",
+        "bloodmagic:images/entries/sigil/lava_sigil2.png"
+      ],
+      "title": "용암 시길 어레이",
+      "border": true,
+      "text": "용암 시길, 제작 어레이 옆에 그리고 주요 용도입니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "용암 양동이",
+      "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "text": "게다가, 이 시길은 $(l:bloodmagic:alchemy_table/alchemy_table)연금 테이블$(/l)에서 $(fire)용암 양동이$()의 자동 생산에 사용될 수 있습니다. 이 레시피에서 시길은 소모되지 않습니다."
+    }
+  ]
+}
+

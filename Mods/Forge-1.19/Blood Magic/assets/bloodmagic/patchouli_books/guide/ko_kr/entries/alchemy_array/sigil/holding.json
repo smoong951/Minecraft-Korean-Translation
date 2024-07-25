@@ -1,0 +1,25 @@
+{
+  "name": "보관의 시길",
+  "icon": "bloodmagic:sigilofholding",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 $(item)보관의 시길$()은 한 번에 최대 5개의 다른 $(item)부적$()을 보유할 수 있습니다. 이는 부적의 수 passie 효과를 제공하며 필요할 때 활성화할 수 있게 해줍니다.$(br)부적을 든 채로 [$(k:bloodmagic.keybind.open_holding)]을 눌러 인벤토리를 열 수 있습니다.$() $(br)[$(k:bloodmagic.keybind.cycle_holding_pos)]를 눌러 앞으로 이동하거나,$() 또는 [$(k:bloodmagic.keybind.cycle_holding_neg)]를 눌러 뒤로 이동할 수 있습니다.$() [$(k:sneak)]을 누르고 마우스 휠을 사용하는 것도 가능합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "보관 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_holding",
+      "array.heading": "보관의 시길",
+      "array.recipe": "bloodmagic:array/holdingsigil",
+      "array.text": "$(italic)부적 속의 부적"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "$(thing)Curios API$()를 설치한 경우 이 $(item)부적$()을 부적으로 착용할 수 있습니다. 한 번에 더 많은 부적을 착용하려면 $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$()를 사용하여 $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()에 부적 슬롯을 추가해보세요."
+    }
+  ]
+}
+

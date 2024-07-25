@@ -1,0 +1,7 @@
+{
+
+"name": "리빙 아머 다운그레이드",
+"description": "사용 가능한 리빙 아머 다운그레이드 목록입니다. $(br2) 작동 방식에 대한 기본 사항은 $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade#downgrades)여기$()를 클릭하세요.",
+  "icon": "bloodmagic:upgradescraps",
+  "parent": "bloodmagic:alchemy_array/living_equipment"
+}

@@ -1,0 +1,7 @@
+{
+
+"name": "연금술 어레이",
+"description": "연금술 어레이는 $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)비밀 회로$()를 사용하여 땅에 그린 원에서 시작된 간단한 효과입니다. 이것들은 만들기 쉽고 초기 및 후반 게임에서 실제로 유용할 수 있습니다.",
+  "icon": "bloodmagic:arcaneashes",
+  "sortnum": 2
+}

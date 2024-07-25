@@ -1,0 +1,215 @@
+{
+  "name": "폭발성 폭약",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "광산과 삼림에서 자원을 채취하는 것은 좋지만, 꿈을 크게 키우지 않는 이들에게 어울리는 일입니다. $(br2)이를 염두에 두고 몇 가지 교활한 장치를 개발했습니다. 이를 성가신 나무, 돌 또는 다른 원하는 대상에 던지고 그들이 자체 발화되기를 기다리면 됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "뿐만 아니라 특정 재료와 약간의 $(raw)의지$()와 $(item)기름$() 기능을 향상시킬 수 있습니다. 각 항목 뒤에 설명된 대로 이용하실 수 있습니다. 현재 사용 가능한 유리막은 다음과 같습니다: $(li)행운 - 부서진 블록에 $(thing)행운$()이 적용됩니다. $(li)가열 도구 - 부서진 블록이 $(thing)녹이기$()됩니다. $(li)섬세한 손길 - 부서진 블록이 $(thing)실크 터치$()에 영향을 받습니다. $(li)공허 - '잡동사니' 블록이 아이템으로 드롭되지 않고 공허로 사라집니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "모양 폭약",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+	  "anchor":"shaped_charge",
+	  "text": "($ item) 모양 폭탄$()는 블록의 어느 쪽에 착륙하더라도 5x5x5 큐브를 파괴하여 곡괭이로 채굴된 것처럼 모든 블록을 떨어뜨립니다. Obsidian에서도 작동하며 가장 만족스러운 (o)쿠왕!$()를 제공합니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "공허",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_voiding",
+      "b.heading": "가열 도구",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "섬세한 손길",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "행운",
+      "recipe": "bloodmagic:soulforge/shaped_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "강화된 모양 폭약",
+      "recipe": "bloodmagic:soulforge/aug_shaped_charge",
+      "anchor":"shaped_charge_2",
+      "text": "$(item)강화된 모양 폭약$()은 표준 모양 폭약에서 직접 업그레이드된 제품입니다. 블록이 착지한 면을 향해 7x7x7 큐브를 파괴하며 모든 블록을 곡괴한 것처럼 드롭합니다. 또한 $(thing)행운 II$()로 유리막을 할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "공허",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_voiding",
+      "b.heading": "가열 도구",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_smelting_l",
+      "c.heading": "섬세한 손길",
+      "c.recipe": "bloodmagic:soulforge/aug_shaped_charge_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "행운",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_1_l",
+      "b.heading": "행운 II",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_2_l"
+    },
+ {
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "터널링 모양 폭약",
+  "recipe": "bloodmagic:soulforge/shaped_charge",
+  "anchor": "shaped_charge",
+  "text": "$(item)터널링 모양 폭약$()은 블록이 떨어지는 방향으로 5x5x20 터널을 파괴합니다. 마치 곡괭이로 캔 것처럼 모든 블록이 떨어집니다. 채광에 좋습니다."
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_smelting_l",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/shaped_charge_deep_silk_touch_l"
+},
+{
+  "type": "bloodmagic:2x_crafting_soulforge",
+  "a.heading": "행운",
+  "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_1_l",
+  "b.heading": "행운 II",
+  "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_2_l"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "나무 베기 폭약",
+  "recipe": "bloodmagic:soulforge/deforester_charge",
+  "anchor": "deforester_charge",
+  "text": "$(item)나무 베기 폭약$()은 나무를 베기 위한 것입니다. 통나무나 나뭇잎에 사용할 수 있으며, 최강의 나무를 제외한 모든 나무를 벨 수 있습니다. 한 번에 $(item)두 스택$()의 나무 블록을 파괴하며 (그 과정에서 만나는 모든 나뭇잎도 깔끔하게 제거됩니다!) 정글의 거대한 나무조차 몇 초 안에 넘어갑니다."
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "행운",
+  "recipe": "bloodmagic:soulforge/deforester_charge_fortune_1"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "나무 베기 폭약 II",
+  "recipe": "bloodmagic:soulforge/deforester_charge_2",
+  "anchor": "deforester_charge_2",
+  "text": "$(item)나무 베기 폭약 II$()는 표준 나무 베기 폭약과 마찬가지로 나무와 나무를 베기 위한 것입니다. 최대 8x64 통나무를 파괴하며 모든 연결된 나뭇잎을 제거합니다. 어두행운 참나무 숲이나 정글의 모습을 좋아한다면 좋은 공간을 만드는 데 탁월합니다."
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/deforester_charge_2_smelting_l",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/deforester_charge_2_silk_touch_l"
+},
+{
+  "type": "bloodmagic:2x_crafting_soulforge",
+  "a.heading": "행운",
+  "a.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_1_l",
+  "b.heading": "행운 II",
+  "b.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_2_l"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "통제된 폭약",
+  "recipe": "bloodmagic:soulforge/vein_charge",
+  "anchor": "controlled_charge",
+  "text": "$(item)통제된 폭약$()은 블록이 떨어진 블록과 동일한 블록만 파괴합니다. 원래 지점에서 외부로 향해 최대 3 스택의 블록을 파괴합니다. 다른 폭약과 마찬가지로 파괴된 모든 블록이 드롭됩니다."
+},
+
+  {
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/vein_charge_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "행운",
+  "recipe": "bloodmagic:soulforge/vein_charge_fortune_1"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "통제된 폭약 II",
+  "recipe": "bloodmagic:soulforge/vein_charge_2",
+  "anchor": "controlled_charge_2",
+  "text": "$(item)통제된 폭약 II$()는 $(item)통제된 폭약$()과 동일하게 작동하지만 한 번에 최대 8 스택의 블록을 파괴할 수 있습니다."
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/vein_charge_2_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/vein_charge_2_smelting_l",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/vein_charge_2_silk_touch_l"
+},
+{
+  "type": "bloodmagic:2x_crafting_soulforge",
+  "a.heading": "행운",
+  "a.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_1_l",
+  "b.heading": "행운 II",
+  "b.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_2_l"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "곰팡이 폭약",
+  "recipe": "bloodmagic:soulforge/fungal_charge",
+  "anchor": "fungal_charge",
+  "text": "$(item)곰팡이 폭약$()은 오버월드와 네더에서 거대한 버섯을 벨 때 사용됩니다. 한 번의 폭발로 최대 $(item)세 스택의 블록$()을 파괴할 수 있습니다."
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/fungal_charge_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "행운",
+  "recipe": "bloodmagic:soulforge/fungal_charge_fortune_1"
+},
+{
+  "type": "bloodmagic:crafting_soulforge",
+  "heading": "곰팡이 폭약 II",
+  "recipe": "bloodmagic:soulforge/fungal_charge_2",
+  "anchor": "fungal_charge_2",
+  "text": "$(item)곰팡이 폭약 II$()는 오버월드와 네더에서 거대한 버섯을 벨 때 사용됩니다. 한 번의 폭발로 최대 8 스택의 버섯 블록을 파괴할 수 있습니다. $(br2)왜 이런 게 필요할까요?"
+},
+{
+  "type": "bloodmagic:3x_crafting_soulforge",
+  "a.heading": "비우기",
+  "a.recipe": "bloodmagic:soulforge/fungal_charge_2_voiding",
+  "b.heading": "가열 도구",
+  "b.recipe": "bloodmagic:soulforge/fungal_charge_2_smelting_l",
+  "c.heading": "섬세한 손길",
+  "c.recipe": "bloodmagic:soulforge/fungal_charge_2_silk_touch_l"
+},
+{
+  "type": "bloodmagic:2x_crafting_soulforge",
+  "a.heading": "행운",
+  "a.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_1_l",
+  "b.heading": "행운 II",
+  "b.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_2_l"
+}
+  ]
+}

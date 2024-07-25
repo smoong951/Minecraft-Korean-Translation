@@ -1,0 +1,11 @@
+{
+  "gui.runes.rune_crafting": "룬 제작",
+  "block.runes.crafting_altar": "룬 제작 제단",
+  "block.runes.crafting_altar.hint": "룬을 더 비용 효율적으로 제작하세요.",
+  "item.runes.arcane_stone": "비전의 룬",
+  "item.runes.fire_stone": "불의 룬",
+  "item.runes.frost_stone": "서리의 룬",
+  "item.runes.healing_stone": "치유의 룬",
+  "item.runes.lightning_stone": "번개의 룬",
+  "item.runes.soul_stone": "영혼의 룬"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "주/야간 어레이",
+  "icon": "minecraft:clock",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "시간 기반 어레이는 낮과 밤을 조절하는 간단한 어레이입니다. 어레이가 시간을 변경하기 시작하면 아이템이 소모됩니다. 이 레시피들은 일시적이며 나중에 변경될 것입니다.$(br2)주간 어레이는 다음 일출 시간으로 낮을 변경합니다. 야간 어레이는 다음 일몰 시간으로 낮을 변경합니다."
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "New Dawn",
+      "a.recipe": "bloodmagic:array/day",
+      "a.image": "sunarray.png",
+      "b.heading": "True Twilight",
+      "b.recipe": "bloodmagic:array/night",
+      "b.image": "moonarray.png"
+    }
+  ]
+}

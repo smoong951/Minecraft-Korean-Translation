@@ -1,0 +1,21 @@
+{
+  "name": "공기의 시길",
+  "icon": "bloodmagic:airsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "이 시길은 사용할 때마다 $(blood)50 LP$()의 비용이 들며, 당신이 바라보는 방향으로 던져집니다. 이것은 어떠한 낙하 방지 효과도 제공하지 않으므로 착지할 때 주의가 필요합니다! 일종의 위험이 있지만 빠르게 이동하는 좋은 방법입니다. 많은 경계 없는 마법사가 시골 위를 비행하면서 $(l:bloodmagic:altar/soul_network)영혼 네트워크$()에서 $(blood)LP$()가 바닥나서 목숨을 잃은 적이 많습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "공기의 화합물",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_air",
+      "array.heading": "공기의 시길",
+      "array.recipe": "bloodmagic:array/airsigil",
+      "array.text": "$(italic)내 몸이 이미 가벼워지는 느낌이 들어...$()"
+    }
+  ]
+}
+
+

@@ -1,0 +1,15 @@
+{
+"name": "건강한",
+"icon": "minecraft:golden_apple",
+"category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+"pages": [
+  {
+    "type": "patchouli:text",
+    "text": "효과: 최대 50개의 반 마음까지 추가적인 체력을 부여합니다. $(br2)훈련 방법: 체력을 회복함 (보통의 치유 또는 $(item)치유의 물약$() 또는 $(item)재생의 물약$()을 사용함). $(br2)최대 레벨: 10"
+  },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:health"
+    }
+  ]
+}

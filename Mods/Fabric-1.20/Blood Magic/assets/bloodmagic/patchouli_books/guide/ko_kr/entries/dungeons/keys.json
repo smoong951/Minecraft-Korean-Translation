@@ -1,0 +1,36 @@
+{
+  "name": "던전 열쇠",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)열쇠$()는 $(thing)던전$()을 탐험하는 기초적인 방법입니다. 이 열쇠는 $(thing)악마의 영역$() 내의 던전 상자 안에서 찾을 수 있거나 제작할 수 있습니다. 가장 기본적인 종류는 $(item)철 열쇠$()로, 이 열쇠는 $(thing)대기실$() 및 $(thing)악마의 영역$()의 가장 가까운 레벨 내에서 스폰됩니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "결국 던전을 탐험하는 동안 $(thing)공간 왜곡$()을 발견할 수 있습니다. 이는 제작할 수 없는 특별하고 희귀한 열쇠로만 열 수 있으며 대신 악마의 영역 어딘가에서 찾아야 합니다. 공간 왜곡은 악마의 영역 내에서만 형성되며 대기실 안에서는 발견되지 않습니다."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "광산",
+      "text": "$(thing)광산$()으로 가는 입구는 $(thing)광부의 열쇠$()로만 열 수 있으며 그 이후의 모든 문은 $(thing)광부의 열쇠$()로 열 수 있습니다. 광산에서는 $(l:bloodmagic:dungeons/demonite)데모나이트 광석$()과 함께 일부 희귀한 소품을 얻을 수 있지만 그에 따른 난이도가 있습니다."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "철 열쇠",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)이렇게 간단하다면 왜 자물쇠를 털 수 없을까요?$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "광부의 열쇠",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(italic)일하러 갑니다..!$()"
+    }
+  ]
+}

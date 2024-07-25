@@ -1,0 +1,16 @@
+{
+  "entity.capy.babycapybaraentity": "Capybara",
+  "entity.capy.capybaraentity": "Capybara",
+  "entity.capybara.babycapybaraentity": "Capybara",
+  "entity.capybara.capybaraentity": "Capybara",
+  "item.capy.babycapybaraentity_spawn_egg": "Baby Capybara Spawn Egg",
+  "item.capy.capybaraentity_spawn_egg": "Capybara Spawn Egg",
+  "item.capybara.babycapybaraentity_spawn_egg": "Baby Capybara Spawn Egg",
+  "item.capybara.capybaraentity_spawn_egg": "Capybara Spawn Egg",
+  "subtitles.ambient": "",
+  "subtitles.ambient1": "",
+  "subtitles.ambient_1": "",
+  "subtitles.ambient_2": "",
+  "subtitles.death": "",
+  "subtitles.hurt": ""
+}

@@ -1,0 +1,103 @@
+{
+  "name": "연금술 테이블",
+  "icon": "bloodmagic:alchemytable",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)연금술 테이블$()은 $(l:bloodmagic:altar/soul_network)영혼 네트워크$(/l)에서 얻은 $(blood)LP$()를 사용하여 아이템을 제작합니다. 테이블의 오른쪽에 삽입된 $(item)블러드 오브$()에 따라 사용되는 $(thing)영혼 네트워크$()와 레시피의 등급이 결정됩니다. $(br2)$(item)연금술 테이블$()은 몇 가지 $(6)블러드 매직$() 구성 요소를 제작하는 데 사용되며 일부 바닐라 아이템에 대한 대체 레시피도 제공합니다."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_table",
+      "text": "이 책(또는 $(thing)JEI$())에서 $(item)연금술 테이블$() 레시피를 볼 때, \"LP\" 라벨이 있는 화살표 위에 마우스를 올려놓아 시간, $(blood)LP$() 소모 및 등급 정보를 확인하세요."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png"
+      ],
+      "title": "연금술 테이블 GUI",
+      "border": true,
+      "text": "이 버튼을 사용하여 연금술 테이블에 아이템을 삽입하거나 추출할 수 있습니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)연금술 테이블$()에는 오른쪽에 여러 버튼이 있습니다. 이들은 순서대로 $(bold)D$()own, $(bold)U$()p, $(bold)N$()orth, $(bold)S$()outh, $(bold)W$()est 및 $(bold)E$()ast입니다. 사용하려면 먼저 연금술 테이블에서 아무 슬롯이나 클릭하십시오. (여기서는 중앙 '완성된 아이템' 슬롯을 선택하여 보여줍니다.) 다음으로 이 중 하나의 버튼을 클릭하여 $(item)연금술 테이블$()이 이 페이스로부터 $(item)호퍼$(), 파이프 또는 기타 외부 간섭을 허용할지 여부를 토글합니다. 정상적인 기능으로 돌아가려면,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "슬롯을 다시 클릭하여 선택을 해제하십시오. 슬롯에 표시된 아이콘은 입력을 허용하는지 아니면 출력을 제공하는지를 나타냅니다. 예시 그림에서는 $(bold)D$()own 슬롯에서만 중앙 슬롯에서 파이프를 허용하고 다른 측면에서 아이템을 추출하는 시도는 성공하지 않습니다."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png",
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png"
+      ],
+      "title": "연금술 테이블 오류",
+      "anchor": "errors",
+      "border": true,
+      "text": "연금술 테이블은 문제가 있을 때 알려줍니다."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "연금술 테이블에서 레시피가 작동하지 않는 두 가지 가장 일반적인 이유는 다음과 같습니다: $(li)$(bold)오브 오류$(): 해당 슬롯에 블러드 오브가 없거나 사용하려는 오브가 이 레시피에 대한 충분한 레벨이 아닙니다. $(li)$(bold)영혼 네트워크 오류$(): 오브는 유효한 레벨이지만 자신에게 묶지 않았거나 영혼 네트워크에 충분한 $(blood)LP$()가 없습니다. $(br2)다음 페이지에서는 현재 사용 가능한 연금술 테이블 레시피를 몇 가지 문서화합니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "잔디",
+      "a.recipe": "bloodmagic:alchemytable/grass_block",
+      "b.heading": "가죽",
+      "b.recipe": "bloodmagic:alchemytable/leather_from_flesh",
+      "c.heading": "빵",
+      "c.recipe": "bloodmagic:alchemytable/bread"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "점토",
+      "a.recipe": "bloodmagic:alchemytable/clay_from_sand",
+      "b.heading": "실",
+      "b.recipe": "bloodmagic:alchemytable/string",
+      "c.heading": "거미줄",
+      "c.recipe": "bloodmagic:alchemytable/cobweb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "식물 오일",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_wheat",
+      "b.recipe": "bloodmagic:alchemytable/plantoil_from_carrots",
+      "c.recipe": "bloodmagic:alchemytable/plantoil_from_taters"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "식물 오일 계속",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_beets",
+      "b.heading": "석탄 모래",
+      "b.recipe": "bloodmagic:alchemytable/sand_coal",
+      "c.heading": "폭발성 가루",
+      "c.recipe": "bloodmagic:alchemytable/explosive_powder"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "부싯돌",
+      "a.recipe": "bloodmagic:alchemytable/flint_from_gravel",
+      "b.heading": "셀트피터",
+      "b.recipe": "bloodmagic:alchemytable/saltpeter",
+      "c.heading": "화약",
+      "c.recipe": "bloodmagic:alchemytable/gunpowder"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "용암 양동이",
+      "a.recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "b.heading": "물 양동이",
+      "b.recipe": "bloodmagic:alchemytable/sigil_water_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_array/sigil/lava)용암$() 및 $(l:bloodmagic:alchemy_array/sigil/water)물 시길$()은 이 두 레시피에서 소모되지 않습니다. 게다가 $(item)물 시길$()은 어떤 연금술 테이블 레시피에서 $(water)물 양동이$() 자리에 사용할 수 있습니다."
+    }
+  ]
+}
+

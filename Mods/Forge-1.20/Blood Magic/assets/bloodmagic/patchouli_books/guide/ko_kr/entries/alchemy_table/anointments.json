@@ -1,0 +1,18 @@
+{
+  "name": "Anointments(세례)",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Anointment$()은 본질적으로 여러분의 도구, 무기 및 심지어 여러분의 $(l:bloodmagic:demon_will/demonic_items/explosive_charges)차지$()를 위한 $(item)물약$()입니다. 왼손에 $(item)Anointment$()를 들고 [$(k:use)]를 누르면 다른 손에 있는 아이템에 적용됩니다. 가능한 경우 모든 도구에 모든 Anointment가 작동하는 것은 아닙니다! $(br2)$(item)물약$()과 달리 $(item)Anointment$()는 시간제가 아니며 대신 도구나 무기를 사용할 때 조금씩 사라집니다.\n\nAnointments : 그리스도교 식의 기름을 부어 신적 권위를 부여받다 라는 의미가 담겨있는 단어입니다. 한글로써는 표현할 단어가 없어 영문자로 남겨둡니다."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "슬레이트 주입된 유리병",
+      "recipe": "bloodmagic:alchemytable/slate_vial",
+      "text": "그 외에는 담을 수 없는 혼합물을 담을 수 있는 튼튼한 유리병입니다."
+    }
+  ]
+}
+

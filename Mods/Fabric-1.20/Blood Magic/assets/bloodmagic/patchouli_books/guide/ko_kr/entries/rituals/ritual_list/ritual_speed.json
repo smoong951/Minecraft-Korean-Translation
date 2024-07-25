@@ -1,0 +1,54 @@
+{
+  "name": "신속의 의식",
+  "icon": "minecraft:sugar",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "신속의 의식",
+      "multiblock_id": "bloodmagic:speed",
+      "text": "$(l:bloodmagic:rituals/ritual_diviner#dusk)의례 초절기 [황혼]$(/l)를 사용하여 쉽게 건설할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "speed"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["파괴적인 의지", "destructive"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "speed",
+      "page_type": "sanicRange"
+    }
+  ]
+}
+

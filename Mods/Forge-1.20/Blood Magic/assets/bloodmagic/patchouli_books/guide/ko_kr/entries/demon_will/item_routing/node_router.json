@@ -1,0 +1,19 @@
+{
+  "name": "노드 라우터",
+  "icon": "bloodmagic:noderouter",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)노드 라우터$()는 노드를 네트워크로 연결하는 데 사용됩니다. 그 기능은 간단합니다 - 노드를 향해 [$(k:sneak)] 및 [$(k:use)]를 동시에 누른 다음 16 블록 이내의 다른 노드에게도 동일한 작업을 수행하면 이 두 노드가 연결됩니다. 노드를 선택 해제하려면 [$(k:use)]를 다른 블록에 사용하십시오. 자세한 내용은 $(l:bloodmagic:demon_will/item_routing/routing_nodes)라우팅 노드$() 항목을 참조하십시오."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "노드 라우터",
+      "recipe": "bloodmagic:soulforge/node_router",
+      "text": "$(italic)약간의 마법이 묻어나는 막대.$()"
+    }
+  ]
+}
+

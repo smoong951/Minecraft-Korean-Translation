@@ -1,0 +1,34 @@
+{
+  "name": "빠른 광부의 시길",
+  "icon": "bloodmagic:miningsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)빠른 광부의 시길$()은 [$(k:sneak)] 및 [$(k:use)]를 사용하여 활성화할 때 $(blood)100 LP$()를 5초마다 소비하고 헤이스트 물약 효과를 적용하는 시길입니다. 따라서 채굴, 파기 및 절단 속도를 증가시킵니다. $(item)Mining Reagent$() 및 $(item)Reinforced Slate$()을 연금 테이블에서 사용하여 제작됩니다."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "채굴 강화제",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_fastminer",
+      "array.heading": "빠른 광부의 시길",
+      "array.recipe": "bloodmagic:array/fastminersigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/mining_sigil1.png",
+        "bloodmagic:images/entries/sigil/mining_sigil2.png"
+      ],
+      "title": "빠른 광부의 시길 어레이",
+      "border": true,
+      "text": "빠른 광부의 시길의 어레이 및 주요 용도."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "만약 $(thing)Curios API$()가 설치되어 있다면, 이 $(item)시길$()을 부적으로 장착할 수 있습니다. 한 번에 더 많은 부적을 착용하려면 $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$()이나 $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$()를 사용할 수 있습니다."
+    }
+  ]
+}
+

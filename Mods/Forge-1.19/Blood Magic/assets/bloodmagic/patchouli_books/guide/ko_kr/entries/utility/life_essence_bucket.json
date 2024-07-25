@@ -1,0 +1,18 @@
+{
+  "name": "생명의 양동이",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)생명 에센스$()는 $(l:bloodmagic:altar/blood_altar)피의 제단$()에서는 제작에 사용되거나 $(l:bloodmagic:altar/soul_network)오브$()로 흘러들어가 $(thing)의식$()을 구동하는 데 사용될 수 있습니다. 그러나 만약 $(l:bloodmagic:utility/incense_altar)향로$() 주위에 이를로 된 호를 만들고 싶다면 어떻게 해야 할까요? 다행스럽게도 $(blood)생명 에센스$()를 추출하는 것은 비교적 간단합니다. $(item)양동이$()를 $(l:bloodmagic:altar/blood_altar)피의 제단$()에 놓고 몇 초 기다리면 가득 찰 것입니다. $(blood)1 LP$()=1mb이므로 $(blood)1,000 LP$()은 $(item)양동이$()에 충분합니다."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "생명의 양동이",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)분명 피가 아닙니다. 피는 지금쯤 응고되었을 겁니다. $(br2)... 왜 저를 그렇게 쳐다보고 있나요?$()"
+    }
+  ]
+}
+

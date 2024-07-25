@@ -1,0 +1,8 @@
+{
+
+"name": "살아있는 장비",
+"description": "$(item)아케인 재$()와 손에 어린 이 새로운 $(item)결속제$() 몇 개로 당신 앞에 방어와 유틸리티의 넓은 세계가 펼쳐집니다. $(br)아이콘을 클릭하여 모든 인챈트 목록을 확인하세요.",
+  "icon": "bloodmagic:livinghelmet",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 2
+}

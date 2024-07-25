@@ -1,0 +1,33 @@
+{
+  "name": "비행",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)비행$()은 대상에게 일시적으로 창조적인 스타일의 비행 능력을 부여하며, 마치 $(l:bloodmagic:rituals/ritual_list/ritual_condor)콘도르의 숭배$() 의 범위 내에 있는 것과 유사합니다. 높은 레벨은 비행 속도를 증가시킵니다. $(br2)이것은 $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)중단된$() 및 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)공중 부양$() 효과가 모두 있는 약병에서 생성됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "비행 (3:00)",
+      "a.recipe": "bloodmagic:flask/suspended_to_flight",
+      "b.heading": "비행 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_flight",
+      "c.heading": "비행 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_flight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)표준 촉매$()로 물약을 더 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "비행 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_flight",
+      "b.heading": "비행 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_flight"
+    }
+  ]
+}
+
+

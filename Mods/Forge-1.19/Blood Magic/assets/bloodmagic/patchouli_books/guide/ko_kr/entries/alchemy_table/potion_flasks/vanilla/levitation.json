@@ -1,0 +1,32 @@
+{
+  "name": "공중부양",
+  "icon": "minecraft:shulker_shell",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)공중부양$()은 대상을 공중으로 떠오르게 만듭니다. 고레벨일수록 대상을 부양시키는 속도가 빨라집니다.$(br2)이것은 $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)느림$() 물약에서 제작됩니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "공중부양 (3:00)",
+      "a.recipe": "bloodmagic:flask/fall_to_levitation",
+      "b.heading": "공중부양 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_levitation",
+      "c.heading": "공중부양 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_levitation"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$()로 물약을 더 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "공중부양 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_levitation",
+      "b.heading": "공중부양 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_levitation"
+    }
+  ]
+}
+

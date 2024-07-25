@@ -1,0 +1,32 @@
+{
+  "name": "독",
+  "icon": "minecraft:spider_eye",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)독$()은 대상에게 지속적으로 피해를 입힙니다. 그러나 독 단독으로 대상을 처치할 수는 없습니다. 높은 레벨은 빠른 피해를 입힙니다."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "독 (3:00)",
+      "a.recipe": "bloodmagic:flask/poison",
+      "b.heading": "독 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_poison",
+      "c.heading": "독 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_poison"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "추가하면 $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$()로 물약을 더욱 강화할 수 있습니다."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "독 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_poison",
+      "b.heading": "독 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_poison"
+    }
+  ]
+}
+
