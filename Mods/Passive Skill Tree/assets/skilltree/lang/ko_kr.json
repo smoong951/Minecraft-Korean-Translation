@@ -358,7 +358,7 @@
   "living_condition.skilltree.underwater.target.target": "대상",
   "living_condition.skilltree.underwater.target.you": "자신",
   "loot.type.fishing": "낚시 노획물",
-  "loot.type.gems": "광석 캘 때 보석",
+  "loot.type.gems": "광석으로부터 얻는 보석",
   "loot.type.mobs": "몹 노획물",
   "potion.superior": "고급 %s",
   "quiver.capacity": "• 최대 %s개의 화살을 담을 수 있습니다 (화살과 화살통을 조합하세요)",
